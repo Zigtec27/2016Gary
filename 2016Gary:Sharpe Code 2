@@ -1266,7 +1266,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5001,
         "fields": {
             "question": 1000,
-            "description": "Though I perferred Bill Weld, Larry Sharpe is still a great addition to the ticket.",
+            "description": "Though I preferred Bill Weld, Larry Sharpe is still a great addition to the ticket.",
         }
     },
     {
