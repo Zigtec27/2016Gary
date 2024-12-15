@@ -67,7 +67,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1007,
         "fields": {
             "priority": 5,
-            "description": "A former CIA officer, Evan McMullin, recently announced his candidacy for president, proclaiming he is determined to prevent a Trump presidency. He also claimed, \"If Gary Johnson were a true libertarian, I probably wouldn’t be doing what I’m doing.\" Do you plan to speak about him while campaigning?",
+            "description": "A former CIA officer, Evan McMullin, recently announced his candidacy for president with his running mate Bill Weld, proclaiming he is determined to prevent a Trump presidency. He also claimed, \"If Gary Johnson were a true libertarian, I probably wouldn’t be doing what I’m doing.\" Do you plan to speak about him while campaigning?",
             "likelihood": 1
         }
     },
@@ -76,7 +76,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1008,
         "fields": {
             "priority": 8,
-            "description": "A former CIA officer, Evan McMullin, recently announced his candidacy for president, proclaiming he is determined to prevent a Trump presidency. Do you plan to speak about him while campaigning?",
+            "description": "A former CIA officer, Evan McMullin, recently announced his candidacy for president with his running mate Bill Weld, proclaiming he is determined to prevent a Trump presidency. Do you plan to speak about him while campaigning?",
             "likelihood": 1
         }
     },
@@ -12951,7 +12951,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5120,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": -0.06
+            "global_multiplier": -0.067
         }
     },
     {
@@ -12991,7 +12991,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5121,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": -0.035
+            "global_multiplier": -0.05
         }
     },
     {
@@ -13031,7 +13031,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5122,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.06
         }
     },
     {
@@ -13071,7 +13071,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5123,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": -0.075
+            "global_multiplier": -0.085
         }
     },
     {
@@ -13271,7 +13271,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5134,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.035
         }
     },
     {
@@ -15601,7 +15601,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5192,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.01
         }
     },
     {
@@ -15651,7 +15651,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5193,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.025
+            "global_multiplier": 0.01
         }
     },
     {
@@ -15711,7 +15711,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5194,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.05
+            "global_multiplier": 0.025
         }
     },
     {
@@ -15811,7 +15811,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5196,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.01
         }
     },
     {
@@ -15861,7 +15861,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5197,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.01
         }
     },
     {
@@ -15921,7 +15921,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5198,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.05
+            "global_multiplier": 0.025
         }
     },
     {
@@ -16021,7 +16021,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5200,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.01
         }
     },
     {
@@ -16071,7 +16071,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5201,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.01
         }
     },
     {
@@ -16131,7 +16131,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5202,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.05
+            "global_multiplier": 0.025
         }
     },
     {
@@ -16231,7 +16231,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5204,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.025
+            "global_multiplier": 0.01
         }
     },
     {
@@ -16341,7 +16341,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5206,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.025
         }
     },
     {
@@ -16441,7 +16441,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5208,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.025
+            "global_multiplier": 0.01
         }
     },
     {
@@ -16491,7 +16491,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5209,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.025
+            "global_multiplier": 0.01
         }
     },
     {
@@ -16551,7 +16551,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5210,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.025
         }
     },
     {
@@ -22668,7 +22668,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 4302,
         "fields": {
-            "answer": 5188,
+            "answer": 5189,
             "candidate": 200,
             "affected_candidate": 200,
             "global_multiplier": -0.1
@@ -22678,7 +22678,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 4303,
         "fields": {
-            "answer": 5188,
+            "answer": 5190,
             "candidate": 200,
             "affected_candidate": 200,
             "global_multiplier": -0.1
@@ -22688,7 +22688,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 4304,
         "fields": {
-            "answer": 5188,
+            "answer": 5191,
             "candidate": 200,
             "affected_candidate": 200,
             "global_multiplier": -0.1
@@ -26284,7 +26284,7 @@ endingPicker = (out, totv, aa, quickstats) => {
         return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, it seems that your support will be the last thing on everybody's minds. While you're still waiting on your final result in the popular vote, you've already been projected to win electoral votes. However, you aren't the only third party candidate to win electoral votes this election. <br><br> The media has already projected that no one will receive a majority of electoral votes. However, the contingent election only features the top three candidates, meaning you won't be a part of it. It appears that this crazy election just doesn't know when to quit as the House will now decide the next president and the Senate will choose the Vice President, and you won't even get to be one of their choices. Depending on a lot of things this could lead to a very strange administration for the next four years.</p>"
     } 
     if (quickstats[0] == 0 && aa[1].electoral_votes == 269) {
-    return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, it seems that your support will be the last thing on everybody's minds. You didn't receive any electoral votes and your popular vote total is still wavering as votes continue to come in from across the country. However, the story of the election is the 269-269 tie. It appears that this crazy election just doesn't know when to quit as the House will now decide the next president and the Senate will choose the Vice President. Depending on a lot of things this could lead to a very strange administration for the next four years.</p>"
+        return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, it seems that your support will be the last thing on everybody's minds. You didn't receive any electoral votes and your popular vote total is still wavering as votes continue to come in from across the country. However, the story of the election is the 269-269 tie. It appears that this crazy election just doesn't know when to quit as the House will now decide the next president and the Senate will choose the Vice President. Depending on a lot of things this could lead to a very strange administration for the next four years.</p>"
     }
     if (quickstats[0] == 0 && quickstats[1] == 0) {
         return "<h3>Santa Fe</h3><p>Folks we finally got a headline, \"LIBERTARIAN PARTY CRUSHED AT POLLS!\" People are cryin', yellin', and fallin' thanks to good ole' Gary. Gary just wants to close his eyes and go!<br>Let me go, far away, somewhere they won't never find me, and tomorrow won't remind me of today, and the city's finally sleepin', and the moon looks old and gray. I get on a plain that's bound for Santa Fe. And I'm gone. and I'm done.<br>Because dreams come true, yeah they do, in Santa Fe!<br>Santa Fe! My old friend! I can't spend my whole life dreamin', though I know that's all I seem inclined to do. I ain't gettin' any younger, and I wanna start brand new.<br>I need space, and fresh air. Let them laugh in my face, I don't care. Save my place! I'll be there.<br>Just be real is all I'm askin'. Not some painting in my head. 'Cause I'm dead if I can't count on you today.<br>I got nothin' if I ain't for Santa Fe.</p>"
@@ -26326,9 +26326,9 @@ endingPicker = (out, totv, aa, quickstats) => {
         return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, you and your staff are filled with joy. You not only managed to receive five percent of the popular vote, but you also managed to receive a decent portion of the electoral vote. With this historic performance, you might have started the downfall of the two-party system and started a new three-party system. Even more, you managed to deadlock the election with your historic performance.</p><p>Your performance will not soon be forgotten and will definitely serve as a wake-up call for Democrats and Republicans alike. Now that the election is deadlocked, it seems the House will be the one to elect the next president, barring a deal being struck between you, Clinton, or Trump. With Republicans dissatisfied with Trump now, perhaps you're in a prime position to be a compromise candidate for president. That is, as long as McMullin or anyone didn't beat you out for the top three candidates.</p>"
     } else if (quickstats[0] > 0 && quickstats[1] >= 5) {
         return "<h3>Don't call it a comeback.</h3><p>As the results come in, you and your staff are filled with joy. You not only managed to receive five percent of the popular vote, but you also managed to receive a decent portion of the electoral vote. With this historic performance, you might have started the downfall of the two-party system and started a new three-party system. While you didn't deadlock the election, your performance will be remembered as one of the best third-party performances in history.</p><p>This election will serve as a major wake-up call for Democrats and Republicans alike. It seems Americans really are tired of the two-party system and are ready for a new third-party option. Meanwhile, your party is overjoyed at the results, not only did you qualify for funding, but you also managed to pull a decent number of electoral votes. Now your party will have four years, and funding, to build off this already historic performance.</p>"
-    } else if (rp_endorsement && quickstats[0] >= 270 && quickstats[0] < 537) {
+    } else if (rp_endorsement && quickstats[0] >= 270 && quickstats[0] < 538) {
         return "<h3>There's always a chance.</h3><p>When you began the 2016 campaign, you and Gray knew that, while it was possible, your odds of winning was slim. That no longer matters though because you have defied those odds and outright won this election. You and Gray will be the next two to occupy the White House. It was a long road dating back all the way to 2011, but it will be one that ends with you being inaugurated as the next president in 2017. Congratulations president-elect Gary Johnson, even Ron Paul seems to be proud of your accomplishment.</p>"
-    } else if (quickstats[0] >= 270 && quickstats[0] < 537) {
+    } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
         return "<h3>There's always a chance.</h3><p>When you began the 2016 campaign, you and Gray knew that, while it was possible, your odds of winning was slim. That no longer matters though because you have defied those odds and outright won this election. You and Gray will be the next two to occupy the White House. It was a long road dating back all the way to 2011, but it will be one that ends with you being inaugurated as the next president in 2017. Congratulations president-elect Gary Johnson.</p>"
     } else if (rp_endorsement && quickstats[0] == 538) {
         return "<h3>November 5, 2024</h3><p>It's been eight years since President Johnson's historic landslide victory in 2016 and four since his narrow reelection against Republican Marco Rubio and Democrat Bernie Sanders in the shadow of the worldwide COVID-19 pandemic where many Libertarians criticized Johnson for his \"overreaching\" response to it due to people like Chief Medical Advisor Dr. Anthony Fauci leading the national charge to overcome the pandemic. Now four years later, our nation has recovered, but many issues still remain, with both Democrats and Republicans seeing this year as a golden opportunity to reclaim the White House against unpopular Vice President Jim Gray. Tonight, we'll be bringing you coverage of the 2024 presidential election between Democrat Roy Cooper, Republican Rand Paul, and Libertarian Vice President Jim Gray.</p>"

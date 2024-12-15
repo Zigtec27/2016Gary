@@ -13932,7 +13932,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5089,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.01
         }
     },
     {
@@ -15082,7 +15082,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5125,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.025
+            "global_multiplier": 0.01
         }
     },
     {
@@ -15092,7 +15092,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5125,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.075
+            "global_multiplier": -0.067
         }
     },
     {
@@ -15182,7 +15182,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5127,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.06
+            "global_multiplier": 0.025
         }
     },
     {
@@ -15192,7 +15192,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5127,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.075
+            "global_multiplier": -0.067
         }
     },
     {
@@ -16872,7 +16872,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5198,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.01
         }
     },
     {
@@ -17752,7 +17752,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5220,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": -0.025
+            "global_multiplier": 0.01
         }
     },
     {
@@ -17782,7 +17782,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5221,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.01
         }
     },
     {
@@ -17822,7 +17822,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5222,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.025
+            "global_multiplier": 0.01
         }
     },
     {
@@ -17832,7 +17832,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5222,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.01
+            "global_multiplier": 0.01
         }
     },
     {
@@ -17852,7 +17852,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5223,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.01
         }
     },
     {
@@ -17862,7 +17862,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5223,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.01
         }
     },
     {
@@ -17892,7 +17892,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5224,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.025
+            "global_multiplier": 0.01
         }
     },
     {
@@ -17902,7 +17902,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5224,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.01
+            "global_multiplier": 0.01
         }
     },
     {
@@ -17932,7 +17932,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5225,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.01
         }
     },
     {
@@ -17942,7 +17942,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5225,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.01
+            "global_multiplier": 0.01
         }
     },
     {
@@ -17982,7 +17982,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5226,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.025
+            "global_multiplier": 0.01
         }
     },
     {
@@ -17992,7 +17992,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5226,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.01
+            "global_multiplier": 0.01
         }
     },
     {
@@ -18022,7 +18022,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5227,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.01
         }
     },
     {
@@ -18032,7 +18032,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5227,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.01
         }
     },
     {
@@ -18562,7 +18562,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5241,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": 0.067
+            "global_multiplier": 0.05
         }
     },
     {
@@ -18642,7 +18642,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5243,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": 0.06
+            "global_multiplier": 0.025
         }
     },
     {
@@ -20402,7 +20402,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5289,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.025
         }
     },
     {
@@ -20412,7 +20412,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5289,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.025
+            "global_multiplier": -0.01
         }
     },
     {
@@ -20572,7 +20572,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5293,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.025
         }
     },
     {
@@ -20582,7 +20582,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5293,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.025
+            "global_multiplier": -0.01
         }
     },
     {
@@ -21032,7 +21032,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5304,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.025
         }
     },
     {
@@ -21072,7 +21072,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5305,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.025
         }
     },
     {
@@ -21112,7 +21112,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5306,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.035
+            "global_multiplier": -0.01
         }
     },
     {
@@ -21152,7 +21152,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5307,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.035
+            "global_multiplier": -0.025
         }
     },
     {
@@ -21182,7 +21182,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5308,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.035
+            "global_multiplier": -0.01
         }
     },
     {
@@ -21242,7 +21242,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5310,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.035
+            "global_multiplier": -0.025
         }
     },
     {
@@ -21302,7 +21302,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5311,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.035
+            "global_multiplier": -0.025
         }
     },
     {
@@ -22262,7 +22262,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5331,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.025
         }
     },
     {
@@ -22272,7 +22272,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5331,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.075
+            "global_multiplier": -0.06
         }
     },
     {
@@ -22472,7 +22472,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5335,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.025
         }
     },
     {
@@ -22482,7 +22482,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5335,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.06
+            "global_multiplier": -0.035
         }
     },
     {
@@ -22672,7 +22672,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5339,
             "candidate": 200,
             "affected_candidate": 201,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.025
         }
     },
     {
@@ -22682,7 +22682,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5339,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.06
+            "global_multiplier": -0.01
         }
     },
     {
@@ -44064,7 +44064,7 @@ endingPicker = (out, totv, aa, quickstats) => {
         return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, it seems that your support will be the last thing on everybody's minds. While you're still waiting on your final result in the popular vote, you've already been projected to win electoral votes. However, you aren't the only third party candidate to win electoral votes this election. <br><br> The media has already projected that no one will receive a majority of electoral votes. However, the contingent election only features the top three candidates, meaning you won't be a part of it. It appears that this crazy election just doesn't know when to quit as the House will now decide the next president and the Senate will choose the Vice President, and you won't even get to be one of their choices. Depending on a lot of things this could lead to a very strange administration for the next four years.</p>"
     } 
     if (quickstats[0] == 0 && aa[1].electoral_votes == 269) {
-    return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, it seems that your support will be the last thing on everybody's minds. You didn't receive any electoral votes and your popular vote total is still wavering as votes continue to come in from across the country. However, the story of the election is the 269-269 tie. It appears that this crazy election just doesn't know when to quit as the House will now decide the next president and the Senate will choose the Vice President. Depending on a lot of things this could lead to a very strange administration for the next four years.</p>"
+        return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, it seems that your support will be the last thing on everybody's minds. You didn't receive any electoral votes and your popular vote total is still wavering as votes continue to come in from across the country. However, the story of the election is the 269-269 tie. It appears that this crazy election just doesn't know when to quit as the House will now decide the next president and the Senate will choose the Vice President. Depending on a lot of things this could lead to a very strange administration for the next four years.</p>"
     }
     if (quickstats[0] == 0 && quickstats[1] == 0 && campaignTrail_temp.candidate_last_name != 'Petersen') {
         return "<h3>Santa Fe</h3><p>Folks we finally got a headline, \"LIBERTARIAN PARTY CRUSHED AT POLLS!\" People are cryin', yellin', and fallin' thanks to good ole' Gary. Gary just wants to close his eyes and go!<br>Let me go, far away, somewhere they won't never find me, and tomorrow won't remind me of today, and the city's finally sleepin', and the moon looks old and gray. I get on a plain that's bound for Santa Fe. And I'm gone. and I'm done.<br>Because dreams come true, yeah they do, in Santa Fe!<br>Santa Fe! My old friend! I can't spend my whole life dreamin', though I know that's all I seem inclined to do. I ain't gettin' any younger, and I wanna start brand new.<br>I need space, and fresh air. Let them laugh in my face, I don't care. Save my place! I'll be there.<br>Just be real is all I'm askin'. Not some painting in my head. 'Cause I'm dead if I can't count on you today.<br>I got nothin' if I ain't for Santa Fe.</p>"
@@ -44110,9 +44110,9 @@ endingPicker = (out, totv, aa, quickstats) => {
         return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, you can't hold back your excitement. Not only did you receive over five percent of the vote securing a future for the party, but you managed to pick up plenty of electoral votes along the way. As the returns continued to come in the media makes one last major call, no candidate would receive a majority of the electoral votes and the election would go to the House.</p><p>Your performance will be remembered as the day the two party system bent, and now the nation looks to the upcoming contingent election to see if it'll finally break. Considering House Republicans displeasure with Trump you could be on your way to the presidency as a form of compromise candidate. Nonetheless, the nation is witnessing history, and you're right in the middle of it.</p>"
     } else if (quickstats[0] > 10 && quickstats[0] < 270 && quickstats[1] >= 5) {
         return "<h3>\"LIBERTARIANS PUT ON THE MAP!\"</h3><p>As the results come in, you can't hold back your excitement. Not only did you receive over five percent of the vote securing a future for the party, but you managed to pick up plenty of electoral votes along the way. Whether Trump or Clinton won hasn't even crossed your mind yet as you begin to realize that your third party performance will go down as one of the best in American history. Deep down inside, though, you still feel as though if you just would've had Weld, you could've done better, maybe even could've won.</p><p>Your performance will be remembered as the day the two party system bent, and now the nation looks to 2018 and 2020 to see if it'll break. The Libertarian Party will be prepared with federal funding come then but it'll need the candidates too if they want to replicate and build on your performance this year.</p>"
-    } else if (campaignTrail_temp.candidate_last_name == 'Petersen' && quickstats[0] >= 270 && quickstats[0] < 537) {
+    } else if (campaignTrail_temp.candidate_last_name == 'Petersen' && quickstats[0] >= 270 && quickstats[0] < 538) {
         return "<h3>Wait what? You won?</h3><p>Whether it was plain luck or your appeal to voters, somehow you have outright won the election. As you watch the results come in channel after channel show the headline, \"PRESIDENT-ELECT AUSTIN PETERSEN.\" This was very unexpected considering many had written off the Libertarian ticket after Gary Johnson failed to be the nominee.</p><p>Congratulations, by some miracle you're officially on your way to becoming the next president of the United States, a historic step for the Libertarian Party, and America's political system in general.</p>"
-    } else if (quickstats[0] >= 270 && quickstats[0] < 537) {
+    } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
         return "<h3>\"PRESIDENT-ELECT GARY JOHNSON\"</h3><p>As your campaign staff join you and Sharpe behind stage, there is only one thing in everyone's mind, HOW??? While you tell everyone that this was to be expected, they simply cannot wrap their heads around how you, a third party candidate managed to not just topple the two party system, but outright win the election in the process.</p><p>As the news hits, Republicans will be forced back to the drawing board again, with their choice of celebrity Donald Trump sure to go down as one of the worst picks in history, and Democrats will have to confront the now furious progressive side of the party. Meanwhile, Libertarians will be dancing in the streets as the Johnson/Sharpe ticket makes history.</p><p>As you step out to the podium, you begin your victory speech, \"I've always said, this election is so crazy I'd be the next president. Well, it turns out America agrees.\"</p>"
     } else if (campaignTrail_temp.candidate_last_name == 'Petersen' && quickstats[0] == 538) {
         return "<h3>November 5, 2024</h3><p>It's been eight years since President Petersen's historic landslide victory in 2016 and four since his razor-thin reelection against Republican Donald Trump and Democrat Bernie Sanders in the shadow of the worldwide COVID-19 pandemic where many Democrats and Republicans criticized Petersen for his \"terrible\" leadership that led to Chief Medical Advisor Dr. Anthony Fauci leading the national charge to overcome the pandemic. Now four years later, our nation has recovered, but many issues still remain, with both Democrats and Republicans seeing this year as a golden opportunity to reclaim the White House against unpopular Vice President Larry Sharpe. Tonight, we'll be bringing you coverage of the 2024 presidential election between Democrat Joe Biden, Republican Ron DeSantis, and Libertarian Vice President Larry Sharpe.</p>"
