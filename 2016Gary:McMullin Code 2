@@ -814,7 +814,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1090,
         "fields": {
             "priority": 1,
-            "description": "After it was uncovered that you had made a secret deal during the LIbertarian Convention to ensure McMullin would be your running mate, McMullin has left and formally declared his independent bid for president and stop Trump. This has left your campaign in an awkward situation, do you have a comment for McMullin or one regarding the situation?",
+            "description": "After it was uncovered that you had made a secret deal during the Libertarian Convention to ensure McMullin would be your running mate, McMullin has left and formally declared his independent bid for president and stop Trump. This has left your campaign in an awkward situation, do you have a comment for McMullin or one regarding the situation?",
             "likelihood": 1
         }
     },
@@ -841,7 +841,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1093,
         "fields": {
             "priority": 1,
-            "description": "After it was uncovered that you had made a secret deal during the LIbertarian Convention to ensure McMullin would be your running mate, McMullin has left and formally declared his independent bid for president and stop Trump. This has left your campaign in a very awkward situation, do you have a comment for McMullin or one regarding the situation?",
+            "description": "After it was uncovered that you had made a secret deal during the Libertarian Convention to ensure McMullin would be your running mate, McMullin has left and formally declared his independent bid for president and stop Trump. This has left your campaign in a very awkward situation, do you have a comment for McMullin or one regarding the situation?",
             "likelihood": 1
         }
     },
@@ -985,7 +985,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1109,
         "fields": {
             "priority": 1,
-            "description": "Meeting with the radical LIbertarians that split away with the party, you and your campaign staff are with Perry, Coley, and their staff. Together you've been talking about Libertarian values and the current situation of the Libertarian Party. As it stands they're willing to drop their bid and unite the party only if your campaign will actually campaign on Libertarian values, and nothing but Libertarian values as the Libertarian Party should do. Do you accept this deal?",
+            "description": "Meeting with the radical Libertarians that split away with the party, you and your campaign staff are with Perry, Coley, and their staff. Together you've been talking about Libertarian values and the current situation of the Libertarian Party. As it stands they're willing to drop their bid and unite the party only if your campaign will actually campaign on Libertarian values, and nothing but Libertarian values as the Libertarian Party should do. Do you accept this deal?",
             "likelihood": 1
         }
     },
@@ -4211,7 +4211,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5071,
         "fields": {
             "question": 1017,
-            "description": "I balanced strategy is probably best. We need to get our campaign out there as much as tearing down the other candidates.",
+            "description": "A balanced strategy is probably best. We need to get our campaign out there as much as tearing down the other candidates.",
         }
     },
     {
@@ -4243,7 +4243,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5075,
         "fields": {
             "question": 1018,
-            "description": "I balanced strategy is probably best. We need to get our campaign out there as much as tearing down the other canddiates.",
+            "description": "A balanced strategy is probably best. We need to get our campaign out there as much as tearing down the other canddiates.",
         }
     },
     {
@@ -4603,7 +4603,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5120,
         "fields": {
             "question": 1030,
-            "description": "While Trump is our main target and threat to America. We can't ignore this, it's just blatant criminal activity. Let it be known for all Sanders supporters, the LIbertarian Party is a place that will bring necessary change to prevent this.",
+            "description": "While Trump is our main target and threat to America. We can't ignore this, it's just blatant criminal activity. Let it be known for all Sanders supporters, the Libertarian Party is a place that will bring necessary change to prevent this.",
         }
     },
     {
@@ -4619,7 +4619,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5122,
         "fields": {
             "question": 1030,
-            "description": "It seems there were a lot of strange things surrounding the Democrat and Republican primaries and as it turns out it was cheating by the nominees. Yet you know what party didn't have their nominee cheat to get on the ballot, the LIbertarian Party. ",
+            "description": "It seems there were a lot of strange things surrounding the Democrat and Republican primaries and as it turns out it was cheating by the nominees. Yet you know what party didn't have their nominee cheat to get on the ballot, the Libertarian Party. ",
         }
     },
     {
@@ -5723,7 +5723,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5260,
         "fields": {
             "question": 1065,
-            "description": "When McMullin left, the LIbertarian Party came together to try and think of something and we came up with a shortlist of people very quickly and Hornberger was really the first one to accept.",
+            "description": "When McMullin left, the Libertarian Party came together to try and think of something and we came up with a shortlist of people very quickly and Hornberger was really the first one to accept.",
         }
     },
     {
@@ -5995,7 +5995,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5294,
         "fields": {
             "question": 1073,
-            "description": "Well, I'll show them an independent run. Effective immediately I'm no longer part of the LIbertarian campaign!",
+            "description": "Well, I'll show them an independent run. Effective immediately I'm no longer part of the Libertarian campaign!",
         }
     },
     {
@@ -7907,7 +7907,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5533,
         "fields": {
             "question": 1133,
-            "description": "If everyone in the LIbertarian Party works together we're going to end this election on a very strong note.",
+            "description": "If everyone in the Libertarian Party works together we're going to end this election on a very strong note.",
         }
     },
     {
@@ -9251,7 +9251,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5701,
         "fields": {
             "question": 1175,
-            "description": "Whatever the reason we made it here we need to give our best performance. Millions will see our LIbertarian platform.",
+            "description": "Whatever the reason we made it here we need to give our best performance. Millions will see our Libertarian platform.",
         }
     },
     {
@@ -9507,7 +9507,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5733,
         "fields": {
             "question": 1183,
-            "description": "Whatever the reason we made it here we need to give our best performance. Millions will see our LIbertarian platform.",
+            "description": "Whatever the reason we made it here we need to give our best performance. Millions will see our Libertarian platform.",
         }
     },
     {
@@ -9635,7 +9635,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5749,
         "fields": {
             "question": 1187,
-            "description": "Whatever the reason we made it here we need to give our best performance. Millions will see our LIbertarian platform.",
+            "description": "Whatever the reason we made it here we need to give our best performance. Millions will see our Libertarian platform.",
         }
     },
     {
@@ -9699,7 +9699,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5757,
         "fields": {
             "question": 1189,
-            "description": "Whatever the reason we made it here we need to give our best performance. Millions will see our LIbertarian platform.",
+            "description": "Whatever the reason we made it here we need to give our best performance. Millions will see our Libertarian platform.",
         }
     },
     {
@@ -14947,7 +14947,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6413,
         "fields": {
             "question": 1353,
-            "description": "We just need to keep our LIbertarian base and we can still have a strong showing this election by making that five percent mark.",
+            "description": "We just need to keep our Libertarian base and we can still have a strong showing this election by making that five percent mark.",
         }
     },
     {
@@ -14979,7 +14979,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6417,
         "fields": {
             "question": 1354,
-            "description": "We just need to keep our LIbertarian base and we can still have a strong showing this election by making that five percent mark.",
+            "description": "We just need to keep our Libertarian base and we can still have a strong showing this election by making that five percent mark.",
         }
     },
     {
@@ -15011,7 +15011,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6421,
         "fields": {
             "question": 1355,
-            "description": "We just need to keep our LIbertarian base and we can still have a strong showing this election by making that five percent mark.",
+            "description": "We just need to keep our Libertarian base and we can still have a strong showing this election by making that five percent mark.",
         }
     },
     {
@@ -90046,7 +90046,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5481,
             "candidate": 200,
-            "answer_feedback": "Perry has brought you deep into the LIbertarian category, for better and worse."
+            "answer_feedback": "Perry has brought you deep into the Libertarian category, for better and worse."
         }
     },
     {
@@ -100301,15 +100301,15 @@ endingPicker = (out, totv, aa, quickstats) => {
                 return "<h3>Just enough...</h3><p>Two men with two missions. One wanted to bring the Libertarian Party to prominence to counter the Republicans and Democrats duopoly. The other wanted to sink the campaign of a corrupt businessman to save America. To team up, could they, would they, but should they? <br><br> The Johnson/McMullin ticket will be remembered for a lot of things, especially for how dumb the ticket seems in retrospect. The ticket couldn't even make it to election day and yet many thought it was going to be the ticket to bring about the end of the two-party system. It seems silly looking back, and yet people still voted for them, whether they knew or not that McMullin was long gone from the ticket when they did so, who knows. However, the ticket still managed to receive five percent of the popular vote, and because of that, the Libertarian Party has officially qualified for federal funding.</p>"
             } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
                 return "<h3>Just enough.</h3><p>Two men with two missions. One wanted to bring the Libertarian Party to prominence to counter the Republicans and Democrats duopoly. The other wanted to sink the campaign of a corrupt businessman to save America. To team up, could they, would they, but should they? <br><br> The Johnson/McMullin ticket will be remembered for a lot of things, especially for how dumb the ticket seems in retrospect. The ticket couldn't even make it to election day and yet many thought it was going to be the ticket to bring about the end of the two-party system. It seems silly looking back, and yet people still voted for them, whether they knew or not that McMullin was long gone from the ticket when they did so, who knows. However, the ticket still managed to receive over five percent of the popular vote, and because of that, the Libertarian Party has officially qualified for federal funding. You even managed to have the best third party performance since Ross Perot in 1992.</p>"
-            } else if (quickstats[0] >= 18.9) {
+            } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
                 return "<h3>We won how much?</h3><p>Two men with two missions. One wanted to bring the Libertarian Party to prominence to counter the Republicans and Democrats duopoly. The other wanted to sink the campaign of a corrupt businessman to save America. To team up, could they, would they, but should they? <br><br> The Johnson/McMullin ticket will be remembered for a lot of things, especially for how dumb the ticket seems in retrospect. The ticket couldn't even make it to election day and yet many thought it was going to be the ticket to bring about the end of the two-party system. It seems silly looking back, and yet people still voted for them, whether they knew or not that McMullin was long gone from the ticket when they did so, who knows. However, by some miracle, you still managed to outperform Ross Perot's 1992 campaign. How, we really don't know, but we do know the federal funding will easily make this year feel like a good election cycle for Libertarians.</p>"
-            } else if (quickstats[0] > 0 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+            } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
                 return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the election results come in all you can do is expect defeat. McMullin is gone and so is your support, but as the night goes on something strange happens. Your results seem too high to be true. As the night continues the news projects you to pick up electoral votes, followed by announcing that the election will be deadlocked. <br><br> Despite your campaign falling apart, someone you still managed to deadlock the election, unfortunately, it wasn't enough to break five percent nationally. As it stands the election will probably be decided by Congress meaning that if somehow you're selected by the House you will either have to work with Mike Pence or Tim Kaine as your Vice President, that is if you can get that far.</p>"
-            } else if (quickstats[0] > 0 && quickstats[1] < 5) {
+            } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5) {
                 return "<h3>We won what?</h3><p>As the election results come in all you can do is expect defeat. McMullin is gone and so is your support, but as the night goes on something strange happens. Your results seem too high to be true. As the night continues the news projects you to somehow pick up electoral votes. <br><br> Despite your campaign falling apart, someone you still managed to pick up electoral votes, it wasn't enough to deadlock the election, but the real disappointment was that it wasn't enough to break five percent of the national popular vote. Now that the Johnson/McMullin experiment has been deemed an overwhelming failure, the Libertarian Party is going to certainly be looking to distance themselves from your campaign come 2020 when they have to restart their quest to five percent and national relevance.</p>"
-            } else if (quickstats[0] > 0 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+            } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
                 return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the election results come in all you can do is expect defeat. McMullin is gone and so is your support, but as the night goes on something strange happens. Your results seem too high to be true. As the night continues the news projects you to pick up electoral votes, followed by announcing that the election will be deadlocked. <br><br> Despite your campaign falling apart, someone you still managed to deadlock the election, you even managed to break five percent nationally. As it stands the election will probably be decided by Congress meaning that if somehow you're selected by the House you will either have to work with Mike Pence or Tim Kaine as your Vice President, that is if you can get that far. However, regardless somehow this election still managed to be successful in the eyes of your party.</p>"
-            } else if (quickstats[0] > 0 && quickstats[1] >= 5) {
+            } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5) {
                 return "<h3>We did how good?</h3><p>As the election results come in all you can do is expect defeat. McMullin is gone and so is your support, but as the night goes on something strange happens. Your results seem too high to be true. As the night continues the news projects you to somehow pick up electoral votes. <br><br> Despite your campaign falling apart, someone you still managed to pick up electoral votes, you even managed to break five percent of the national popular vote. While the Johnson/McMullin experiment will be labeled a failure by a large portion of people, to many within your party, somehow, it will be remembered as a success.</p>"
             } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
                 return "<h3>Well... this is awkward</h3><p>It doesn't make sense, your campaign tripped at the finish line. McMullin left, the campaign was dead, and yet it isn't. We don't know how you managed to do this, maybe the news of McMullin leaving the campaign didn't affect the voters, or maybe they just didn't hear about it. Regardless of how this happened, what we do know is that you're now the President-elect, you have won the election outright. There's just one big question, who is going to be your Vice President? McMullin is gone and probably won't be coming back, altough you may try. Other than that you have about a month to try and get your electoral votes to rally around someone to be your Vice President. <br><br> Regardless, congratulations President-elect Gary Johnson.</p>"
@@ -100326,7 +100326,7 @@ endingPicker = (out, totv, aa, quickstats) => {
                     return "<h3>but it wasn't enough...</h3><p>Two men with two missions. One wanted to bring the Libertarian Party to prominence to counter the Republicans and Democrats duopoly. The other wanted to sink the campaign of a corrupt businessman to save America. To team up, could they, would they, should they? <br><br> The Johnson/McMullin ticket will be remembered for a lot of things, but being successful, not so much. It was inevitable something was going to have to give for the campaign to stay together. You can't please everyone, no matter how hard you try. As the news declares Donald Trump the president-elect McMullin only feels defeated, while you turn your head to the other results. You managed to receive over five percent of the popular vote, qualifying the Libertarian Party for federal funding. It seems there will be mixed emotions following this election. Luckily, it doesn't involve anyone upset at you.</p>"
                 } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
                     return "<h3>it wasn't enough...</h3><p>Two men with two missions. One wanted to bring the Libertarian Party to prominence to counter the Republicans and Democrats duopoly. The other wanted to sink the campaign of a corrupt businessman to save America. To team up, could they, would they, should they? <br><br> The Johnson/McMullin ticket will be remembered for a lot of things, but being successful, depends. It was inevitable something was going to have to give for the campaign to stay together. You can't please everyone, no matter how hard you try. As the news declares Donald Trump the president-elect McMullin only feels defeated, while you turn your head to the other results. You managed to receive over five percent of the popular vote, qualifying the Libertarian Party for federal funding. It seems there will be mixed emotions following this election. Luckily, it doesn't involve anyone upset at you.</p>"
-                } else if (quickstats[0] >= 18.9) {
+                } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
                     return "<h3>how wasn't it enough??</h3><p>Two men with two missions. One wanted to bring the Libertarian Party to prominence to counter the Republicans and Democrats duopoly. The other wanted to sink the campaign of a corrupt businessman to save America. To team up, could they, would they, should they? <br><br> The Johnson/McMullin ticket will be remembered for a lot of things, but being successful, probably. It was inevitable something was going to have to give for the campaign to stay together, but with this result, how? As the news declares Donald Trump the president-elect McMullin only feels defeated, while you turn your head to the other results. You managed to receive over five percent of the popular vote, qualifying the Libertarian Party for federal funding. You even managed to outperform Ross Perot in 1992. However, all you can think about is how this wasn't enough, why didn't this historic performance tank Trump's campaign? You got the votes, where did Trump get his?</p>"
                 } else if (quickstats[0] > 0 && quickstats[0] <= 10 && quickstats[1] < 5) {
                     return "<h3>All for nothing</h3><p>You put together the ticket, you put together the coalition, but it didn't pay out how you thought it would. In fact, you failed every goal you set. <br><br> You failed to receive five percent of the popular vote, you failed to prevent a Trump presidency, and yet you managed to win electoral votes? A weird combination. Despite, your campaign's best attempts, it seems that nothing you did translated into success. While some are excited over the electoral votes, the large majority are upset at either Trump winning, or you failing to receive five percent. While your campaign will be remembered by history, few will see it as successful.</p>"
@@ -100346,7 +100346,7 @@ endingPicker = (out, totv, aa, quickstats) => {
                     return "<h3>Mission Accomplished</h3><p>Two men with two missions. One wanted to bring the Libertarian Party to prominence to counter the Republicans and Democrats duopoly. The other wanted to sink the campaign of a corrupt businessman to save America. To team up, could they, would they? <br><br> The Johnson/McMullin ticket will be remembered for a lot of things, especially for how smart the ticket seems in retrospect. Together you've been able to achieve both of your goals, achieving federal funding for the Libertarian funding and preventing a Trump presidency. You've given the Libertarian Party a path to relevance while rejecting Trump's bid to guide the Republican Party's future. Congratulations.</p>"
                 } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
                     return "<h3>Mission Accomplished.</h3><p>Two men with two missions. One wanted to bring the Libertarian Party to prominence to counter the Republicans and Democrats duopoly. The other wanted to sink the campaign of a corrupt businessman to save America. To team up, could they, would they? <br><br> The Johnson/McMullin ticket will be remembered for a lot of things, especially for how smart the ticket seems in retrospect. Together you've been able to achieve both of your goals, achieving federal funding for the Libertarian funding and preventing a Trump presidency. You've given the Libertarian Party a path to relevance while rejecting Trump's bid to guide the Republican Party's future. Congratulations, you've just accomplished the best third party performance since Perot in 1992.</p>"
-                } else if (quickstats[0] >= 18.9) {
+                } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
                     return "<h3>Mission Accomplished!</h3><p>Two men with two missions. One wanted to bring the Libertarian Party to prominence to counter the Republicans and Democrats duopoly. The other wanted to sink the campaign of a corrupt businessman to save America. To team up, could they, would they? <br><br> The Johnson/McMullin ticket will be remembered for a lot of things, especially for how smart the ticket seems in retrospect. Together you've been able to achieve both of your goals, achieving federal funding for the Libertarian funding and preventing a Trump presidency. Producing a campaign that outperformed Ross Perot in 1992, your campaign has something, everyone involved can celebrate.</p>"
                 } else if (quickstats[0] > 0 && quickstats[0] <= 10 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
                     return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>You put together the ticket, you put together the coalition, but it didn't pay out how you thought it would. In fact, you almost failed every goal you set… almost. <br><br> While you didn't receive five percent of the popular vote, you still managed to pick up a handful of electoral votes leaving the election deadlocked. With the election deadlocked you have a choice to make in the coming weeks. Do you strike a deal with Clinton ensuring Trump's defeat, or do you let the election go to the House and rely on Republicans being so disgruntled with Trump that they propel you to the presidency in a compromise. Only time, and the details of the possible deal between you and Clinton will tell.</p>"
@@ -100356,14 +100356,14 @@ endingPicker = (out, totv, aa, quickstats) => {
                     return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>You put together the ticket, you put together the coalition, and it all paid off… hopefully. As of right now you've qualified the Libertarian Party for federal funding and received a handful of electoral votes. However the electoral college is deadlocked, leaving room for Trump to still have a chance at winning. With that reality you have two options to think over in the coming weeks, do you strike a deal with Clinton and guarantee Trump's defeat, or do you leave it to Congress and rely on House Republicans steering clear of Trump to propel you all the way to the presidency?</p>"
                 } else if (quickstats[0] > 0 && quickstats[0] <= 10 && quickstats[1] >= 5) {
                     return "<h3>Mission Accomplished!!</h3><p>You put together the ticket, you put together the coalition, and it worked. In fact, you outperformed the goals you set out to do. <br><br> You managed five percent of the popular vote, you managed to pick up a handful of electoral votes, and Donald Trump has lost the election. This is truly a night of celebration for your campaign as there isn't a single thing that anyone can find to complain about. Everything went perfectly come election day. This could be just what the Libertarian Party needed, a historic performance that would bring it to relevancy. The only question is, will this translate to 2018 and 2020?</p>"
-                } else if (quickstats[0] > 10 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+                } else if (quickstats[0] > 10 && quickstats[0] < 270 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
                     return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>You put together the ticket, you put together the coalition, but it didn't pay out how you thought it would. In fact, you almost failed every goal you set… almost. <br><br> While you didn't receive five percent of the popular vote, you still managed to leave quite the mark on the electoral college leaving the election deadlocked. With the election deadlocked you have a choice to make in the coming weeks. Do you strike a deal with Clinton ensuring Trump's defeat, or do you let the election go to the House and rely on Republicans being so disgruntled with Trump that they propel you to the presidency in a compromise. Only time, and the details of the possible deal between you and Clinton will tell.</p>"
-                } else if (quickstats[0] > 10 && quickstats[1] < 5) {
+                } else if (quickstats[0] > 10 && quickstats[0] < 270 && quickstats[1] < 5) {
                     return "<h3>We won, but at what cost?</h3><p>You put together the ticket, you put together the coalition, but it didn't pay out how you thought it would. In fact, you almost failed every goal you set… almost. <br><br> While you didn't receive five percent of the popular vote, you still managed to pick up a handful of electoral votes. Also, as the news breaks for one last major projection, Donald Trump will fail to win the presidency. The news is almost enough to make you forget that you didn't get federal funding for the Libertarian Party. However, electoral votes may have been one of your goals, it sure wasn't the main objective of the party, and seeing as though you failed to win five percent the party will largely see this year as a failure, and will more than likely seek to distance themselves from you as they move to 2020.</p>"
-                } else if (quickstats[0] > 10 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+                } else if (quickstats[0] > 10 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
                     return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>You put together the ticket, you put together the coalition, and it all paid off… hopefully. As of right now you've qualified the Libertarian Party for federal funding and left a mark on the electoral college. However the electoral college is deadlocked, leaving room for Trump to still have a chance at winning. With that reality you have two options to think over in the coming weeks, do you strike a deal with Clinton and guarantee Trump's defeat, or do you leave it to Congress and rely on House Republicans steering clear of Trump to propel you all the way to the presidency?</p>"
-                } else if (quickstats[0] > 10 && quickstats[1] >= 5) {
-                    return "<h3>-</h3><p>You got the votes, you got the ticket, and you even got the electoral votes. It all paid off. Donald Trump has lost the 2016 presidential election. As the news breaks you and McMullin both breathe a sigh of relief. All of the campaigning, all of the traveling, all of it paid off. McMullin stopped Trump and you got the Libertarian Party put on the map, five percent and all. <br><br> An election night everyone in your campaign can celebrate is how the 2016 election comes to an end. Trump is laughed out of politics, Clinton has become the first woman President, and the Libertarian Party may have just found themselves as the third major party in the United States.</p>"
+                } else if (quickstats[0] > 10 && quickstats[0] < 270 && quickstats[1] >= 5) {
+                    return "<h3>Mission Accomplished!!!</h3><p>You got the votes, you got the ticket, and you even got the electoral votes. It all paid off. Donald Trump has lost the 2016 presidential election. As the news breaks you and McMullin both breathe a sigh of relief. All of the campaigning, all of the traveling, all of it paid off. McMullin stopped Trump and you got the Libertarian Party put on the map, five percent and all. <br><br> An election night everyone in your campaign can celebrate is how the 2016 election comes to an end. Trump is laughed out of politics, Clinton has become the first woman President, and the Libertarian Party may have just found themselves as the third major party in the United States.</p>"
                 } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
                     return "<h3>Resist.</h3><p>In the days following the election headlines ring out, \"JOHNSON/MCMULLIN WIN.\" Every news outlet is discussing the failure of both the Democrats and Republicans to capture the White House, the first time in nearly 200 years, and the sudden victory of the Libertarian Party. Meanwhile, internally people are calling and congratulating you and your selection of a running mate all that time ago. You were right, McMullin is a winner. <br><br> Recently you and McMullin were getting together to discuss filling your cabinet when it really hit you, you'll be the leader of the free world for the next four years. You and McMullin will be the ones to manage the entire nation and keep Congress in check. You have broken the two party system.</p>"
                 } else if (quickstats[0] == 538) {
@@ -100371,26 +100371,27 @@ endingPicker = (out, totv, aa, quickstats) => {
                 }
             }
         }
-    } else if (campaignTrail_temp.running_mate_last_name == 'Petersen') {
+    } 
+    if (campaignTrail_temp.running_mate_last_name == 'Petersen' && no_mcmullin) {
         if (aa[0].candidate == 20664) {
             return "<h3>HAHHAHAHAH</h3><p>Well, this is awkward. It seems you were right about McMullin being your best chance at getting elected because he just won the election. This is going to lead to a lot of conversations within the Libertarian Party. Meanwhile, your success is basically obsolete in the wake of President-elect Evan McMullin. It doesn't matter if you received one percent or ten percent, the news is all about President-elect Evan McMullin and all you can do is tell the Libertarian Party I told you so.</p>" 
         } else if (quickstats[0] == 0 && quickstats[1] < 1) {
-            return "<h3>I told you so</h3><p>Well... talk about awkward. <br><br> After the convention rejected your calls to have McMullin as your running mate they chose to give you Austin Petersen instead thinking he'd do better. With the election over all you can do is say I told you so over and over. This year was a complete failure for the Libertarian Party. Less than one percent of the popular vote on election day when they were polling double digits earlier in the year, utter failure.</p>"
+            return "<h3>I told you so</h3><p>Well... talk about awkward.<br><br> After the convention rejected your calls to have McMullin as your running mate they chose to give you Austin Petersen instead thinking he'd do better. With the election over all you can do is say I told you so over and over. This year was a complete failure for the Libertarian Party. Less than one percent of the popular vote on election day when they were polling double digits earlier in the year, utter failure.</p>"
         } else if (quickstats[0] == 0 && quickstats[1] >= 1 && quickstats[1] < 5) {
-            return "<h3>McMullin would've...</h3><p>Well... talk about awkward. <br><br> After the convention nominated Austin Petersen over your choice of McMullin it seems the campaign went exactly as you expected it to go. With the election over all you can do is think how things would've gone had the convention listened to you and nominated McMullin, perhaps you would've gotten five percent, perhaps you could've won a state or two, perhaps you could've even won the election. Sadly, the reality is that after polling double digits earlier in the year, you failed to even break five percent come election day.</p>"
+            return "<h3>McMullin would've...</h3><p>Well... talk about awkward.<br><br> After the convention nominated Austin Petersen over your choice of McMullin it seems the campaign went exactly as you expected it to go. With the election over all you can do is think how things would've gone had the convention listened to you and nominated McMullin, perhaps you would've gotten five percent, perhaps you could've won a state or two, perhaps you could've even won the election. Sadly, the reality is that after polling double digits earlier in the year, you failed to even break five percent come election day.</p>"
         } else if (quickstats[0] == 0 && quickstats[1] >= 5 && quickstats[1] < 8.4) {
             return "<h3>\"LIBERTARIANS QUALIFY FOR FUNDING\"</h3><p>As the news breaks, you can breathe a sigh of relief. The Libertarian Party has qualified for federal funding. You have accomplished the main goal of the election. Pretty much everyone in the party is celebrating the successful year for the party as Petersen himself has declared this, \"The beginning of a brighter, freer political system in America.\" <br><br> Whether or not McMullin would've been about to make the ticket any better is the least of your concerns right now as, you've already qualified for funding, you've accomplished what you've set out to do. Now the Libertarian Party will have four years to plan out how to make 2020 even better.</p>"
         } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
             return "<h3>\"LIBERTARIANS QUALIFY FOR FUNDING\"</h3><p>As the news breaks, you can breathe a sigh of relief. The Libertarian Party has qualified for federal funding. You have accomplished the main goal of the election. Pretty much everyone in the party is celebrating the successful year for the party as Petersen himself has declared this, \"The beginning of a brighter, freer political system in America.\" <br><br> Whether or not McMullin would've been about to make the ticket any better is the least of your concerns right now as, you've already qualified for funding, you've accomplished what you've set out to do, you even surpassed Perot's 1996 campaign. Now the Libertarian Party will have four years to plan out how to make 2020 even better.</p>"
-        } else if (quickstats[0] >= 18.9) {
+        } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
             return "<h3>\"LIBERTARIANS QUALIFY FOR FUNDING\"</h3><p>As the news breaks, you can breathe a sigh of relief. The Libertarian Party has qualified for federal funding. You have accomplished the main goal of the election. Pretty much everyone in the party is celebrating the successful year for the party as Petersen himself has declared this, \"The beginning of a brighter, freer political system in America.\" <br><br> Whether or not McMullin would've been about to make the ticket any better is the least of your concerns right now as, you've already qualified for funding, you've accomplished what you've set out to do, you even surpassed Perot's 1992 campaign. Now the Libertarian Party will have four years to plan out how to make 2020 even better.</p>"
-        } else if (quickstats[0] > 0 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
             return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, it seems that you'll be picking up a few electoral votes, however, the more important story to you is your failure to break the five percent threshold nationally. Because of this many aren't sure how to gauge this election. However, after it was announced the election would end in a deadlock because of your presence in the electoral college, the Libertarian Party is looking at the election differently. As it stands this election will go to Congress to be decided, and depending on disgruntled House Republicans still are over Trump, you could be in a good position to be a compromise president.</p>"
-        } else if (quickstats[0] > 0 && quickstats[1] < 5) {
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5) {
             return "<h3>Regional success, national failure.</h3><p>As the results come in, it seems that you'll be picking up a few electoral votes, however, the more important story to you is your failure to break the five percent threshold nationally. Because of this many aren't sure how to gauge this election. However, after it was announced the election would not be deadlocked despite your presence in the electoral college, the Libertarian Party has come to the consensus that this year was a failure. <br><br> After everything that's happened this year it seems you've managed to have the weirdest ending. No federal funding, won electoral votes, and no deadlock.</p>"
-        } else if (quickstats[0] > 0 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
             return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>It was a good night, to say the least. As the election results come in not only have you broken the five percent barrier, qualifying the Libertarian Party for federal funding, but you also managed to pick up electoral votes. It was even enough to deadlock the election. Now it appears the election will be decided by Congress, and as many are saying, it will all come down to whether or not Republicans want Trump or not. Currently, not all of them seem that excited about him, some even actively despise him, and because of this, you could very well be in line to be a compromise President.</p>"
-        } else if (quickstats[0] > 0 && quickstats[1] >= 5) {
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5) {
             return "<h3>\"LIBERTARIANS MAKE HISTORY\"</h3><p>It was a good night, to say the least. As the election results come in not only have you broken the five percent barrier, qualifying the Libertarian Party for federal funding, but you also managed to pick up electoral votes. While you didn't deadlock the election, you've still made history and hopefully brought the Libertarian Party to prominence in America. As far as you know, this could very well be the beginning of a new three party system in America, or it could be nothing. Only time will tell, and it will be very telling how well the Libertarian Party does in 2018 and 2020.</p>"
         } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
             return "<h3>\"LIBERTARIANS WIN\"</h3><p>We're simply at a loss for words, how did you manage to do this? <br><br> It seems this really was the golden year for third parties. You've just won the presidential election, congratulations President-elect Gary Johnson. After a year of oddities, it seems that all the scandals, and the controversy really did tank both the Clinton and Trump campaigns. The voters have spoken, they are tired of the increasingly unpopular nominations of both the Democrats and Republicans. Congratulations President-elect Gary Johnson, it seems you didn't need McMullin after all.</p>"
@@ -100398,33 +100399,356 @@ endingPicker = (out, totv, aa, quickstats) => {
             return "<h3>November 5, 2024</h3><p>It's been eight years since President Johnson's historic landslide victory in 2016 and four since his narrow reelection against Republican Marco Rubio and Democrat Bernie Sanders in the shadow of the worldwide COVID-19 pandemic where many Democrats and Republicans criticized Johnson for his \"underwhelming\" leadership that led to Chief Medical Advisor Dr. Anthony Fauci leading the national charge to overcome the pandemic. Now four years later, our nation has recovered, but many issues still remain, with both Democrats and Republicans seeing this year as a golden opportunity to reclaim the White House against highly unpopular Vice President Austin Petersen. Tonight, we'll be bringing you coverage of the 2024 presidential election between Democrat Michael Bloomberg, Republican Ron DeSantis, and Libertarian Vice President Austin Petersen.</p>"
         }
     }
-    /*
-    if (campaignTrail_temp.running_mate_last_name == 'Petersen') {
+    if (campaignTrail_temp.running_mate_last_name == 'Petersen' && ap_new) {
         if (quickstats[0] == 0 && quickstats[1] < 1) {
             return "<h3></h3><p></p>"
         } else if (quickstats[0] == 0 && quickstats[1] >= 1 && quickstats[1] < 5) {
-            return "<h3>/h3><p></p>"
+            return "<h3></h3><p></p>"
         } else if (quickstats[0] == 0 && quickstats[1] >= 5 && quickstats[1] < 8.4) {
             return "<h3></h3><p></p>"
         } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
             return "<h3></h3><p></p>"
-        } else if (quickstats[0] >= 18.9) {
+        } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
             return "<h3></h3><p></p>"
-        } else if (quickstats[0] > 0 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
             return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p></p>"
-        } else if (quickstats[0] > 0 && quickstats[1] < 5) {
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5) {
             return "<h3></h3><p></p>"
-        } else if (quickstats[0] > 0 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
             return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p></p>"
-        } else if (quickstats[0] > 0 && quickstats[1] >= 5) {
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5) {
             return "<h3></h3><p></p>"
         } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
             return "<h3></h3><p></p>"
         } else if (quickstats[0] == 538) {
             return "<h3>November 5, 2024</h3><p></p>"
         }
-    */
-
+    } 
+    if (campaignTrail_temp.running_mate_last_name == 'Hornberger' && jh_new) {
+        if (quickstats[0] == 0 && quickstats[1] < 1) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 1 && quickstats[1] < 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 5 && quickstats[1] < 8.4) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 538) {
+            return "<h3>November 5, 2024</h3><p></p>"
+        }
+    } 
+    if (campaignTrail_temp.running_mate_last_name == 'Ventura' && jv_new) {
+        if (quickstats[0] == 0 && quickstats[1] < 1) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 1 && quickstats[1] < 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 5 && quickstats[1] < 8.4) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 538) {
+            return "<h3>November 5, 2024</h3><p></p>"
+        }
+    } 
+    if (campaignTrail_temp.running_mate_last_name == 'Carey' && dc_new) {
+        if (quickstats[0] == 0 && quickstats[1] < 1) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 1 && quickstats[1] < 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 5 && quickstats[1] < 8.4) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 538) {
+            return "<h3>November 5, 2024</h3><p></p>"
+        }
+    }   
+    if (campaignTrail_temp.running_mate_last_name == 'Petersen' && ap_rad) {
+        if (quickstats[0] == 0 && quickstats[1] < 1) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 1 && quickstats[1] < 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 5 && quickstats[1] < 8.4) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 538) {
+            return "<h3>November 5, 2024</h3><p></p>"
+        }
+    }
+    if (campaignTrail_temp.running_mate_last_name == 'Hornberger' && jh_rad) {
+        if (quickstats[0] == 0 && quickstats[1] < 1) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 1 && quickstats[1] < 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 5 && quickstats[1] < 8.4) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 538) {
+            return "<h3>November 5, 2024</h3><p></p>"
+        }
+    }
+    if (campaignTrail_temp.running_mate_last_name == 'Petersen' && ap_sd) {
+        if (quickstats[0] == 0 && quickstats[1] < 1) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 1 && quickstats[1] < 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 5 && quickstats[1] < 8.4) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 538) {
+            return "<h3>November 5, 2024</h3><p></p>"
+        }
+    }
+    if (campaignTrail_temp.running_mate_last_name == 'Sharpe' && ls_sd) {
+        if (quickstats[0] == 0 && quickstats[1] < 1) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 1 && quickstats[1] < 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 5 && quickstats[1] < 8.4) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p></p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
+            return "<h3></h3><p></p>"
+        } else if (quickstats[0] == 538) {
+            return "<h3>November 5, 2024</h3><p></p>"
+        }
+    }
+    if (campaignTrail_temp.running_mate_last_name == 'Perry' && dp_sd) {
+        if (quickstats[0] == 0 && quickstats[1] < 1) {
+            return "<h3>Too radical. Too late.</h3><p>Despite your best efforts to salvage the year, it's all fallen apart. Despite your attempt to reunite the Libertarian Party, it seems it wasn't enough. Your support has collapsed and not even libertarians seemed excited to vote for you. Even though you made a deal to unite the party with your ticket, you failed to unite the party. <br><br> A lot is going to happen to the Libertarian Party over the next four years, none of it will be good. Everyone will be blaming everyone but themselves for the massive failure of a campaign this year and it may very well rip the party apart. Unless the party leadership can figure something out the party may be heading down the same road the Reform Party once drove down.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 1 && quickstats[1] < 5) {
+            return "<h3>Too little. Too late.</h3><p>Despite your best efforts to salvage the year, it's fallen short of your goals. Despite your last minute attempts to reunite the Libertarian Party and still leave a meaningful mark on the election, you just couldn't quite make it to five percent. While Libertarians did seem to rally around your campaign, not many outside of the party seemed to support you come election day. <br><br> A few things are going to happen to the Libertarian Party in the coming years. The first thing is that everyone will be blaming everyone but themselves for your campaign failing to achieve five percent. From that fight, either the party will see a major leadership change, a schism, or the least likely option, considering the election results, nothing will happen.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 5 && quickstats[1] < 8.4) {
+            return "<h3>Federal Funding is enough..</h3><p>\"I'll take it.\" That's all you can think as you see the results come in. After everything you've been through this election, managing to achieve five percent feels on the same level as climbing Mount Everest. How you even managed to do this, who knows, all you care about right now is that you did it and now your party will have federal funding going into 2020. <br><br> It wasn't ideal, and this campaign will still raise a few concerns within the Libertarian Party, but by achieving five percent you've definitely avoided major infighting and possibly even the collapse of the Libertarian Party. So congrats, the party limps on to 2020.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
+            return "<h3>Federal Funding is enough..</h3><p>\"That'll do.\" That's all you can say as you see the results come in. After everything you've been through this election, managing to achieve five percent, and then some, almost feels like a dream. How you managed to do this, who knows, all you care about right now is that you did it and now your party will have federal funding going into 2020. <br><br> It wasn't ideal, and the messy campaign drove away many outside supporters from the party, but your party will take the results as a victory. While the direction of the party is up for grabs between the factions of the party, hopefully the party can keep building off this historic performance.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
+            return "<h3>United we prosper?</h3><p>\"New Mexico would've been nice.\" You can with a smile as you watch the results come in. While you won't be caring any electoral votes, your presence in this election can not be denied. A third party performance better than Perot in 1992. How you managed this with everything you had to deal with during your campaign, who knows. All that matters right now is that the Libertarian Party may just become a major party in America. <br><br> The campaign was rough, but you've achieved the impossible soft landing. Congratulations, the Libertarian Party will have four years and federal funding to build off your historic performance.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>After everything that has happened to you this election. The party splitting, the secret deal going public, McMullin leaving, replacing him with a radical. By all accounts your campaign should've died, but it didn't. Somehow your campaign managed to even pick off a few electoral votes. However, your campaign isn't the miracle it appears to be, you've failed to receive five percent of the popular vote, failing to qualify the Libertarian Party for federal funding. You did deadlock the election though. <br><br> It seems this election just won't end as now it'll go to the House to determine whether Clinton, Trump, or you will be the next president. Perhaps if Republicans are still hesitant over Trump, you could very well be the 45th president of the United States.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5) {
+            return "<h3>United we prosper?</h3><p>After everything that has happened to you this election. The party splitting, the secret deal going public, McMullin leaving, replacing him with a radical. By all accounts your campaign should've died, but it didn't. Somehow your campaign managed to even pick off a few electoral votes. However, your campaign isn't the miracle it appears to be, you've failed to receive five percent of the popular vote, failing to qualify the Libertarian Party for federal funding. You couldn't even deadlock the election. While you and some staffers see the results as a victory, not many others in your party do.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>After everything that has happened to you this election. The party splitting, the secret deal going public, McMullin leaving, replacing him with a radical. Your campaign should be dead, you should've polled lower than Jill Stein, not this. Somehow you've defied the odds and not just captured five percent of the popular vote, but you also picked off a handful of electoral votes. While celebrating, the news made one last major projection, no candidate will receive a majority in the electoral college and the election will go to the House to be decided. <br><br> As it stands no deals will be getting cut between you, Clinton, or Trump. The next president will be decided by the 435 members of the House. The upside is that if Republicans still aren't sold on Trump, you could be in the perfect position to become the 45th president of the United States.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5) {
+            return "<h3>United we prosper.</h3><p>After everything that has happened to you this election. The party splitting, the secret deal going public, McMullin leaving, replacing him with a radical. Your campaign should be dead, you should've polled lower than Jill Stein, not this. Somehow you've defied the odds and not just captured five percent of the popular vote, but also picked off a handful of electoral votes. While you didn't deadlock the election. The sheer shock of your historic performance is enough as it is. <br><br> You've pulled a miracle out of nowhere with these results. Your performance is more than enough to be declared a success by all in the Libertarian Party as the future has never looked brighter. 2020 could very well be a year we see three major candidates.</p>"
+        } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
+            return "<h3>\"RADICALS TAKE THE WHITE HOUSE\"</h3><p>This was, unexpected... to say the least. We just wanted you to end the election with the unified support of the Libertarian Party, we didn't even think this was possible. That somehow, appeasing the radicals of the party to avoid a long-term schism would result in this. How did this even happen? Your campaign was dead. McMullin, gone. Secret Deal, public. Support, dead. Yet, come election day you won? <br><br> We'll tell you this, Gary, your one Bigshot. Your victory will go down as the greatest third party campaign in history and probably the biggest upset in history. We're not sure how, or why, this happened, but it seems you've got to start preparing for your presidency with your Vice President Darryl Perry.</p>"
+        } else if (quickstats[0] == 538) {
+            return "<h3>November 5, 2024</h3><p>It's been eight years since President Johnson's historic landslide victory in 2016 and four since his razor-thin reelection against Republican Marco Rubio and Democrat Bernie Sanders in the shadow of the worldwide COVID-19 pandemic where many Democrats and Republicans criticized Johnson for his \"awful\" leadership that led to Chief Medical Advisor Dr. Anthony Fauci leading the national charge to overcome the pandemic. Now four years later, our nation has recovered, but many issues still remain, with both Democrats and Republicans seeing this year as a golden opportunity to reclaim the White House against highly unpopular Vice President Darryl Perry. Tonight, we'll be bringing you coverage of the 2024 presidential election between Democrat Joe Biden, Republican Chris Christie, and Libertarian Vice President Darryl Perry.</p>"
+        }
+    }
+    if (campaignTrail_temp.running_mate_last_name == 'Coley' && wc_sd) {
+        if (quickstats[0] == 0 && quickstats[1] < 1) {
+            return "<h3>Too radical. Too late.</h3><p>Despite your best efforts to salvage the year, it's all fallen apart. Despite your attempt to reunite the Libertarian Party, it seems it wasn't enough. Your support has collapsed and not even libertarians seemed excited to vote for you. Even though you made a deal to unite the party with your ticket, you failed to unite the party. <br><br> A lot is going to happen to the Libertarian Party over the next four years, none of it will be good. Everyone will be blaming everyone but themselves for the massive failure of a campaign this year and it may very well rip the party apart. Unless the party leadership can figure something out the party may be heading down the same road the Reform Party once drove down.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 1 && quickstats[1] < 5) {
+            return "<h3>Too little. Too late.</h3><p>Despite your best efforts to salvage the year, it's fallen short of your goals. Despite your last minute attempts to reunite the Libertarian Party and still leave a meaningful mark on the election, you just couldn't quite make it to five percent. While Libertarians did seem to rally around your campaign, not many outside of the party seemed to support you come election day. <br><br> A few things are going to happen to the Libertarian Party in the coming years. The first thing is that everyone will be blaming everyone but themselves for your campaign failing to achieve five percent. From that fight, either the party will see a major leadership change, a schism, or the least likely option, considering the election results, nothing will happen.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 5 && quickstats[1] < 8.4) {
+            return "<h3>Federal Funding is enough..</h3><p>\"I'll take it.\" That's all you can think as you see the results come in. After everything you've been through this election, managing to achieve five percent feels on the same level as climbing Mount Everest. How you even managed to do this, who knows, all you care about right now is that you did it and now your party will have federal funding going into 2020. <br><br> It wasn't ideal, and this campaign will still raise a few concerns within the Libertarian Party, but by achieving five percent you've definitely avoided major infighting and possibly even the collapse of the Libertarian Party. So congrats, the party limps on to 2020.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
+            return "<h3>Federal Funding is enough..</h3><p>\"That'll do.\" That's all you can say as you see the results come in. After everything you've been through this election, managing to achieve five percent, and then some, almost feels like a dream. How you managed to do this, who knows, all you care about right now is that you did it and now your party will have federal funding going into 2020. <br><br> It wasn't ideal, and the messy campaign drove away many outside supporters from the party, but your party will take the results as a victory. While the direction of the party is up for grabs between the factions of the party, hopefully the party can keep building off this historic performance.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
+            return "<h3>United we prosper?</h3><p>\"New Mexico would've been nice.\" You can with a smile as you watch the results come in. While you won't be caring any electoral votes, your presence in this election can not be denied. A third party performance better than Perot in 1992. How you managed this with everything you had to deal with during your campaign, who knows. All that matters right now is that the Libertarian Party may just become a major party in America. <br><br> The campaign was rough, but you've achieved the impossible soft landing. Congratulations, the Libertarian Party will have four years and federal funding to build off your historic performance.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>After everything that has happened to you this election. The party splitting, the secret deal going public, McMullin leaving, replacing him with a radical. By all accounts your campaign should've died, but it didn't. Somehow your campaign managed to even pick off a few electoral votes. However, your campaign isn't the miracle it appears to be, you've failed to receive five percent of the popular vote, failing to qualify the Libertarian Party for federal funding. You did deadlock the election though. <br><br> It seems this election just won't end as now it'll go to the House to determine whether Clinton, Trump, or you will be the next president. Perhaps if Republicans are still hesitant over Trump, you could very well be the 45th president of the United States.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5) {
+            return "<h3>United we prosper?</h3><p>After everything that has happened to you this election. The party splitting, the secret deal going public, McMullin leaving, replacing him with a radical. By all accounts your campaign should've died, but it didn't. Somehow your campaign managed to even pick off a few electoral votes. However, your campaign isn't the miracle it appears to be, you've failed to receive five percent of the popular vote, failing to qualify the Libertarian Party for federal funding. You couldn't even deadlock the election. While you and some staffers see the results as a victory, not many others in your party do.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>After everything that has happened to you this election. The party splitting, the secret deal going public, McMullin leaving, replacing him with a radical. Your campaign should be dead, you should've polled lower than Jill Stein, not this. Somehow you've defied the odds and not just captured five percent of the popular vote, but you also picked off a handful of electoral votes. While celebrating, the news made one last major projection, no candidate will receive a majority in the electoral college and the election will go to the House to be decided. <br><br> As it stands no deals will be getting cut between you, Clinton, or Trump. The next president will be decided by the 435 members of the House. The upside is that if Republicans still aren't sold on Trump, you could be in the perfect position to become the 45th president of the United States.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5) {
+            return "<h3>United we prosper.</h3><p>After everything that has happened to you this election. The party splitting, the secret deal going public, McMullin leaving, replacing him with a radical. Your campaign should be dead, you should've polled lower than Jill Stein, not this. Somehow you've defied the odds and not just captured five percent of the popular vote, but also picked off a handful of electoral votes. While you didn't deadlock the election. The sheer shock of your historic performance is enough as it is. <br><br> You've pulled a miracle out of nowhere with these results. Your performance is more than enough to be declared a success by all in the Libertarian Party as the future has never looked brighter. 2020 could very well be a year we see three major candidates.</p>"
+        } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
+            return "<h3>\"RADICALS TAKE THE WHITE HOUSE\"</h3><p>This was, unexpected... to say the least. We just wanted you to end the election with the unified support of the Libertarian Party, we didn't even think this was possible. That somehow, appeasing the radicals of the party to avoid a long-term schism would result in this. How did this even happen? Your campaign was dead. McMullin, gone. Secret Deal, public. Support, dead. Yet, come election day you won? <br><br> We'll tell you this, Gary, your one Bigshot. Your victory will go down as the greatest third party campaign in history and probably the biggest upset in history. We're not sure how, or why, this happened, but it seems you've got to start preparing for your presidency with your Vice President William Coley.</p>"
+        } else if (quickstats[0] == 538) {
+            return "<h3>November 5, 2024</h3><p>It's been eight years since President Johnson's historic landslide victory in 2016 and four since his razor-thin reelection against Republican Marco Rubio and Democrat Bernie Sanders in the shadow of the worldwide COVID-19 pandemic where many Democrats and Republicans criticized Johnson for his \"awful\" leadership that led to Chief Medical Advisor Dr. Anthony Fauci leading the national charge to overcome the pandemic. Now four years later, our nation has recovered, but many issues still remain, with both Democrats and Republicans seeing this year as a golden opportunity to reclaim the White House against highly unpopular Vice President William Coley. Tonight, we'll be bringing you coverage of the 2024 presidential election between Democrat Joe Biden, Republican Chris Christie, and Libertarian Vice President William Coley.</p>"
+        }
+    }
+    if (campaignTrail_temp.running_mate_last_name == 'Various' && var_sd) {
+        if (quickstats[0] == 0 && quickstats[1] < 1) {
+            return "<h3>It's all fallen apart.</h3><p>It seems this election wasn't meant for you. Despite your efforts to stay in the race, your showing on election day was abysmal. At every turn this election, it seems everything went against you. The secret deal becoming public, the party splitting, McMullin leaving, and you scrambling to field a running mate in all fifty states. It seems at no point were you able to get on the right track and produce a real campaign. Now, the Libertarian Party is almost certainly going to have a major change before the 2020 election in an attempt to distance themselves from your failure of a campaign. <br><br> You've failed a perfect opportunity to bring the Libertarian Party to relevance, in such a spectacular way it's almost artistic.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 1 && quickstats[1] < 5) {
+            return "<h3>...well, better than the 2012 performance.</h3><p>It seems this election wasn't for you. Despite your efforts to stay in the race, your showing on election day was, honestly, still better than expected, sadly. At every turn this election, it seems everything went against you. The secret deal becoming public, the party splitting, McMullin leaving, and you failing to get anyone to replace him on your ticket leaving you to field a myriad of people as your running mate across the nation. Yet, you still managed to do better than you did in 2012. Now, the Libertarian Party is going to have a lot to think about, and it'll probably lead to a change in leadership before the 2020 election. <br><br> This year was a perfect opportunity to bring the Libertarian Party to relevance, but you've managed to screw it up in such a way the ticket ended Gary Johnson/Various People.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 5 && quickstats[1] < 8.4) {
+            return "<h3>Five percent by any means necessary.</h3><p>After everything you've been through. The secret deal becoming public, the party splitting, McMullin leaving, and you failing to get anyone to replace him on your ticket leaving you to field a myriad of people as your running mate across the nation. None of that seemed to stop you from reaching five percent of the popular vote. It seems that despite all the problems with your campaign, people still showed up to vote for you on election day. <br><br> Now the Libertarian Party will have four years and federal funding to try and recover from and build on your campaign. While your campaign was far from perfect, you managed to accomplish the bare minimum to be successful in the eyes of your party.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
+            return "<h3>Federal Funding is enough..</h3><p>After everything you've been through. The secret deal becoming public, the party splitting, McMullin leaving, and you failing to get anyone to replace him on your ticket leaving you to field a myriad of people as your running mate across the nation. None of that seemed to stop you from reaching five percent of the popular vote. It seems that despite all the problems with your campaign, people still showed up to vote for you on election day, in healthy numbers. <br><br> Now the Libertarian Party will have four years and federal funding to try and build off of your campaign. While it wasn't perfect, you managed to somehow produce a respectable campaign all things considered.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
+            return "<h3>Federal Funding is enough..</h3><p>After everything you've been through. The secret deal becoming public, the party splitting, McMullin leaving, and you failing to get anyone to replace him on your ticket leaving you to field a myriad of people as your running mate across the nation. None of that seemed to stop you from reaching five percent of the popular vote. It seems that despite all the problems with your campaign, people still showed up to vote for you on election day. In healthy numbers too as you managed to outdo Ross Perot's 1992 performance. <br><br> Now the Libertarian Party will have four years and federal funding to try and build off of your campaign. While it wasn't perfect, you managed to somehow produce a good showing on election day.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>It's been a long campaign. From the secret deal becoming public to the party splitting to McMullin leaving the campaign to you having to run various running mates across the country, your campaign has been through a lot, but it seems that somehow you still had a historic performance. Somehow, despite everything, you managed to still win electoral votes, becoming the first third party candidate to do so since 1968. However, you failed what was largely seen as the biggest goal this year, receive five percent of the popular vote. You did manage to deadlock the election, though. <br><br> While many in the Libertarian Party point to your popular vote share and see this election as a failure, others think there's still potential for victory due to the deadlock. If House Republicans are still disenchanted with Donald Trump, maybe you could be in line to be a compromise president. It seems the success of the Libertarian Party will hinge on how the contingent election plays out.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5) {
+            return "<h3>\"JOHNSON/VARIED VPS SEE VARIED SUCCESS\"</h3><p>It's been a long campaign. From the secret deal becoming public to the party splitting to McMullin leaving the campaign to you having to run various running mates across the country, your campaign has been through a lot, but it seems that somehow you still had a historic performance. Somehow, despite everything, you managed to still win electoral votes, becoming the first third party candidate to do so since 1968. However, you failed what was largely seen as the biggest goal this year, receive five percent of the popular vote. Along with not even deadlocking the election with your presence in the electoral college, this year is already being seen as a loss for the party. <br><br> While some in the Libertarian Party are overjoyed by your presence in the electoral college, others point to your popular vote share as a resounding defeat. How this will affect the party going forward, no one knows, but it probably won't be the surge in support you dreamed of.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>It's been a long campaign. From the secret deal becoming public to the party splitting to McMullin leaving the campaign to you having to run various running mates across the country, your campaign has been through a lot, but it seems that somehow it all paid off. Somehow, despite everything, you managed to still produce a historic year for the Libertarian Party, and third parties in general. You not only managed to achieve five percent, you not only managed to win electoral votes, becoming the first third party candidate to do so since 1968, but you also managed to deadlock the election. <br><br> It seems your last ditch effort of running multiple running mates across the nation's ballots didn't result in your campaign imploding. Instead, you managed to hold your support. Depending on how House Republicans feel about Donald Trump, you may be in line to become a compromise President. Whether you end up president or not, though, it seems that the future is bright for the Libertarian Party.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5) {
+            return "<h3>\"JOHNSON/VARIED VPS SEE VARIED SUCCESS\"</h3><p>It's been a long campaign. From the secret deal becoming public to the party splitting to McMullin leaving the campaign to you having to run various running mates across the country, your campaign has been through a lot, but it seems that somehow it all paid off. Somehow, despite everything, you managed to still produce a historic year for the Libertarian Party, and third parties in general. You not only managed to achieve five percent of the popular vote, you also managed to win electoral votes, the first third party candidate to do so since 1968. <br><br> It seems your last ditch effort of running multiple running mates across the nation's ballots didn't result in your campaign imploding. Instead, you managed to hold your support. What this means for the future of the Libertarian Party is unknown, but chances are 2018 and 2020 will be good years to be a Libertarian.</p>"
+        } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
+            return "<h3>\"JOHNSON WINS; VP DECISION COMING NEXT WEEK\"</h3><p>This is, uh... unexpected. By some miracle, you've managed to win. It seems that no matter how many problems you went through, the secret deal becoming public, the party splitting, McMullin leaving, you being left to fill the position of running mate with anyone who signed on, nothing slowed your campaign down. Nothing seemed to tank your campaign. <br><br> Whether it was strategic or just dumb luck, your campaign ended up becoming the most successful third party campaign in history. Now you have one last decision to make. You had multiple running mates across the state ballots, now you need to decide who exactly will receive the electoral votes and become your Vice President.</p>"
+        } else if (quickstats[0] == 538) {
+            return "<h3>November 5, 2024</h3><p>It's been eight years since President Johnson's historic landslide victory in 2016 and four since his respectable reelection against Republican Marco Rubio and Democrat Bernie Sanders in the shadow of the worldwide COVID-19 pandemic where many Libertarians criticized Johnson for his \"overreaching\" response to it due to people like Vice President Weld and Chief Medical Advisor Dr. Anthony Fauci. However, since Vice President Bill Weld announced he would not run for President this year, Libertarians nominated Jo Jorgensen, who has the endorsement of President Johnson. Stay tuned as we will begin our coverage of election night in America between Democrat Amy Klobuchar, Republican Nikki Haley, and Libertarian Jo Jorgensen.</p>"
+        }
+    }
+    if (campaignTrail_temp.running_mate_last_name == 'Vacant' && vac_sd) {
+        if (quickstats[0] == 0 && quickstats[1] < 1) {
+            return "<h3>It's all fallen apart.</h3><p>It seems this election wasn't meant for you. Despite your efforts to stay in the race, your showing on election day was abysmal. At every turn this election, it seems everything went against you. The secret deal becoming public, the party splitting, McMullin leaving, and you failing to get anyone to replace him on your ticket. It seems at no point were you able to get on the right track and produce a real campaign. Now, the Libertarian Party is almost certainly going to have a major change before the 2020 election in an attempt to distance themselves from your failure of a campaign. <br><br> You've failed a perfect opportunity to bring the Libertarian Party to relevance, in such a spectacular way it's almost artistic.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 1 && quickstats[1] < 5) {
+            return "<h3>...well, better than the 2012 performance.</h3><p>It seems this election wasn't for you. Despite your efforts to stay in the race, your showing on election day was, honestly, still better than expected, sadly. At every turn this election, it seems everything went against you. The secret deal becoming public, the party splitting, McMullin leaving, and you failing to get anyone to replace him on your ticket leaving you without a running mate on election day. Yet, you still managed to do better than you did in 2012. Now, the Libertarian Party is going to have a lot to think about, and it'll probably lead to a change in leadership before the 2020 election. <br><br> This year was a perfect opportunity to bring the Libertarian Party to relevance, but you've managed to screw it up in such a way the ticket ended Gary Johnson/-.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 5 && quickstats[1] < 8.4) {
+            return "<h3>Five percent by any means necessary.</h3><p>After everything you've been through. The secret deal becoming public, the party splitting, McMullin leaving, and you failing to get anyone to replace him on your ticket leaving you without a running mate on election day. None of that seemed to stop you from reaching five percent of the popular vote. It seems that despite all the problems with your campaign, people still showed up to vote for you on election day. <br><br> Now the Libertarian Party will have four years and federal funding to try and recover from and build on your campaign. While your campaign was far from perfect, you managed to accomplish the bare minimum to be successful in the eyes of your party.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
+            return "<h3>Federal Funding is enough..</h3><p>After everything you've been through. The secret deal becoming public, the party splitting, McMullin leaving, and you failing to get anyone to replace him on your ticket leaving you without a running mate on election day. None of that seemed to stop you from reaching five percent of the popular vote. It seems that despite all the problems with your campaign, people still showed up to vote for you on election day, in healthy numbers. <br><br> Now the Libertarian Party will have four years and federal funding to try and build off of your campaign. While it wasn't perfect, you managed to somehow produce a respectable campaign all things considered.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
+            return "<h3>Federal Funding is enough..</h3><p>After everything you've been through. The secret deal becoming public, the party splitting, McMullin leaving, and you failing to get anyone to replace him on your ticket leaving you without a running mate on election day. None of that seemed to stop you from reaching five percent of the popular vote. It seems that despite all the problems with your campaign, people still showed up to vote for you on election day. In healthy numbers too as you managed to outdo Ross Perot's 1992 performance. <br><br> Now the Libertarian Party will have four years and federal funding to try and build off of your campaign. While it wasn't perfect, you managed to somehow produce a good showing on election day.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>It's been a long campaign. From the secret deal becoming public to the party splitting to McMullin leaving the campaign to you not being able to field a running mate for election day, your campaign has been through a lot, but it seems that somehow you still had a historic performance. Somehow, despite everything, you managed to still win electoral votes, becoming the first third party candidate to do so since 1968. However, you failed what was largely seen as the biggest goal this year, receive five percent of the popular vote. You did manage to deadlock the election, though. <br><br> While many in the Libertarian Party point to your popular vote share and see this election as a failure, others think there's still potential for victory due to the deadlock. If House Republicans are still disenchanted with Donald Trump, maybe you could be in line to be a compromise president. It seems the success of the Libertarian Party will hinge on how the contingent election plays out.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5) {
+            return "<h3>\"JOHNSON WINS ELECTORAL VOTES\"</h3><p>It's been a long campaign. From the secret deal becoming public to the party splitting to McMullin leaving the campaign to you not being able to field a running mate for election day, your campaign has been through a lot, but it seems that somehow you still had a historic performance. Somehow, despite everything, you managed to still win electoral votes, becoming the first third party candidate to do so since 1968. However, you failed what was largely seen as the biggest goal this year, receive five percent of the popular vote. Along with not even deadlocking the election with your presence in the electoral college, this year is already being seen as a loss for the party. <br><br> While some in the Libertarian Party are overjoyed by your presence in the electoral college, others point to your popular vote share as a resounding defeat. How this will affect the party going forward, no one knows, but it probably won't be the surge in support you dreamed of.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>It's been a long campaign. From the secret deal becoming public to the party splitting to McMullin leaving the campaign to you not being able to field a running mate for election day, your campaign has been through a lot, but it seems that somehow it all paid off. Somehow, despite everything, you managed to still produce a historic year for the Libertarian Party, and third parties in general. You not only managed to achieve five percent, you not only managed to win electoral votes, becoming the first third party candidate to do so since 1968, but you also managed to deadlock the election. <br><br> It seems that your lack of a running mate didn't result in your campaign imploding. Instead, you managed to hold your support. Depending on how House Republicans feel about Donald Trump, you may be in line to become a compromise President. Whether you end up president or not, though, it seems that the future is bright for the Libertarian Party.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5) {
+            return "<h3>\"JOHNSON WINS ELECTORAL VOTES\"</h3><p>It's been a long campaign. From the secret deal becoming public to the party splitting to McMullin leaving the campaign to you not being able to field a running mate for election day, your campaign has been through a lot, but it seems that somehow it all paid off. Somehow, despite everything, you managed to still produce a historic year for the Libertarian Party, and third parties in general. You not only managed to achieve five percent of the popular vote, you also managed to win electoral votes, the first third party candidate to do so since 1968. <br><br> It seems that your lack of a running mate didn't result in your campaign imploding. Instead, you managed to hold your support. What this means for the future of the Libertarian party is unknown, but chances are 2018 and 2020 will be good years to be a Libertarian.</p>"
+        } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
+            return "<h3>\"JOHNSON WINS; VP DECISION COMING NEXT WEEK\"</h3><p>This is, uh... unexpected. By some miracle, you've managed to win. It seems that no matter how many problems you went through, the secret deal becoming public, the party splitting, McMullin leaving, you being left without a running mate, nothing slowed your campaign down. Nothing seemed to tank your campaign. <br><br> Whether it was strategic or just dumb luck, your campaign ended up becoming the most successful third party campaign in history. Now you have one last decision to make. You didn't have an official running mate by election day, now you need to decide who exactly will receive the electoral votes and become your Vice President.</p>"
+        } else if (quickstats[0] == 538) {
+            return "<h3>November 5, 2024</h3><p>It's been eight years since President Johnson's historic landslide victory in 2016, and four since his respectable reelection against Republican Marco Rubio and Democrat Bernie Sanders in the shadow of the worldwide COVID-19 pandemic where many Libertarians criticized Johnson for his \"overreaching\" response to it due to people like Vice President Weld and Chief Medical Advisor Dr. Anthony Fauci. However, since Vice President Bill Weld announced he would not run for President this year, Libertarians nominated Jo Jorgensen, who has the endorsement of President Johnson. Stay tuned as we will begin our coverage of election night in America between Democrat Amy Klobuchar, Republican Nikki Haley, and Libertarian Jo Jorgensen.</p>"
+        }
+    }
+    if (campaignTrail_temp.running_mate_last_name == 'NOTA' && non_sd) {
+        if (quickstats[0] == 0 && quickstats[1] < 1) {
+            return "<h3>It's all fallen apart.</h3><p>It seems this election wasn't meant for you. Despite your efforts to stay in the race, your showing on election day was abysmal. At every turn this election, it seems everything went against you. The secret deal becoming public, the party splitting, McMullin leaving, and you failing to get anyone to replace him on your ticket. It seems at no point were you able to get on the right track and produce a real campaign. Now, the Libertarian Party is almost certainly going to have a major change before the 2020 election in an attempt to distance themselves from your failure of a campaign. Or maybe they'll just need up with NOTA leading the ticket by then, who knows. <br><br> You've failed a perfect opportunity to bring the Libertarian Party to relevance, in such a spectacular way it's almost artistic.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 1 && quickstats[1] < 5) {
+            return "<h3>...well, better than the 2012 performance.</h3><p>It seems this election wasn't for you. Despite your efforts to stay in the race, your showing on election day was, honestly, still better than expected, sadly. At every turn this election, it seems everything went against you. The secret deal becoming public, the party splitting, McMullin leaving, and you failing to get anyone to replace him on your ticket leaving you to field NOTA as your running mate. Yet, you still managed to do better than you did in 2012. Now, the Libertarian Party is going to have a lot to think about, and it'll probably lead to a change in leadership before the 2020 election. <br><br> This year was a perfect opportunity to bring the Libertarian Party to relevance, but you've managed to screw it up in such a way the ticket ended Gary Johnson/None of the Above.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 5 && quickstats[1] < 8.4) {
+            return "<h3>Five percent by any means necessary.</h3><p>After everything you've been through. The secret deal becoming public, the party splitting, McMullin leaving, and you failing to get anyone to replace him on your ticket leaving you to field NOTA as your running mate. None of that seemed to stop you from reaching five percent of the popular vote. It seems that despite all the problems with your campaign, people still showed up to vote for you on election day. <br><br> Now the Libertarian Party will have four years and federal funding to try and recover from and build on your campaign. While your campaign was far from perfect, you managed to accomplish the bare minimum to be successful in the eyes of your party.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
+            return "<h3>Federal Funding is enough..</h3><p>After everything you've been through. The secret deal becoming public, the party splitting, McMullin leaving, and you failing to get anyone to replace him on your ticket leaving you to field NOTA as your running mate. None of that seemed to stop you from reaching five percent of the popular vote. It seems that despite all the problems with your campaign, people still showed up to vote for you on election day, in healthy numbers. <br><br> Now the Libertarian Party will have four years and federal funding to try and build off of your campaign. While it wasn't perfect, you managed to somehow produce a respectable campaign all things considered.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
+            return "<h3>Federal Funding is enough..</h3><p>After everything you've been through. The secret deal becoming public, the party splitting, McMullin leaving, and you failing to get anyone to replace him on your ticket leaving you to field NOTA as your running mate. None of that seemed to stop you from reaching five percent of the popular vote. It seems that despite all the problems with your campaign, people still showed up to vote for you on election day. In healthy numbers too as you managed to outdo Ross Perot's 1992 performance. <br><br> Now the Libertarian Party will have four years and federal funding to try and build off of your campaign. While it wasn't perfect, you managed to somehow produce a good showing on election day.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>It's been a long campaign. From the secret deal becoming public to the party splitting to McMullin leaving the campaign to you having NOTA as your running mate, your campaign has been through a lot, but it seems that somehow you still had a historic performance. Somehow, despite everything, you managed to still win electoral votes, becoming the first third party candidate to do so since 1968. However, you failed what was largely seen as the biggest goal this year, receive five percent of the popular vote. You did manage to deadlock the election, though. <br><br> While many in the Libertarian Party point to your popular vote share and see this election as a failure, others think there's still potential for victory due to the deadlock. If House Republicans are still disenchanted with Donald Trump, maybe you could be in line to be a compromise president. It seems the success of the Libertarian Party will hinge on how the contingent election plays out.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5) {
+            return "<h3>\"GARY \"NONE OF THE ABOVE\" JOHNSON WINS ELECTORAL VOTES\"</h3><p>It's been a long campaign. From the secret deal becoming public to the party splitting to McMullin leaving the campaign to you having NOTA as your running mate, your campaign has been through a lot, but it seems that somehow you still had a historic performance. Somehow, despite everything, you managed to still win electoral votes, becoming the first third party candidate to do so since 1968. However, you failed what was largely seen as the biggest goal this year, receive five percent of the popular vote. Along with not even deadlocking the election with your presence in the electoral college, this year is already being seen as a loss for the party. <br><br> While some in the Libertarian Party are overjoyed by your presence in the electoral college, others point to your popular vote share as a resounding defeat. How this will affect the party going forward, no one knows, but it probably won't be the surge in support you dreamed of.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>It's been a long campaign. From the secret deal becoming public to the party splitting to McMullin leaving the campaign to you having NOTA as your running mate, your campaign has been through a lot, but it seems that somehow it all paid off. Somehow, despite everything, you managed to still produce a historic year for the Libertarian Party, and third parties in general. You not only managed to achieve five percent, you not only managed to win electoral votes, becoming the first third party candidate to do so since 1968, but you also managed to deadlock the election. <br><br> It seems your lack of a running mate didn't result in your campaign imploding. Instead, you managed to hold your support. Depending on how House Republicans feel about Donald Trump, you may be in line to become a compromise President. Whether you end up president or not, though, it seems that the future is bright for the Libertarian Party.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5) {
+            return "<h3>\"GARY \"NONE OF THE ABOVE\" JOHNSON WINS ELECTORAL VOTES\"</h3><p>It's been a long campaign. From the secret deal becoming public to the party splitting to McMullin leaving the campaign to you having NOTA as your running mate, your campaign has been through a lot, but it seems that somehow it all paid off. Somehow, despite everything, you managed to still produce a historic year for the Libertarian Party, and third parties in general. You not only managed to achieve five percent of the popular vote, you also managed to win electoral votes, the first third party candidate to do so since 1968. <br><br> It seems your lack of a running mate didn't result in your campaign imploding. Instead, you managed to hold your support. What this means for the future of the Libertarian Party is unknown, but chances are 2018 and 2020 will be good years to be a Libertarian.</p>"
+        } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
+            return "<h3>\"JOHNSON WINS; VP DECISION COMING NEXT WEEK\"</h3><p>This is, uh... unexpected. By some miracle, you've managed to win. It seems that no matter how many problems you went through, the secret deal becoming public, the party splitting, McMullin leaving, you being left with NOTA as a running mate, nothing slowed your campaign down. Nothing seemed to tank your campaign. <br><br> Whether it was strategic or just dumb luck, your campaign ended up becoming the most successful third party campaign in history. Now you have one last decision to make. You had NOTA as a running mate, now you need to decide who exactly will receive the electoral votes and become your Vice President.</p>"
+        } else if (quickstats[0] == 538) {
+            return "<h3>November 5, 2024</h3><p>It's been eight years since President Johnson's historic landslide victory in 2016 and four since his respectable reelection against Republican Marco Rubio and Democrat Bernie Sanders in the shadow of the worldwide COVID-19 pandemic where many Libertarians criticized Johnson for his \"overreaching\" response to it due to people like Vice President Weld and Chief Medical Advisor Dr. Anthony Fauci. However, since Vice President Bill Weld announced he would not run for President this year, Libertarians nominated Jo Jorgensen, who has the endorsement of President Johnson. Stay tuned as we will begin our coverage of election night in America between Democrat Amy Klobuchar, Republican Nikki Haley, and Libertarian Jo Jorgensen.</p>"
+        }
+    }
+    if (campaignTrail_temp.running_mate_last_name == 'Johnson' && you_sd) {
+        if (quickstats[0] == 0 && quickstats[1] < 1) {
+            return "<h3>It's all fallen apart.</h3><p>It seems this election wasn't meant for you. Despite your efforts to stay in the race, your showing on election day was abysmal. At every turn this election, it seems everything went against you. The secret deal becoming public, the party splitting, McMullin leaving, and you failing to get anyone to replace him on your ticket leaving you to pick yourself as your own running mate. It seems at no point were you able to get on the right track and produce a real campaign. Now, the Libertarian Party is almost certainly going to have a major change before the 2020 election in an attempt to distance themselves from your failure of a campaign. <br><br> You've failed a perfect opportunity to bring the Libertarian Party to relevance, in such a spectacular way it's almost artistic.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 1 && quickstats[1] < 5) {
+            return "<h3>...well, better than the 2012 performance.</h3><p>It seems this election wasn't for you. Despite your efforts to stay in the race, your showing on election day was, honestly, still better than expected, sadly. At every turn this election, it seems everything went against you. The secret deal becoming public, the party splitting, McMullin leaving, and you failing to get anyone to replace him on your ticket leaving you to pick yourself as your own running mate. Yet, you still managed to do better than you did in 2012. Now, the Libertarian Party is going to have a lot to think about, and it'll probably lead to a change in leadership before the 2020 election. <br><br> This year was a perfect opportunity to bring the Libertarian Party to relevance, but you've managed to screw it up in such a way the ticket ended Gary Johnson/Gary Johnson.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 5 && quickstats[1] < 8.4) {
+            return "<h3>Five percent by any means necessary.</h3><p>After everything you've been through. The secret deal becoming public, the party splitting, McMullin leaving, and you failing to get anyone to replace him on your ticket leaving you to be your own running mate. None of that seemed to stop you from reaching five percent of the popular vote. It seems that despite all the problems with your campaign, people still showed up to vote for you on election day. <br><br> Now the Libertarian Party will have four years and federal funding to try and recover from and build on your campaign. While your campaign was far from perfect, you managed to accomplish the bare minimum to be successful in the eyes of your party.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
+            return "<h3>Federal Funding is enough..</h3><p>After everything you've been through. The secret deal becoming public, the party splitting, McMullin leaving, and you failing to get anyone to replace him on your ticket leaving you to be your own running mate. None of that seemed to stop you from reaching five percent of the popular vote. It seems that despite all the problems with your campaign, people still showed up to vote for you on election day, in healthy numbers. <br><br> Now the Libertarian Party will have four years and federal funding to try and build off of your campaign. While it wasn't perfect, you managed to somehow produce a respectable campaign all things considered.</p>"
+        } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
+            return "<h3>Federal Funding is enough..</h3><p>After everything you've been through. The secret deal becoming public, the party splitting, McMullin leaving, and you failing to get anyone to replace him on your ticket leaving you to be your own running mate. None of that seemed to stop you from reaching five percent of the popular vote. It seems that despite all the problems with your campaign, people still showed up to vote for you on election day. In healthy numbers too as you managed to outdo Ross Perot's 1992 performance. <br><br> Now the Libertarian Party will have four years and federal funding to try and build off of your campaign. While it wasn't perfect, you managed to somehow produce a good showing on election day.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>It's been a long campaign. From the secret deal becoming public to the party splitting to McMullin leaving the campaign to you having to be your own running mate, your campaign has been through a lot, but it seems that somehow you still had a historic performance. Somehow, despite everything, you managed to still win electoral votes, becoming the first third party candidate to do so since 1968. However, you failed what was largely seen as the biggest goal this year, receive five percent of the popular vote. You did manage to deadlock the election, though. <br><br> While many in the Libertarian Party point to your popular vote share and see this election as a failure, others think there's still potential for victory due to the deadlock. If House Republicans are still disenchanted with Donald Trump, maybe you could be in line to be a compromise president. It seems the success of the Libertarian Party will hinge on how the contingent election plays out.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5) {
+            return "<h3>\"GARY/JOHNSON WINS ELECTORAL VOTES\"</h3><p>It's been a long campaign. From the secret deal becoming public to the party splitting to McMullin leaving the campaign to you having to be your own running mate, your campaign has been through a lot, but it seems that somehow you still had a historic performance. Somehow, despite everything, you managed to still win electoral votes, becoming the first third party candidate to do so since 1968. However, you failed what was largely seen as the biggest goal this year, receive five percent of the popular vote. Along with not even deadlocking the election with your presence in the electoral college, this year is already being seen as a loss for the party. <br><br> While some in the Libertarian Party are overjoyed by your presence in the electoral college, others point to your popular vote share as a resounding defeat. How this will affect the party going forward, no one knows, but it probably won't be the surge in support you dreamed of.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+            return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>It's been a long campaign. From the secret deal becoming public to the party splitting to McMullin leaving the campaign to you having to be your own running mate, your campaign has been through a lot, but it seems that somehow it all paid off. Somehow, despite everything, you managed to still produce a historic year for the Libertarian Party, and third parties in general. You not only managed to achieve five percent, you not only managed to win electoral votes, becoming the first third party candidate to do so since 1968, but you also managed to deadlock the election. <br><br> It seems being your own running mate didn't result in your campaign imploding. Instead, you managed to hold your support. Depending on how House Republicans feel about Donald Trump, you may be in line to become a compromise President. Whether you end up president or not, though, it seems that the future is bright for the Libertarian Party.</p>"
+        } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5) {
+            return "<h3>\"GARY/JOHNSON SEES SUCCESS\"</h3><p>It's been a long campaign. From the secret deal becoming public to the party splitting to McMullin leaving the campaign to you having to be your own running mate, your campaign has been through a lot, but it seems that somehow it all paid off. Somehow, despite everything, you managed to still produce a historic year for the Libertarian Party, and third parties in general. You not only managed to achieve five percent of the popular vote, you also managed to win electoral votes, the first third party candidate to do so since 1968. <br><br> It seems being your own running mate didn't result in your campaign imploding. Instead, you managed to hold your support. What this means for the future of the Libertarian Party is unknown, but chances are 2018 and 2020 will be good years to be a Libertarian.</p>"
+        } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
+            return "<h3>\"JOHNSON WINS; VP DECISION COMING NEXT WEEK\"</h3><p>This is, uh... unexpected. By some miracle, you've managed to win. It seems that no matter how many problems you went through, the secret deal becoming public, the party splitting, McMullin leaving, you being forced to be your own running mate, nothing slowed your campaign down. Nothing seemed to tank your campaign. <br><br> Whether it was strategic or just dumb luck, your campaign ended up becoming the most successful third party campaign in history. Now you have one last decision to make. You were your own running mate, however, you can't be your own Vice President, now you need to decide who exactly will receive the electoral votes and become your Vice President.</p>"
+        } else if (quickstats[0] == 538) {
+            return "<h3>November 5, 2024</h3><p>It's been eight years since President Johnson's historic landslide victory in 2016 and four since his respectable reelection against Republican Marco Rubio and Democrat Bernie Sanders in the shadow of the worldwide COVID-19 pandemic where many Libertarians criticized Johnson for his \"overreaching\" response to it due to people like Vice President Weld and Chief Medical Advisor Dr. Anthony Fauci. However, since Vice President Bill Weld announced he would not run for President this year, Libertarians nominated Jo Jorgensen, who has the endorsement of President Johnson. Stay tuned as we will begin our coverage of election night in America between Democrat Amy Klobuchar, Republican Nikki Haley, and Libertarian Jo Jorgensen.</p>"
+        }
+    }
     else {
         return "<h3>\"ELECTION RESULTS\"</h3><p>It seems that while the votes were being counted an error occurred and now, while the results are correct, their story has come to a not so good ending. Whether it's a glitch, error in the code, bug, or user error, something had to go wrong for you to see this.</p><p>I apologize for the inconvenience.</p>"
     }
@@ -100437,6 +100761,7 @@ campaignTrail_temp.cyoa = true;
 anti_trump_score = 0
 secret_deal = false
 radicals = false
+no_mcmullin = false;
 the_brink = false
 anti_trump_strat = false
 changing_strat = false
@@ -100466,6 +100791,20 @@ jeb_bush_ap = false
 senators_ap = false
 made_debates_ap = false
 mcmullin_leaves = false
+ap_new = false
+jh_new = false
+jv_new = false
+dc_new = false
+ap_rad = false
+jh_rad = false
+ap_sd = false
+ls_sd = false
+dp_sd = false
+wc_sd = false
+var_sd = false
+vac_sd = false
+non_sd = false
+you_sd = false
 
 function tunnel(new_q){
     e = campaignTrail_temp;
@@ -100478,6 +100817,7 @@ cyoAdventure = function(a) {
     let playerPolling = (pop_vote.find(p => p.pk === e.candidate_id)).pvp;
 
     if (ans == 5000) {
+        no_mcmullin = true;
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/GpQibPU.jpeg";
         campaignTrail_temp.running_mate_last_name = "Petersen";
         var id = e.candidate_json.map(p=>p.pk).indexOf(207);
@@ -101345,6 +101685,7 @@ cyoAdventure = function(a) {
     }
     if (ans == 5208) {
         //Drew Carey
+        dc_new = true;
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/iHXFp6y.jpeg";
         campaignTrail_temp.running_mate_last_name = "Carey";
         var id = e.candidate_json.map(p=>p.pk).indexOf(207);
@@ -101362,6 +101703,7 @@ cyoAdventure = function(a) {
     }
     if (ans == 5209) {
         //Ventura
+        jv_new = true;
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/ra4DfQp.jpeg";
         campaignTrail_temp.running_mate_last_name = "Ventura";
         var id = e.candidate_json.map(p=>p.pk).indexOf(207);
@@ -101379,6 +101721,7 @@ cyoAdventure = function(a) {
     }
     if (ans == 5210) {
         //Hornberger
+        jh_new = true;
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/ZWoovnw.jpeg";
         campaignTrail_temp.running_mate_last_name = "Hornberger";
         var id = e.candidate_json.map(p=>p.pk).indexOf(207);
@@ -101396,6 +101739,7 @@ cyoAdventure = function(a) {
     }
     if (ans == 5211 || ans == 5221 || ans == 5222 || ans == 5223) {
         //Petersen
+        ap_new = true;
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/GpQibPU.jpeg";
         campaignTrail_temp.running_mate_last_name = "Petersen";
         var id = e.candidate_json.map(p=>p.pk).indexOf(207);
@@ -101413,6 +101757,7 @@ cyoAdventure = function(a) {
     }
     if (ans == 5226) {
         //Hornberger radical
+        jh_rad = true;
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/ZWoovnw.jpeg";
         campaignTrail_temp.running_mate_last_name = "Hornberger";
         var id = e.candidate_json.map(p=>p.pk).indexOf(207);
@@ -101430,6 +101775,7 @@ cyoAdventure = function(a) {
     }
     if (ans == 5227) {
         //Petersen radical
+        ap_rad = true;
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/GpQibPU.jpeg";
         campaignTrail_temp.running_mate_last_name = "Petersen";
         var id = e.candidate_json.map(p=>p.pk).indexOf(207);
@@ -101674,6 +102020,7 @@ cyoAdventure = function(a) {
     }
     if (ans == 5424) {
         // Petersen
+        ap_sd = true;
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/GpQibPU.jpeg";
         campaignTrail_temp.running_mate_last_name = "Petersen";
         var id = e.candidate_json.map(p=>p.pk).indexOf(207);
@@ -101691,6 +102038,7 @@ cyoAdventure = function(a) {
     }
     if (ans == 5425) {
         // Sharpe
+        ls_sd = true;
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/QrMUi4v.jpeg";
         campaignTrail_temp.running_mate_last_name = "Sharpe";
         var id = e.candidate_json.map(p=>p.pk).indexOf(207);
@@ -101714,6 +102062,7 @@ cyoAdventure = function(a) {
     }
     if (ans == 5436) {
         // Coley
+        wc_sd = true;
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/kbvFhEI.jpeg";
         campaignTrail_temp.running_mate_last_name = "Coley";
         var id = e.candidate_json.map(p=>p.pk).indexOf(207);
@@ -101731,6 +102080,7 @@ cyoAdventure = function(a) {
     }
     if (ans == 5437) {
         // Perry
+        dp_sd = true;
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/ocQIbvD.jpeg";
         campaignTrail_temp.running_mate_last_name = "Perry";
         var id = e.candidate_json.map(p=>p.pk).indexOf(207);
@@ -101791,6 +102141,7 @@ cyoAdventure = function(a) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1134);
     }
     if (ans == 5488) {
+        var_sd = true;
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/AVmNVeB.jpeg";
         campaignTrail_temp.running_mate_last_name = "Various";
         var id = e.candidate_json.map(p=>p.pk).indexOf(207);
@@ -101807,6 +102158,7 @@ cyoAdventure = function(a) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1135);
     }
     if (ans == 5489) {
+        vac_sd = true;
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/AVmNVeB.jpeg";
         campaignTrail_temp.running_mate_last_name = "Vacant";
         var id = e.candidate_json.map(p=>p.pk).indexOf(207);
@@ -101823,6 +102175,7 @@ cyoAdventure = function(a) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1136);
     }
     if (ans == 5490) {
+        non_sd = true;
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/AVmNVeB.jpeg";
         campaignTrail_temp.running_mate_last_name = "NOTA";
         var id = e.candidate_json.map(p=>p.pk).indexOf(207);
@@ -101839,6 +102192,7 @@ cyoAdventure = function(a) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1137);
     }
     if (ans == 5491) {
+        you_sd = true;
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/AVmNVeB.jpeg";
         campaignTrail_temp.running_mate_last_name = "Johnson";
         var id = e.candidate_json.map(p=>p.pk).indexOf(207);
