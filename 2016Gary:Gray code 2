@@ -2037,7 +2037,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5166,
         "fields": {
             "question": 1041,
-            "description": "Recently I was endorsed by The Detriot News ending their 143-year streak of endorsing Republicans. I say if they can break from that long of tradition to endorse me, I don't see what's stopping others from doing the same.",
+            "description": "Recently I was endorsed by The Detroit News ending their 143-year streak of endorsing Republicans. I say if they can break from that long of tradition to endorse me, I don't see what's stopping others from doing the same.",
         }
     },
     {
@@ -2069,7 +2069,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5170,
         "fields": {
             "question": 1042,
-            "description": "Recently I was endorsed by The Detriot News ending their 143-year streak of endorsing Republicans. I say if they can break from that long of tradition to endorse me, I don't see what's stopping others from doing the same.",
+            "description": "Recently I was endorsed by The Detroit News ending their 143-year streak of endorsing Republicans. I say if they can break from that long of tradition to endorse me, I don't see what's stopping others from doing the same.",
         }
     },
     {
@@ -23415,7 +23415,7 @@ campaignTrail_temp.answer_score_state_json = [
         "pk": 20523,
         "fields": {
             "answer": 5181,
-            "state": 1000,
+            "state": 1027,
             "candidate": 200,
             "affected_candidate": 20664,
             "state_multiplier": 0.06
