@@ -101304,6 +101304,9 @@ cyoAdventure = function(a) {
             }
         }
     }
+    if (ans == 5168 || ans == 5169 || ans == 5170 || ans == 5171) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1050);
+    }
     if (ans == 5172 || ans == 5173 || ans == 5174 || ans == 5175) {
         if (radicals) {
             if (anti_trump_score < 8) {
