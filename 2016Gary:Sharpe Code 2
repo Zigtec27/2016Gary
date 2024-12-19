@@ -44059,14 +44059,50 @@ campaignTrail_temp.multiple_endings=true
 endingPicker = (out, totv, aa, quickstats) => {
     // Universal
     if (quickstats[0] < aa[2].electoral_votes && quickstats[0] > 0 && aa[0].electoral_votes < 270) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/igH3vMa.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, it seems that your support will be the last thing on everybody's minds. You didn't receive any electoral votes and your popular vote total is still wavering as votes continue to come in from across the country. However, the story of the election is that no one will receive a majority of electoral votes despite you receiving zero. It appears that this crazy election just doesn't know when to quit as the House will now decide the next president and the Senate will choose the Vice President, and you won't even get to be one of their choices. Depending on a lot of things this could lead to a very strange administration for the next four years.</p>"
     } else if (quickstats[0] < aa[2].electoral_votes && aa[0].electoral_votes < 270) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/igH3vMa.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, it seems that your support will be the last thing on everybody's minds. While you're still waiting on your final result in the popular vote, you've already been projected to win electoral votes. However, you aren't the only third party candidate to win electoral votes this election. <br><br> The media has already projected that no one will receive a majority of electoral votes. However, the contingent election only features the top three candidates, meaning you won't be a part of it. It appears that this crazy election just doesn't know when to quit as the House will now decide the next president and the Senate will choose the Vice President, and you won't even get to be one of their choices. Depending on a lot of things this could lead to a very strange administration for the next four years.</p>"
     } 
     if (quickstats[0] == 0 && aa[1].electoral_votes == 269) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/SLusu3x.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, it seems that your support will be the last thing on everybody's minds. You didn't receive any electoral votes and your popular vote total is still wavering as votes continue to come in from across the country. However, the story of the election is the 269-269 tie. It appears that this crazy election just doesn't know when to quit as the House will now decide the next president and the Senate will choose the Vice President. Depending on a lot of things this could lead to a very strange administration for the next four years.</p>"
     }
     if (quickstats[0] == 0 && quickstats[1] == 0 && campaignTrail_temp.candidate_last_name != 'Petersen') {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/b89LC48.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>Santa Fe</h3><p>Folks we finally got a headline, \"LIBERTARIAN PARTY CRUSHED AT POLLS!\" People are cryin', yellin', and fallin' thanks to good ole' Gary. Gary just wants to close his eyes and go!<br>Let me go, far away, somewhere they won't never find me, and tomorrow won't remind me of today, and the city's finally sleepin', and the moon looks old and gray. I get on a plain that's bound for Santa Fe. And I'm gone. and I'm done.<br>Because dreams come true, yeah they do, in Santa Fe!<br>Santa Fe! My old friend! I can't spend my whole life dreamin', though I know that's all I seem inclined to do. I ain't gettin' any younger, and I wanna start brand new.<br>I need space, and fresh air. Let them laugh in my face, I don't care. Save my place! I'll be there.<br>Just be real is all I'm askin'. Not some painting in my head. 'Cause I'm dead if I can't count on you today.<br>I got nothin' if I ain't for Santa Fe.</p>"
     }
     // Scenario
@@ -44081,42 +44117,63 @@ endingPicker = (out, totv, aa, quickstats) => {
     } else if (campaignTrail_temp.candidate_last_name == 'Petersen' && quickstats[0] == 0 && quickstats[1] >= 18.9) {
         return "<h3>\"LIBERTARIANS QUALIFY FOR FUNDING; RECEIVE HISTORIC SUPPORT\"</h3><p>It's a sight to behold. As the results are coming in it seems the Libertarian Party will receive historic support across the nation. You didn't just receive five percent, but you managed to outperform Ross Perot's 1992 performance. While you didn't receive any electoral votes in the process, this result should be more than enough to bring both the needed funds and momentum to the Libertarian Party.</p><p>Your performance is more than enough to be labeled a success by the Libertarian Party. Congratulations, your performance may just be the wake up call America needed to rethink the two-party system and usher in a three-party system.</p>"
     } else if (quickstats[0] == 0 && quickstats[1] < 1) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/b89LC48.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>Weld would've...</h3><p>As the results come in, your hope slowly fades, along with most emotions, as it turns out your campaign is going to fall short of all goals. You won't carry any state and you're not even going to achieve five percent of the popular vote. Your not even going to achieve one percent of the popular vote. Only one thought fills your head, \"If only I had Weld.\" Weld would've brought us over. Weld would've gotten us at least five percent. Weld would've…</p><p>Your performance is being described as an absolute failure for the party, but has also become one of the what ifs in election history for the time being. While you retreat to your personal life, the Libertarian Party is in flames trying to figure out what went wrong. Whether a leadership change, policy change, or nothing at all. There's going to be a lot of fighting happening before the next election, and plenty can see that something is going to happen.</p>"
     } else if (quickstats[0] == 0 && quickstats[1] >= 1 && quickstats[1] < 5) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/CIDqygn.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>Weld would've</h3><p>As the results come in, your hope slowly fades as it turns out your campaign is going to fall short of all goals. You won't carry any state and you're not even going to achieve five percent of the popular vote. Only one thought fills your head, \"If only I had Weld.\" Weld would've brought us over. Weld would've gotten us at least five percent. Weld would've…</p><p>Your performance is being described as a failed opportunity for the party, and has become one of the what ifs in election history. While you retreat to your personal life, the Libertarian Party is in flames trying to figure out what went wrong. Whether a leadership change, policy change, or nothing at all. There's going to be a lot of fighting happening before the next election.</p>"
     } else if (quickstats[0] == 0 && quickstats[1] >= 5 && quickstats[1] < 8.4) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/xW4iMAz.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"LIBERTARIANS QUALIFY FOR FUNDING\"</h3><p>As the results come breathe a sigh of relief. You just managed to acquire five percent of the popular vote, securing federal funding for the Libertarian Party. While your performance this year isn't the breakout you were hoping for, you still managed to have a respectable showing. Yet, the results really makes you wonder, what if you had Weld? What if the Convention gave you your wish and ran the Johnson/Weld ticket instead of Johnson/Sharpe? Maybe you would've done better? Maybe you would've won New Mexico? Maybe you would've won?</p><p>Thinking about what ifs only lasts so long before you snap back to reality and realize you still managed over five percent. You're still able to give the Libertarian Party the campaign of a lifetime that should be able to spark hopes of a bright future ahead for the party in 2018 and 2020.</p>"
     } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/xW4iMAz.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"LIBERTARIANS RECEIVE MAJOR SUPPORT\"</h3><p>As the results come in, you can't believe it. Despite a record performance with the popular vote, you have failed to capture even a single electoral vote. Your performance is even better than Perot in 1996 and despite the lack of electoral votes, most agree that this is a resounding victory for you and your campaign. Yet, you still think, what if, what if you had Bill Weld, would you have carried at least New Mexico? Would you have done even better? Would you have won? You can't help but wonder.</p><p>Your performance has done plenty for the Libertarian Party as now they'll have federal funding and some momentum going into 2018 and 2020. It's now going to be a matter of getting the right people for the job, but that's the future, right now it's time to celebrate your record performance.</p>"
     } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/xW4iMAz.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"LIBERTARIANS RECEIVE HISTORIC SUPPORT\"</h3><p>As the results come in, you can't believe it. Despite a historic performance with the popular vote, you have failed to capture even a single electoral vote. Your performance is even better than Perot in 1992 and despite the lack of electoral votes, most agree that this is a resounding victory for you and your campaign. Yet, you still think, what if, what if you had Bill Weld, would you have carried at least New Mexico? Would you have done even better? Would you have won? You can't help but wonder.</p><p>Your performance has done plenty for the Libertarian Party as now they'll have federal funding and momentum going into 2018 and 2020. It's now going to be a matter of getting the right people for the job, but that's the future, right now it's time to celebrate your historic performance.</p>"
     } else if (campaignTrail_temp.candidate_last_name == 'Petersen' && quickstats[0] > 0 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
         return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>It's official. Not only are you going to capture over five percent of the popular vote, but you're also going to win electoral votes becoming the first Libertarian to ever do so. Not only that but you're success was just enough to deadlock the election. While you may be a bridge too far for the House to compromise on you, anything is possible considering your opponents are Donald Trump and Hillary Clinton.</p><p>You probably just made the Libertarian Party a real major party that can contend with Republicans and Democrats for years to come because of your success this year, and hopefully, this momentum will carry over into 2018 and 2020 as your party looks to capitalize on this. For right now though, celebrate, you've made your party's dreams come true tonight!</p>"
     } else if (quickstats[0] > 0 && quickstats[0] <= 10 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
-        return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, you can't hold back your excitement. Not only did you receive over five percent of the vote securing a future for the party, but you managed to pick up a handful of electoral votes along the way. As the returns continued to come in the media makes one last major call, no candidate would receive a majority of the electoral votes and the election would go to the House. Deep down, though, you feel as though you should've had Weld. You could've done better. Your case for the presidency in the upcoming contingent election would've been stronger.</p><p>Your performance will be remembered as the day the two party system bent, and now the nation looks to the upcoming contingent election to see if it'll finally break. Considering House Republicans displeasure with Trump you could be on your way to the presidency as a form of compromise candidate. Nonetheless, the nation is witnessing history, and you're right in the middle of it. That is, as long as McMullin or anyone didn't beat you out for the top three candidates.</p>"
-    } else if (campaignTrail_temp.candidate_last_name == 'Petersen' && quickstats[0] > 0 && quickstats[1] >= 5) {
-        return "<h3>Libertarians Rejoice!</h3><p>It's official. Not only are you going to capture over five percent of the popular vote, but you're also going to win electoral votes becoming the first Libertarian to ever do so. Your success wasn't enough to deadlock the election, but right now you don't care about that, you care about the great position you've just placed the Libertarian Party in. You might've just made the Libertarian Party a real major party that can contend with Republicans and Democrats for years to come, or it was a fluke, we'll let 2018 and 2020 answer that question though. For right now, celebrate, you've made your party's dreams come true tonight!</p>"
-    } else if (quickstats[0] > 0 && quickstats[0] <= 10 && quickstats[1] >= 5) {
-        return "<h3>\"LIBERTARIANS PUT ON THE MAP!\"</h3><p>As the results come in, you can't hold back your excitement. Not only did you receive over five percent of the vote securing a future for the party, but you managed to pick up a handful of electoral votes along the way. Whether Trump or Clinton won hasn't even crossed your mind yet as you begin to realize that your third party performance will go down as one of the better ones in American history. Deep down inside, though, you still feel as though if you just would've had Weld, you could've done better, you could've done far better, maybe even could've won.</p><p>Your performance will be remembered as the day the two party system bent, and now the nation looks to 2018 and 2020 to see if it'll break. The Libertarian Party will be prepared with federal funding come then but it'll need the candidates too if they want to replicate and build on your performance this year.</p>"
-    } else if (campaignTrail_temp.candidate_last_name == 'Petersen' && quickstats[0] > 0 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
-        return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come you, you just sit there and watch. Surely there must be more votes being counted somewhere, Texas, California, heck maybe Alaska or Florida are holding out. It just doesn't seem possible that you're able to win electoral votes without achieving five percent of the vote, it just isn't possible. The party is just as confused as you are, the entire mission this year was to get the party federal funding and give it a chance to run a major campaign in 2020, but it seems fate had other plans. Instead, every news broadcast of the election features a map deadlocked.</p><p>This is a very unexpected outcome from this election. Not only did you fail to get five percent of the vote, but you still managed to win electoral votes deadlocking the election. Whether this result will bring momentum to the Libertarian Party is undetermined right now, but without federal funding, let's hope so. Perhaps you'll have a chance to be the compromise candidate if enough House Republicans are turned off by Donald Trump. That is, as long as McMullin or anyone didn't beat you out for the top three candidates.</p>"
-    } else if (quickstats[0] > 0 && quickstats[0] <= 10 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
-        return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, you can't hold back your emotions. Somehow you failed to receive over five percent of the vote and secure a future for the party, but you somehow managed to pick up electoral votes along the way. As the returns continued to come in the media makes one last major call, no candidate would receive a majority of the electoral votes and the election would go to the House. Deep down, though, you wish Weld was there. Deep down, you still feel as though you would've done better with him. You would've gotten five percent with him.</p><p>Your performance will be remembered as the day the two party system bent, and now the nation looks to the upcoming contingent election to see if it'll finally break. Considering House Republicans displeasure with Trump you could be on your way to the presidency as a form of compromise candidate. Nonetheless, the nation is witnessing history, and you're right in the middle of it. That is, as long as McMullin or anyone didn't beat you out for the top three candidates.</p>"
-    } else if (campaignTrail_temp.candidate_last_name == 'Petersen' && quickstats[0] > 0 && quickstats[1] < 5) {
-        return "<h3>Libertarians Confused?</h3><p>As the results come you, you just sit there and watch. Surely there must be more votes being counted somewhere, Texas, California, heck maybe Alaska or Florida are holding out. It just doesn't seem possible that you're able to win electoral votes without achieving five percent of the vote, it just isn't possible. The party is just as confused as you are, the entire mission this year was to get the party federal funding and give it a chance to run a major campaign in 2020, but it seems fate had other plans. Instead, every news broadcast of the election features a map with a mustard stain as it was dubbed by reporters.</p><p>This is a very unexpected outcome from this election. Not only did you fail to get five percent of the vote, but you still managed to win electoral votes without deadlocking the election. Whether this result will bring momentum to the Libertarian Party is undetermined right now, but without federal funding, let's hope so.</p>"
-    } else if (quickstats[0] > 0 && quickstats[0] <= 10 && quickstats[1] < 5) {
-        return "<h3>\"LIBERTARIANS MAKE A MARK\"</h3><p>As the results come in, you can't hold back your emotions. Somehow you failed to receive over five percent of the vote and secure a future for the party, but you somehow managed to pick up electoral votes along the way. Whether Trump or Clinton won hasn't even crossed your mind yet as you begin to realize that your third party performance will go down as one of the performances in American history. Deep down inside, though, you still feel as though if you just would've had Weld, you would've done better, you would've gotten five percent, maybe even won.</p><p>Your performance will be remembered as the day the two party system bent, and now the nation looks to 2018 and 2020 to see if it'll break. The Libertarian Party will be eager to build on your campaign in the upcoming years, but without the federal funding, the funding gap will remain huge. Hopefully they'll be able to field candidates that will replicate your success.</p>"
-    } else if (quickstats[0] > 10 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
-        return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, you can't hold back your excitement. Not only did you receive over five percent of the vote securing a future for the party, but you managed to pick up plenty of electoral votes along the way. As the returns continued to come in the media makes one last major call, no candidate would receive a majority of the electoral votes and the election would go to the House.</p><p>Your performance will be remembered as the day the two party system bent, and now the nation looks to the upcoming contingent election to see if it'll finally break. Considering House Republicans displeasure with Trump you could be on your way to the presidency as a form of compromise candidate. Nonetheless, the nation is witnessing history, and you're right in the middle of it.</p>"
-    } else if (quickstats[0] > 10 && quickstats[0] < 270 && quickstats[1] >= 5) {
-        return "<h3>\"LIBERTARIANS PUT ON THE MAP!\"</h3><p>As the results come in, you can't hold back your excitement. Not only did you receive over five percent of the vote securing a future for the party, but you managed to pick up plenty of electoral votes along the way. Whether Trump or Clinton won hasn't even crossed your mind yet as you begin to realize that your third party performance will go down as one of the best in American history. Deep down inside, though, you still feel as though if you just would've had Weld, you could've done better, maybe even could've won.</p><p>Your performance will be remembered as the day the two party system bent, and now the nation looks to 2018 and 2020 to see if it'll break. The Libertarian Party will be prepared with federal funding come then but it'll need the candidates too if they want to replicate and build on your performance this year.</p>"
-    } else if (campaignTrail_temp.candidate_last_name == 'Petersen' && quickstats[0] >= 270 && quickstats[0] < 538) {
-        return "<h3>Wait what? You won?</h3><p>Whether it was plain luck or your appeal to voters, somehow you have outright won the election. As you watch the results come in channel after channel show the headline, \"PRESIDENT-ELECT AUSTIN PETERSEN.\" This was very unexpected considering many had written off the Libertarian ticket after Gary Johnson failed to be the nominee.</p><p>Congratulations, by some miracle you're officially on your way to becoming the next president of the United States, a historic step for the Libertarian Party, and America's political system in general.</p>"
-    } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
-        return "<h3>\"PRESIDENT-ELECT GARY JOHNSON\"</h3><p>As your campaign staff join you and Sharpe behind stage, there is only one thing in everyone's mind, HOW??? While you tell everyone that this was to be expected, they simply cannot wrap their heads around how you, a third party candidate managed to not just topple the two party system, but outright win the election in the process.</p><p>As the news hits, Republicans will be forced back to the drawing board again, with their choice of celebrity Donald Trump sure to go down as one of the worst picks in history, and Democrats will have to confront the now furious progressive side of the party. Meanwhile, Libertarians will be dancing in the streets as the Johnson/Sharpe ticket makes history.</p><p>As you step out to the podium, you begin your victory speech, \"I've always said, this election is so crazy I'd be the next president. Well, it turns out America agrees.\"</p>"
-    } else if (campaignTrail_temp.candidate_last_name == 'Petersen' && quickstats[0] == 538) {
-        return "<h3>November 5, 2024</h3><p>It's been eight years since President Petersen's historic landslide victory in 2016 and four since his razor-thin reelection against Republican Donald Trump and Democrat Bernie Sanders in the shadow of the worldwide COVID-19 pandemic where many Democrats and Republicans criticized Petersen for his \"terrible\" leadership that led to Chief Medical Advisor Dr. Anthony Fauci leading the national charge to overcome the pandemic. Now four years later, our nation has recovered, but many issues still remain, with both Democrats and Republicans seeing this year as a golden opportunity to reclaim the White House against unpopular Vice President Larry Sharpe. Tonight, we'll be bringing you coverage of the 2024 presidential election between Democrat Joe Biden, Republican Ron DeSantis, and Libertarian Vice President Larry Sharpe.</p>"
-    } else if (quickstats[0] == 538) {
         if (used != true) {
             setInterval(function () {
                 used = true;
@@ -44126,8 +44183,104 @@ endingPicker = (out, totv, aa, quickstats) => {
                 }
             }, 100);
         }
+        return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, you can't hold back your excitement. Not only did you receive over five percent of the vote securing a future for the party, but you managed to pick up a handful of electoral votes along the way. As the returns continued to come in the media makes one last major call, no candidate would receive a majority of the electoral votes and the election would go to the House. Deep down, though, you feel as though you should've had Weld. You could've done better. Your case for the presidency in the upcoming contingent election would've been stronger.</p><p>Your performance will be remembered as the day the two party system bent, and now the nation looks to the upcoming contingent election to see if it'll finally break. Considering House Republicans displeasure with Trump you could be on your way to the presidency as a form of compromise candidate. Nonetheless, the nation is witnessing history, and you're right in the middle of it. That is, as long as McMullin or anyone didn't beat you out for the top three candidates.</p>"
+    } else if (campaignTrail_temp.candidate_last_name == 'Petersen' && quickstats[0] > 0 && quickstats[1] >= 5) {
+        return "<h3>Libertarians Rejoice!</h3><p>It's official. Not only are you going to capture over five percent of the popular vote, but you're also going to win electoral votes becoming the first Libertarian to ever do so. Your success wasn't enough to deadlock the election, but right now you don't care about that, you care about the great position you've just placed the Libertarian Party in. You might've just made the Libertarian Party a real major party that can contend with Republicans and Democrats for years to come, or it was a fluke, we'll let 2018 and 2020 answer that question though. For right now, celebrate, you've made your party's dreams come true tonight!</p>"
+    } else if (quickstats[0] > 0 && quickstats[0] <= 10 && quickstats[1] >= 5) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/bEGkChC.jpeg"
+                }
+            }, 100);
+        }
+        return "<h3>\"LIBERTARIANS PUT ON THE MAP!\"</h3><p>As the results come in, you can't hold back your excitement. Not only did you receive over five percent of the vote securing a future for the party, but you managed to pick up a handful of electoral votes along the way. Whether Trump or Clinton won hasn't even crossed your mind yet as you begin to realize that your third party performance will go down as one of the better ones in American history. Deep down inside, though, you still feel as though if you just would've had Weld, you could've done better, you could've done far better, maybe even could've won.</p><p>Your performance will be remembered as the day the two party system bent, and now the nation looks to 2018 and 2020 to see if it'll break. The Libertarian Party will be prepared with federal funding come then but it'll need the candidates too if they want to replicate and build on your performance this year.</p>"
+    } else if (campaignTrail_temp.candidate_last_name == 'Petersen' && quickstats[0] > 0 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+        return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come you, you just sit there and watch. Surely there must be more votes being counted somewhere, Texas, California, heck maybe Alaska or Florida are holding out. It just doesn't seem possible that you're able to win electoral votes without achieving five percent of the vote, it just isn't possible. The party is just as confused as you are, the entire mission this year was to get the party federal funding and give it a chance to run a major campaign in 2020, but it seems fate had other plans. Instead, every news broadcast of the election features a map deadlocked.</p><p>This is a very unexpected outcome from this election. Not only did you fail to get five percent of the vote, but you still managed to win electoral votes deadlocking the election. Whether this result will bring momentum to the Libertarian Party is undetermined right now, but without federal funding, let's hope so. Perhaps you'll have a chance to be the compromise candidate if enough House Republicans are turned off by Donald Trump. That is, as long as McMullin or anyone didn't beat you out for the top three candidates.</p>"
+    } else if (quickstats[0] > 0 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/OJtaBDY.jpeg"
+                }
+            }, 100);
+        }
+        return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, you can't hold back your emotions. Somehow you failed to receive over five percent of the vote and secure a future for the party, but you somehow managed to pick up electoral votes along the way. As the returns continued to come in the media makes one last major call, no candidate would receive a majority of the electoral votes and the election would go to the House. Deep down, though, you wish Weld was there. Deep down, you still feel as though you would've done better with him. You would've gotten five percent with him.</p><p>Your performance will be remembered as the day the two party system bent, and now the nation looks to the upcoming contingent election to see if it'll finally break. Considering House Republicans displeasure with Trump you could be on your way to the presidency as a form of compromise candidate. Nonetheless, the nation is witnessing history, and you're right in the middle of it. That is, as long as McMullin or anyone didn't beat you out for the top three candidates.</p>"
+    } else if (campaignTrail_temp.candidate_last_name == 'Petersen' && quickstats[0] > 0 && quickstats[1] < 5) {
+        return "<h3>Libertarians Confused?</h3><p>As the results come you, you just sit there and watch. Surely there must be more votes being counted somewhere, Texas, California, heck maybe Alaska or Florida are holding out. It just doesn't seem possible that you're able to win electoral votes without achieving five percent of the vote, it just isn't possible. The party is just as confused as you are, the entire mission this year was to get the party federal funding and give it a chance to run a major campaign in 2020, but it seems fate had other plans. Instead, every news broadcast of the election features a map with a mustard stain as it was dubbed by reporters.</p><p>This is a very unexpected outcome from this election. Not only did you fail to get five percent of the vote, but you still managed to win electoral votes without deadlocking the election. Whether this result will bring momentum to the Libertarian Party is undetermined right now, but without federal funding, let's hope so.</p>"
+    } else if (quickstats[0] > 0 && quickstats[1] < 5) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/5aw2tdU.jpeg"
+                }
+            }, 100);
+        }
+        return "<h3>\"LIBERTARIANS MAKE A MARK\"</h3><p>As the results come in, you can't hold back your emotions. Somehow you failed to receive over five percent of the vote and secure a future for the party, but you somehow managed to pick up electoral votes along the way. Whether Trump or Clinton won hasn't even crossed your mind yet as you begin to realize that your third party performance will go down as one of the performances in American history. Deep down inside, though, you still feel as though if you just would've had Weld, you would've done better, you would've gotten five percent, maybe even won.</p><p>Your performance will be remembered as the day the two party system bent, and now the nation looks to 2018 and 2020 to see if it'll break. The Libertarian Party will be eager to build on your campaign in the upcoming years, but without the federal funding, the funding gap will remain huge. Hopefully they'll be able to field candidates that will replicate your success.</p>"
+    } else if (quickstats[0] > 10 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/OJtaBDY.jpeg"
+                }
+            }, 100);
+        }
+        return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, you can't hold back your excitement. Not only did you receive over five percent of the vote securing a future for the party, but you managed to pick up plenty of electoral votes along the way. As the returns continued to come in the media makes one last major call, no candidate would receive a majority of the electoral votes and the election would go to the House.</p><p>Your performance will be remembered as the day the two party system bent, and now the nation looks to the upcoming contingent election to see if it'll finally break. Considering House Republicans displeasure with Trump you could be on your way to the presidency as a form of compromise candidate. Nonetheless, the nation is witnessing history, and you're right in the middle of it.</p>"
+    } else if (quickstats[0] > 10 && quickstats[0] < 270 && quickstats[1] >= 5) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/bEGkChC.jpeg"
+                }
+            }, 100);
+        }
+        return "<h3>\"LIBERTARIANS PUT ON THE MAP!\"</h3><p>As the results come in, you can't hold back your excitement. Not only did you receive over five percent of the vote securing a future for the party, but you managed to pick up plenty of electoral votes along the way. Whether Trump or Clinton won hasn't even crossed your mind yet as you begin to realize that your third party performance will go down as one of the best in American history. Deep down inside, though, you still feel as though if you just would've had Weld, you could've done better, maybe even could've won.</p><p>Your performance will be remembered as the day the two party system bent, and now the nation looks to 2018 and 2020 to see if it'll break. The Libertarian Party will be prepared with federal funding come then but it'll need the candidates too if they want to replicate and build on your performance this year.</p>"
+    } else if (campaignTrail_temp.candidate_last_name == 'Petersen' && quickstats[0] >= 270 && quickstats[0] < 538) {
+        return "<h3>Wait what? You won?</h3><p>Whether it was plain luck or your appeal to voters, somehow you have outright won the election. As you watch the results come in channel after channel show the headline, \"PRESIDENT-ELECT AUSTIN PETERSEN.\" This was very unexpected considering many had written off the Libertarian ticket after Gary Johnson failed to be the nominee.</p><p>Congratulations, by some miracle you're officially on your way to becoming the next president of the United States, a historic step for the Libertarian Party, and America's political system in general.</p>"
+    } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/yoy0V8n.jpeg"
+                }
+            }, 100);
+        }
+        return "<h3>\"PRESIDENT-ELECT GARY JOHNSON\"</h3><p>As your campaign staff join you and Sharpe behind stage, there is only one thing in everyone's mind, HOW??? While you tell everyone that this was to be expected, they simply cannot wrap their heads around how you, a third party candidate managed to not just topple the two party system, but outright win the election in the process.</p><p>As the news hits, Republicans will be forced back to the drawing board again, with their choice of celebrity Donald Trump sure to go down as one of the worst picks in history, and Democrats will have to confront the now furious progressive side of the party. Meanwhile, Libertarians will be dancing in the streets as the Johnson/Sharpe ticket makes history.</p><p>As you step out to the podium, you begin your victory speech, \"I've always said, this election is so crazy I'd be the next president. Well, it turns out America agrees.\"</p>"
+    } else if (campaignTrail_temp.candidate_last_name == 'Petersen' && quickstats[0] == 538) {
+        return "<h3>November 5, 2024</h3><p>It's been eight years since President Petersen's historic landslide victory in 2016 and four since his razor-thin reelection against Republican Donald Trump and Democrat Bernie Sanders in the shadow of the worldwide COVID-19 pandemic where many Democrats and Republicans criticized Petersen for his \"terrible\" leadership that led to Chief Medical Advisor Dr. Anthony Fauci leading the national charge to overcome the pandemic. Now four years later, our nation has recovered, but many issues still remain, with both Democrats and Republicans seeing this year as a golden opportunity to reclaim the White House against unpopular Vice President Larry Sharpe. Tonight, we'll be bringing you coverage of the 2024 presidential election between Democrat Joe Biden, Republican Ron DeSantis, and Libertarian Vice President Larry Sharpe.</p>"
+    } else if (quickstats[0] == 538) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/yoy0V8n.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>November 5, 2024</h3><p>It's been eight years since President Johnson's historic landslide victory in 2016 and four since his narrow reelection against Republican Marco Rubio and Democrat Bernie Sanders in the shadow of the worldwide COVID-19 pandemic where many Democrats and Republicans criticized Johnson for his \"underwhelming\" leadership that led to Chief Medical Advisor Dr. Anthony Fauci leading the national charge to overcome the pandemic. Now four years later, our nation has recovered, but many issues still remain, with both Democrats and Republicans seeing this year as a golden opportunity to reclaim the White House against unpopular Vice President Larry Sharpe. Tonight, we'll be bringing you coverage of the 2024 presidential election between Democrat Gavin Newsom, Republican Doug Burgum, and Libertarian Vice President Larry Sharpe.</p>"
     } else {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/AVmNVeB.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"ELECTION RESULTS\"</h3><p>It seems that while the votes were being counted an error occurred and now, while the results are correct, their story has come to a not so good ending. Whether it's a glitch, error in the code, bug, or user error, something had to go wrong for you to see this.</p><p>I apologize for the inconvenience.</p>"
     }
 }

@@ -100280,14 +100280,50 @@ campaignTrail_temp.multiple_endings=true
 endingPicker = (out, totv, aa, quickstats) => {
     // Universal
     if (quickstats[0] < aa[2].electoral_votes && quickstats[0] > 0 && aa[0].electoral_votes < 270) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/igH3vMa.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, it seems that your support will be the last thing on everybody's minds. You didn't receive any electoral votes and your popular vote total is still wavering as votes continue to come in from across the country. However, the story of the election is that no one will receive a majority of electoral votes despite you receiving zero. It appears that this crazy election just doesn't know when to quit as the House will now decide the next president and the Senate will choose the Vice President, and you won't even get to be one of their choices. Depending on a lot of things this could lead to a very strange administration for the next four years.</p>"
     } else if (quickstats[0] < aa[2].electoral_votes && aa[0].electoral_votes < 270) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/igH3vMa.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, it seems that your support will be the last thing on everybody's minds. While you're still waiting on your final result in the popular vote, you've already been projected to win electoral votes. However, you aren't the only third party candidate to win electoral votes this election. <br><br> The media has already projected that no one will receive a majority of electoral votes. However, the contingent election only features the top three candidates, meaning you won't be a part of it. It appears that this crazy election just doesn't know when to quit as the House will now decide the next president and the Senate will choose the Vice President, and you won't even get to be one of their choices. Depending on a lot of things this could lead to a very strange administration for the next four years.</p>"
     } 
     if (quickstats[0] == 0 && aa[1].electoral_votes == 269) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/SLusu3x.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, it seems that your support will be the last thing on everybody's minds. You didn't receive any electoral votes and your popular vote total is still wavering as votes continue to come in from across the country. However, the story of the election is the 269-269 tie. It appears that this crazy election just doesn't know when to quit as the House will now decide the next president and the Senate will choose the Vice President. Depending on a lot of things this could lead to a very strange administration for the next four years.</p>"
     }
     if (quickstats[0] == 0 && quickstats[1] == 0) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/b89LC48.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>Santa Fe</h3><p>Folks we finally got a headline, \"LIBERTARIAN PARTY CRUSHED AT POLLS!\" People are cryin', yellin', and fallin' thanks to good ole' Gary. Gary just wants to close his eyes and go!<br>Let me go, far away, somewhere they won't never find me, and tomorrow won't remind me of today, and the city's finally sleepin', and the moon looks old and gray. I get on a plain that's bound for Santa Fe. And I'm gone. and I'm done.<br>Because dreams come true, yeah they do, in Santa Fe!<br>Santa Fe! My old friend! I can't spend my whole life dreamin', though I know that's all I seem inclined to do. I ain't gettin' any younger, and I wanna start brand new.<br>I need space, and fresh air. Let them laugh in my face, I don't care. Save my place! I'll be there.<br>Just be real is all I'm askin'. Not some painting in my head. 'Cause I'm dead if I can't count on you today.<br>I got nothin' if I ain't for Santa Fe.</p>"
     }
     // Scenario
@@ -100750,6 +100786,15 @@ endingPicker = (out, totv, aa, quickstats) => {
         }
     }
     else {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/AVmNVeB.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"ELECTION RESULTS\"</h3><p>It seems that while the votes were being counted an error occurred and now, while the results are correct, their story has come to a not so good ending. Whether it's a glitch, error in the code, bug, or user error, something had to go wrong for you to see this.</p><p>I apologize for the inconvenience.</p>"
     }
     
@@ -100758,6 +100803,7 @@ endingPicker = (out, totv, aa, quickstats) => {
 let polling = e.current_results;
 campaignTrail_temp.cyoa = true;
 
+used = false;
 anti_trump_score = 0
 secret_deal = false
 radicals = false

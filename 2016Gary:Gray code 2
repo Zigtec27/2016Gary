@@ -26279,62 +26279,305 @@ campaignTrail_temp.multiple_endings=true
 endingPicker = (out, totv, aa, quickstats) => {
     // Universal
     if (quickstats[0] < aa[2].electoral_votes && quickstats[0] > 0 && aa[0].electoral_votes < 270) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/igH3vMa.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, it seems that your support will be the last thing on everybody's minds. You didn't receive any electoral votes and your popular vote total is still wavering as votes continue to come in from across the country. However, the story of the election is that no one will receive a majority of electoral votes despite you receiving zero. It appears that this crazy election just doesn't know when to quit as the House will now decide the next president and the Senate will choose the Vice President, and you won't even get to be one of their choices. Depending on a lot of things this could lead to a very strange administration for the next four years.</p>"
     } else if (quickstats[0] < aa[2].electoral_votes && aa[0].electoral_votes < 270) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/igH3vMa.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, it seems that your support will be the last thing on everybody's minds. While you're still waiting on your final result in the popular vote, you've already been projected to win electoral votes. However, you aren't the only third party candidate to win electoral votes this election. <br><br> The media has already projected that no one will receive a majority of electoral votes. However, the contingent election only features the top three candidates, meaning you won't be a part of it. It appears that this crazy election just doesn't know when to quit as the House will now decide the next president and the Senate will choose the Vice President, and you won't even get to be one of their choices. Depending on a lot of things this could lead to a very strange administration for the next four years.</p>"
     } 
     if (quickstats[0] == 0 && aa[1].electoral_votes == 269) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/SLusu3x.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, it seems that your support will be the last thing on everybody's minds. You didn't receive any electoral votes and your popular vote total is still wavering as votes continue to come in from across the country. However, the story of the election is the 269-269 tie. It appears that this crazy election just doesn't know when to quit as the House will now decide the next president and the Senate will choose the Vice President. Depending on a lot of things this could lead to a very strange administration for the next four years.</p>"
     }
     if (quickstats[0] == 0 && quickstats[1] == 0) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/b89LC48.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>Santa Fe</h3><p>Folks we finally got a headline, \"LIBERTARIAN PARTY CRUSHED AT POLLS!\" People are cryin', yellin', and fallin' thanks to good ole' Gary. Gary just wants to close his eyes and go!<br>Let me go, far away, somewhere they won't never find me, and tomorrow won't remind me of today, and the city's finally sleepin', and the moon looks old and gray. I get on a plain that's bound for Santa Fe. And I'm gone. and I'm done.<br>Because dreams come true, yeah they do, in Santa Fe!<br>Santa Fe! My old friend! I can't spend my whole life dreamin', though I know that's all I seem inclined to do. I ain't gettin' any younger, and I wanna start brand new.<br>I need space, and fresh air. Let them laugh in my face, I don't care. Save my place! I'll be there.<br>Just be real is all I'm askin'. Not some painting in my head. 'Cause I'm dead if I can't count on you today.<br>I got nothin' if I ain't for Santa Fe.</p>"
     }
     // Scenario
     if (rp_endorsement && quickstats[0] == 0 && quickstats[1] < 1) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/b89LC48.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>As expected, you lost the 2016 election.</h3><p>As the results come in, it appears you didn't just fail to capture a significant portion of the popular vote, but any portion at all, as you're projected to receive less than one percent of the popular vote. There is no good way to spin this. This election was a letdown for you and the Libertarian Party.</p><p>After polling high prior to the election, you are simply in awe of the results. Perhaps it was your positions, maybe it was the American people inevitably falling in line with the two-party system at the ballot box, or maybe it was you. Perhaps in 2020, the Libertarian Party will find a new candidate that will bring it to relevance, or at least perform better than you, not like you set a high mark to beat anyway. Meanwhile, Ron Paul can't help but feel as though he was right about you, you aren't a real Libertarian, you're barely a real candidate, because a real Libertarian would've done far better than this. It was a waste of an election for everyone involved.</p>"
     } else if (rp_endorsement && quickstats[0] == 0 && quickstats[1] >= 1 && quickstats[1] < 5) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/CIDqygn.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>As expected, you lost the 2016 election.</h3><p>As the results come in, it appears you failed to capture a meaningful portion of the popular vote. You still performed better than your run in 2012. However, that was largely a personal goal, not a main goal. There's no good way to spin this. Your election bid will probably be remembered with the likes of Ralph Nader in 2000, especially if it turns out to be a close race between Trump and Clinton.</p><p>After polling high prior to the election, you are simply in awe of the results. Perhaps it was your positions, maybe it was the American people inevitably falling in line with the two-party system at the ballot box, or maybe it was you. It seems that whatever the reason was, you squandered a golden opportunity to bring the Libertarian Party to relevance. Meanwhile, Ron Paul can't help but feel as though he was right about you, you aren't a real Libertarian because a real Libertarian would've done better than this.</p>"
     } else if (rp_endorsement && quickstats[0] == 0 && quickstats[1] >= 5 && quickstats[1] < 8.4) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/xW4iMAz.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"LIBERTARIAN PARTY QUALIFIES FOR FUNDING\"</h3><p>As the results come in, it appears you have indeed captured over five percent of the vote and have qualified the Libertarian Party for funding. Whether it was the goal you campaigned on, your party, and deep down you, knew this was the most significant goal to meet. It may not have been by much, but you achieved it nonetheless. Something that Ron Paul is now taking credit for claiming his endorsement pushed you over. Your performance is the best third-party performance since Ross Perot in 1996.</p><p>After a stressful election night, it seems like forever ago when you were actually campaigning. You qualified for funding, and that's what counts now. Your party will get the next four years, and funding, to plan for 2020 and build off this historic result.</p>"
     } else if (rp_endorsement && quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/xW4iMAz.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"LIBERTARIAN PARTY QUALIFIES FOR FUNDING\"</h3><p>As the results come in, it appears you didn't just capture five percent of the vote, but enough to where you had the best third-party performance since Ross Perot in 1992. A performance you, yourself, are quite happy about. Your performance will more than likely send shockwaves through the Democrat and Republican parties. It turns out many Americans really were dissatisfied with both Trump and Clinton enough to show it all the way to the ballot box.</p><p>Now your party will get four years, and funding, to further build on your performance. With the votes mostly counted now, it seems your performance was one that you earlier thought of as a \"best case scenario.\" Even Ron Paul seems satisfied with his endorsement. With it, you'll now probably be remembered along the lines of viable third-party candidates such as Ross Perot rather than \"spoiler\" candidates such as Ralph Nader. Depending on 2020, you may be remembered in a league of your own, as the man who finally broke the two-party system.</p>"
     } else if (rp_endorsement && quickstats[0] == 0 && quickstats[1] >= 18.9) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/xW4iMAz.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"LIBERTARIAN PARTY RECEIVES HISTORIC SUPPORT\"</h3><p>As the results come in, it appears you didn't just capture five percent of the vote, but enough to where you had a better performance than even Perot in 1992. Yet, despite your popular vote performance, you didn't win a single electoral vote. This is a performance few within your own campaign thought to be possible. Your performance will send shockwaves through American politics, as many will now have eyes on 2020 to see if your performance was a fluke or if this is the beginning of the end of the two-party system. No matter the case, your party will get four years, and funding, to build off this already remarkable performance.</p><p>With the votes mostly counted now, it seems your performance will go down as one of the best third-party performances ever. Even Ron Paul seems satisfied with his endorsement. It seems Americans really were unsatisfied with both Democrats and Republicans, and this will more than likely serve as a wake-up call for both parties. Regardless, tonight has suddenly become your night after your shockingly good performance.</p>"
     } else if (quickstats[0] == 0 && quickstats[1] < 1) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/b89LC48.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>As expected, you lost the 2016 election.</h3><p>As the results come in, it appears you didn't just fail to capture a significant portion of the popular vote, but any portion at all, as you're projected to receive less than one percent of the popular vote. There is no good way to spin this. This election was a letdown for you and the Libertarian Party.</p><p>After polling high prior to the election, you are simply in awe of the results. Perhaps it was your positions, maybe it was the American people inevitably falling in line with the two-party system at the ballot box, or maybe it was you. Perhaps in 2020, the Libertarian Party will find a new candidate that will bring it to relevance, or at least perform better than you, not like you set a high mark to beat anyway.</p>"
     } else if (quickstats[0] == 0 && quickstats[1] >= 1 && quickstats[1] < 5) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/CIDqygn.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>As expected, you lost the 2016 election.</h3><p>As the results come in, it appears you failed to capture a meaningful portion of the popular vote. You still performed better than your run in 2012. However, that was largely a personal goal, not a main goal. There's no good way to spin this. Your election bid will probably be remembered with the likes of Ralph Nader in 2000, especially if it turns out to be a close race between Trump and Clinton.</p><p>After polling high prior to the election, you are simply in awe of the results. Perhaps it was your positions, maybe it was the American people inevitably falling in line with the two-party system at the ballot box, or maybe it was you. It seems that whatever the reason was, you squandered a golden opportunity to bring the Libertarian Party to relevance.</p>"
     } else if (quickstats[0] == 0 && quickstats[1] >= 5 && quickstats[1] < 8.4) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/xW4iMAz.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"LIBERTARIAN PARTY QUALIFIES FOR FUNDING\"</h3><p>As the results come in, it appears you have indeed captured over five percent of the vote and have qualified the Libertarian Party for funding. Whether it was the goal you campaigned on, your party, and deep down you, knew this was the most significant goal to meet. It may not have been by much, but you achieved it nonetheless. Your performance is the best third-party performance since Ross Perot in 1996.</p><p>After a stressful election night, it seems like forever ago when you were actually campaigning. You qualified for funding, and that's what counts now. Your party will get the next four years, and funding, to plan for 2020 and build off this historic result.</p>"
     } else if (quickstats[0] == 0 && quickstats[1] >= 8.4 && quickstats[1] < 18.9) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/xW4iMAz.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"LIBERTARIAN PARTY QUALIFIES FOR FUNDING\"</h3><p>As the results come in, it appears you didn't just capture five percent of the vote, but enough to where you had the best third-party performance since Ross Perot in 1992. A performance you, yourself, are quite happy about. Your performance will more than likely send shockwaves through the Democrat and Republican parties. It turns out many Americans really were dissatisfied with both Trump and Clinton enough to show it all the way to the ballot box.</p><p>Now your party will get four years, and funding, to further build on your performance. With the votes mostly counted now, it seems your performance was one that you earlier thought of as a \"best case scenario.\" With it, you'll now probably be remembered along the lines of viable third-party candidates such as Ross Perot rather than \"spoiler\" candidates such as Ralph Nader. Depending on 2020, you may be remembered in a league of your own, as the man who finally broke the two-party system.</p>"
     } else if (quickstats[0] == 0 && quickstats[1] >= 18.9) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/xW4iMAz.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"LIBERTARIAN PARTY RECEIVES HISTORIC SUPPORT\"</h3><p>As the results come in, it appears you didn't just capture five percent of the vote, but enough to where you had a better performance than even Perot in 1992. Yet, despite your popular vote performance, you didn't win a single electoral vote. This is a performance few within your own campaign thought to be possible. Your performance will send shockwaves through American politics, as many will now have eyes on 2020 to see if your performance was a fluke or if this is the beginning of the end of the two-party system. No matter the case, your party will get four years, and funding, to build off this already remarkable performance.</p><p>With the votes mostly counted now, it seems your performance will go down as one of the best third-party performances ever. It seems Americans really were unsatisfied with both Democrats and Republicans, and this will more than likely serve as a wake-up call for both parties. Regardless, tonight has suddenly become your night after your shockingly good performance.</p>"
     } else if (rp_endorsement && quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/teNIaCM.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, it appears you failed to capture a meaningful portion of the popular vote. Strangely, you still managed to receive some electoral votes. Even stranger, by some miracle, you deadlocked the election. Many on both sides want to know how you managed to pull this off. While your party is upset about your failure to receive five percent of the vote, many see the deadlock as an opportunity for the party.</p><p>With the election deadlocked, you have suddenly become a major player in the outcome of this election. With the House controlled by Republicans who aren't too convinced by Trump now, both Hillary Clinton and Donald Trump will reach out to you in an attempt to cut a deal for your electoral votes and claim the election. If it does end up in the House, however, perhaps Ron and Rand Paul can pull some strings for you. How this will play out, only time will tell, but if you play your cards right, any result should greatly benefit you and the Libertarian Party. That is, as long as McMullin or anyone didn't beat you out for the top three candidates.</p>"
     } else if (rp_endorsement && quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/5aw2tdU.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>What do we call this?</h3><p>As the results come in, it appears you failed to capture a meaningful portion of the popular vote. Strangely, you still managed to receive some electoral votes. How you managed this combination, few care, as your failure to capture five percent of the vote looms large among those in your party, and the election wasn't deadlocked. Regardless, your presence on the electoral map will go down in history regardless of your popular vote.</p><p>After polling high prior to the election, you are in awe of the election results. How you managed to lose your support in this fashion, not many know. Perhaps it was your positions, maybe it was the American people inevitably falling in line with the two-party system at the ballot box, or maybe it was you. No matter the cause, you and your party know one thing, you squandered a prime opportunity to bring the Libertarian Party federal funding. Perhaps your presence on the electoral map can help salvage your case for this being a good year. It doesn't seem likely though as Ron Paul himself has refused to comment on the results. Maybe 2020 will be the Libertarian Party's big year.</p>"
     } else if (rp_endorsement && quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/teNIaCM.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, you and your staff are filled with joy. You not only managed to receive five percent of the popular vote, but you also managed to receive a decent portion of the electoral vote. With this historic performance, you might have started the downfall of the two-party system and started a new three-party system. Even more, you managed to deadlock the election with your historic performance.</p><p>Your performance will not soon be forgotten and will definitely serve as a wake-up call for Democrats and Republicans alike. Now that the election is deadlocked, it seems the House will be the one to elect the next president, barring a deal being struck between you, Clinton, or Trump. With Republicans dissatisfied with Trump now, perhaps you're in a prime position to be a compromise candidate for president, or maybe Ron and Rand Paul can pull some strings. That is, as long as McMullin or anyone didn't beat you out for the top three candidates.</p>"
     } else if (rp_endorsement && quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/bEGkChC.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>Don't call it a comeback.</h3><p>As the results come in, you and your staff are filled with joy. You not only managed to receive five percent of the popular vote, but you also managed to receive a decent portion of the electoral vote. With this historic performance, you might have started the downfall of the two-party system and started a new three-party system. While you didn't deadlock the election, your performance will be remembered as one of the best third-party performances in history. Even Ron Paul seems proud of you.</p><p>This election will serve as a major wake-up call for Democrats and Republicans alike. It seems Americans really are tired of the two-party system and are ready for a new third-party option. Meanwhile, your party is overjoyed at the results, not only did you qualify for funding, but you also managed to pull a decent number of electoral votes. Now your party will have four years, and funding, to build off this already historic performance.</p>"
     } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5 && aa[0].electoral_votes < 270) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/teNIaCM.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, it appears you failed to capture a meaningful portion of the popular vote. Strangely, you still managed to receive some electoral votes. Even stranger, by some miracle, you deadlocked the election. Many on both sides want to know how you managed to pull this off. While your party is upset about your failure to receive five percent of the vote, many see the deadlock as an opportunity for the party.</p><p>With the election deadlocked, you have suddenly become a major player in the outcome of this election. With the House controlled by Republicans who aren't too convinced by Trump now, both Hillary Clinton and Donald Trump will reach out to you in an attempt to cut a deal for your electoral votes and claim the election. How this will play out, only time will tell, but if you play your cards right, any result should greatly benefit you and the Libertarian Party. That is, as long as McMullin or anyone didn't beat you out for the top three candidates.</p>"
     } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] < 5) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/5aw2tdU.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>What do we call this?</h3><p>As the results come in, it appears you failed to capture a meaningful portion of the popular vote. Strangely, you still managed to receive some electoral votes. How you managed this combination, few care, as your failure to capture five percent of the vote looms large among those in your party, and the election wasn't deadlocked. Regardless, your presence on the electoral map will go down in history regardless of your popular vote.</p><p>After polling high prior to the election, you are in awe of the election results. How you managed to lose your support in this fashion, not many know. Perhaps it was your positions, maybe it was the American people inevitably falling in line with the two-party system at the ballot box, or maybe it was you. No matter the cause, you and your party know one thing, you squandered a prime opportunity to bring the Libertarian Party federal funding. Perhaps your presence on the electoral map can help salvage your case for this being a good year. Maybe 2020 will be the Libertarian Party's big year.</p>"
     } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5 && aa[0].electoral_votes < 270) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/teNIaCM.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"HOUSE TO DECIDE DEADLOCKED ELECTION\"</h3><p>As the results come in, you and your staff are filled with joy. You not only managed to receive five percent of the popular vote, but you also managed to receive a decent portion of the electoral vote. With this historic performance, you might have started the downfall of the two-party system and started a new three-party system. Even more, you managed to deadlock the election with your historic performance.</p><p>Your performance will not soon be forgotten and will definitely serve as a wake-up call for Democrats and Republicans alike. Now that the election is deadlocked, it seems the House will be the one to elect the next president, barring a deal being struck between you, Clinton, or Trump. With Republicans dissatisfied with Trump now, perhaps you're in a prime position to be a compromise candidate for president. That is, as long as McMullin or anyone didn't beat you out for the top three candidates.</p>"
     } else if (quickstats[0] > 0 && quickstats[0] < 270 && quickstats[1] >= 5) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/bEGkChC.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>Don't call it a comeback.</h3><p>As the results come in, you and your staff are filled with joy. You not only managed to receive five percent of the popular vote, but you also managed to receive a decent portion of the electoral vote. With this historic performance, you might have started the downfall of the two-party system and started a new three-party system. While you didn't deadlock the election, your performance will be remembered as one of the best third-party performances in history.</p><p>This election will serve as a major wake-up call for Democrats and Republicans alike. It seems Americans really are tired of the two-party system and are ready for a new third-party option. Meanwhile, your party is overjoyed at the results, not only did you qualify for funding, but you also managed to pull a decent number of electoral votes. Now your party will have four years, and funding, to build off this already historic performance.</p>"
     } else if (rp_endorsement && quickstats[0] >= 270 && quickstats[0] < 538) {
-        return "<h3>There's always a chance.</h3><p>When you began the 2016 campaign, you and Gray knew that, while it was possible, your odds of winning was slim. That no longer matters though because you have defied those odds and outright won this election. You and Gray will be the next two to occupy the White House. It was a long road dating back all the way to 2011, but it will be one that ends with you being inaugurated as the next president in 2017. Congratulations president-elect Gary Johnson, even Ron Paul seems to be proud of your accomplishment.</p>"
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/IXCBvZZ.jpeg"
+                }
+            }, 100);
+        }
+        return "<h3>There's always a chance.</h3><p>When you began the 2016 campaign, you and Gray knew that, while it was possible, your odds of winning were slim. That no longer matters though because you have defied those odds and outright won this election. You and Gray will be the next two to occupy the White House. It was a long road dating back all the way to 2011, but it will be one that ends with you being inaugurated as the next president in 2017. Congratulations president-elect Gary Johnson, even Ron Paul seems to be proud of your accomplishment.</p>"
     } else if (quickstats[0] >= 270 && quickstats[0] < 538) {
-        return "<h3>There's always a chance.</h3><p>When you began the 2016 campaign, you and Gray knew that, while it was possible, your odds of winning was slim. That no longer matters though because you have defied those odds and outright won this election. You and Gray will be the next two to occupy the White House. It was a long road dating back all the way to 2011, but it will be one that ends with you being inaugurated as the next president in 2017. Congratulations president-elect Gary Johnson.</p>"
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/IXCBvZZ.jpeg"
+                }
+            }, 100);
+        }
+        return "<h3>There's always a chance.</h3><p>When you began the 2016 campaign, you and Gray knew that, while it was possible, your odds of winning were slim. That no longer matters though because you have defied those odds and outright won this election. You and Gray will be the next two to occupy the White House. It was a long road dating back all the way to 2011, but it will be one that ends with you being inaugurated as the next president in 2017. Congratulations president-elect Gary Johnson.</p>"
     } else if (rp_endorsement && quickstats[0] == 538) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/yoy0V8n.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>November 5, 2024</h3><p>It's been eight years since President Johnson's historic landslide victory in 2016 and four since his narrow reelection against Republican Marco Rubio and Democrat Bernie Sanders in the shadow of the worldwide COVID-19 pandemic where many Libertarians criticized Johnson for his \"overreaching\" response to it due to people like Chief Medical Advisor Dr. Anthony Fauci leading the national charge to overcome the pandemic. Now four years later, our nation has recovered, but many issues still remain, with both Democrats and Republicans seeing this year as a golden opportunity to reclaim the White House against unpopular Vice President Jim Gray. Tonight, we'll be bringing you coverage of the 2024 presidential election between Democrat Roy Cooper, Republican Rand Paul, and Libertarian Vice President Jim Gray.</p>"
     } else if (quickstats[0] == 538) {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/yoy0V8n.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>November 5, 2024</h3><p>It's been eight years since President Johnson's historic landslide victory in 2016 and four since his narrow reelection against Republican Marco Rubio and Democrat Bernie Sanders in the shadow of the worldwide COVID-19 pandemic where many Democrats and Republicans criticized Johnson for his \"underwhelming\" leadership that led to Chief Medical Advisor Dr. Anthony Fauci leading the national charge to overcome the pandemic. Now four years later, our nation has recovered, but many issues still remain, with both Democrats and Republicans seeing this year as a golden opportunity to reclaim the White House against Vice President Jim Gray. Tonight, we'll be bringing you coverage of the 2024 presidential election between Democrat Roy Cooper, Republican Ben Sasse, and Libertarian Vice President Jim Gray.</p>"
     } else {
+        if (used != true) {
+            setInterval(function () {
+                used = true;
+                imgg = document.getElementsByClassName("person_image")[0];
+                if (imgg != null) {
+                    imgg.src = "https://i.imgur.com/AVmNVeB.jpeg"
+                }
+            }, 100);
+        }
         return "<h3>\"ELECTION RESULTS\"</h3><p>It seems that while the votes were being counted an error occurred and now, while the results are correct, their story has come to a not so good ending. Whether it's a glitch, error in the code, bug, or user error, something had to go wrong for you to see this.</p><p>I apologize for the inconvenience.</p>"
     }
 }
@@ -26342,6 +26585,7 @@ endingPicker = (out, totv, aa, quickstats) => {
 let polling = e.current_results;
 campaignTrail_temp.cyoa = true;
 
+used = false;
 the_2012_question_1 = false
 the_2012_question_2 = false
 special_60 = false
