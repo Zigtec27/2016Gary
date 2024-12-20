@@ -47542,6 +47542,14 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ]
 
+document.head.innerHTML +=`
+<style>
+#campaign_sign {
+  background-color: #0a0c45;
+  border-color: #ffd445;
+}
+</style>`;
+
 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
 campaignTrail_temp.candidate_last_name = "Johnson";
@@ -47818,6 +47826,8 @@ cyoAdventure = function(a) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1001);
     }
     if (ans == 5002 || ans == 5003) {
+        campaignSign.style.borderColor = "#ff5733";
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:green;">Stein</span>';
         balance_count += 1;
         var id = e.candidate_json.map(p=>p.pk).indexOf(203)
         e.candidate_json[id].fields.first_name = "Darrell"
@@ -47850,23 +47860,27 @@ cyoAdventure = function(a) {
     }
     if (ans == 5008 || ans == 5009 || ans == 5010) {
         balance_count += 1;
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1003);
     }
     if (ans == 5011) {
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1003);
     }
     if (ans == 5012 || ans == 5015) {
         stein_count += 1;
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1004);
     }
     if (ans == 5013 || ans == 5014) {
         balance_count += 1;
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1004);
@@ -47878,6 +47892,7 @@ cyoAdventure = function(a) {
         if (random == 0) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1005);
         } else {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1006);
@@ -47890,6 +47905,7 @@ cyoAdventure = function(a) {
         if (random == 0) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1005);
         } else {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1006);
@@ -47902,6 +47918,7 @@ cyoAdventure = function(a) {
         if (random == 0) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1005);
         } else {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1006);
@@ -47914,6 +47931,7 @@ cyoAdventure = function(a) {
         if (random == 0) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1005);
         } else {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1006);
@@ -47926,6 +47944,7 @@ cyoAdventure = function(a) {
         if (random == 0) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1007);
         } else {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1008);
@@ -47938,6 +47957,7 @@ cyoAdventure = function(a) {
         if (random == 0) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1007);
         } else {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1008);
@@ -47950,6 +47970,7 @@ cyoAdventure = function(a) {
         if (random == 0) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1007);
         } else {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1008);
@@ -47962,6 +47983,7 @@ cyoAdventure = function(a) {
         if (random == 0) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1007);
         } else {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1008);
@@ -47972,6 +47994,7 @@ cyoAdventure = function(a) {
         stein_count += 1;
         let random = Math.floor(Math.random() * 2);
         if (random == 0) {
+            campaignTrail_temp.running_mate_last_name = "Stein";
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1007);
@@ -47984,6 +48007,7 @@ cyoAdventure = function(a) {
         stein_count += 1;
         let random = Math.floor(Math.random() * 2);
         if (random == 0) {
+            campaignTrail_temp.running_mate_last_name = "Stein";
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1007);
@@ -47996,6 +48020,7 @@ cyoAdventure = function(a) {
         stein_count += 1;
         let random = Math.floor(Math.random() * 2);
         if (random == 0) {
+            campaignTrail_temp.running_mate_last_name = "Stein";
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1007);
@@ -48008,6 +48033,7 @@ cyoAdventure = function(a) {
         stein_count += 1;
         let random = Math.floor(Math.random() * 2);
         if (random == 0) {
+            campaignTrail_temp.running_mate_last_name = "Stein";
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1007);
@@ -48018,6 +48044,7 @@ cyoAdventure = function(a) {
     if (ans == 5028) {
         five_percent_gary_goal = true;
         gary_count += 1;
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1009);
@@ -48025,6 +48052,7 @@ cyoAdventure = function(a) {
     if (ans == 5029) {
         win_gary_goal = true;
         gary_count += 1;
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1009);
@@ -48032,6 +48060,7 @@ cyoAdventure = function(a) {
     if (ans == 5030) {
         polling_gary_goal = true;
         gary_count += 1;
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1009);
@@ -48039,6 +48068,7 @@ cyoAdventure = function(a) {
     if (ans == 5031) {
         none_gary_goal = true;
         gary_count += 1;
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1009);
@@ -48077,17 +48107,20 @@ cyoAdventure = function(a) {
     }
     if (ans == 5040 || ans == 5043) {
         balance_count += 1;
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1011);
     }
     if (ans == 5041) {
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1011);
     }
     if (ans == 5042) {
         stein_count += 1;
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1011);
@@ -48098,6 +48131,7 @@ cyoAdventure = function(a) {
         if (random == 0) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1012);
         } else {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1013);
@@ -48108,6 +48142,7 @@ cyoAdventure = function(a) {
         if (random == 0) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1012);
         } else {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1013);
@@ -48119,6 +48154,7 @@ cyoAdventure = function(a) {
         if (random == 0) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1012);
         } else {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1013);
@@ -48131,6 +48167,7 @@ cyoAdventure = function(a) {
         if (random == 0) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1014);
         } else {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1015);
@@ -48143,6 +48180,7 @@ cyoAdventure = function(a) {
         if (random == 0) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1014);
         } else {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1015);
@@ -48153,6 +48191,7 @@ cyoAdventure = function(a) {
         stein_count += 3;
         let random = Math.floor(Math.random() * 2);
         if (random == 0) {
+            campaignTrail_temp.running_mate_last_name = "Stein";
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1014);
@@ -48165,6 +48204,7 @@ cyoAdventure = function(a) {
         stein_count += 1;
         let random = Math.floor(Math.random() * 2);
         if (random == 0) {
+            campaignTrail_temp.running_mate_last_name = "Stein";
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1014);
@@ -48177,6 +48217,7 @@ cyoAdventure = function(a) {
         stein_count += 2;
         let random = Math.floor(Math.random() * 2);
         if (random == 0) {
+            campaignTrail_temp.running_mate_last_name = "Stein";
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1014);
@@ -48187,6 +48228,7 @@ cyoAdventure = function(a) {
     if (ans == 5056) {
         exposure_gary_60 = true;
         gary_count += 1;
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1016);
@@ -48194,6 +48236,7 @@ cyoAdventure = function(a) {
     if (ans == 5057) {
         republicans_gary_60 = true;
         gary_count += 1;
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1016);
@@ -48201,6 +48244,7 @@ cyoAdventure = function(a) {
     if (ans == 5058) {
         third_party_gary_60 = true;
         gary_count += 1;
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1016);
@@ -48208,6 +48252,7 @@ cyoAdventure = function(a) {
     if (ans == 5059) {
         uniting_base_gary_60 = true;
         balance_count += 1;
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1016);
@@ -48234,31 +48279,37 @@ cyoAdventure = function(a) {
     }
     if (ans == 5064 || ans == 5065) {
         balance_count += 1;
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1017);
     }
     if (ans == 5066) {
         stein_count += 1;
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1017);
     }
     if (ans == 5067) {
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1017);
     }
     if (ans == 5068 || ans == 5069 || ans == 5070 || ans == 5071) {
         if (stein_count >= (gary_count + 7)) {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg"; 
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1196);
         } else if (stein_count >= (gary_count + 5)) {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg"; 
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1197);
         } else if (stein_count >= (gary_count + 3)) {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg"; 
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1198);
@@ -48282,34 +48333,42 @@ cyoAdventure = function(a) {
             }
         } else if (gary_count < stein_count) {
             if (coalition_work_gary_strat) {
+                campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
                 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
                 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg"; 
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1030);
             } else if (changing_gary_strat) {
+                campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
                 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
                 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg"; 
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1031);
             } else if (exposure_gary_strat) {
+                campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
                 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
                 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg"; 
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1032);
             } else if (interviews_gary_strat) {
+                campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
                 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
                 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg"; 
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1033);
             } else if (changing_stein_strat) {
+                campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
                 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
                 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg"; 
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1026);
             } else if (antiestablishment_stein_strat) {
+                campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
                 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
                 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg"; 
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1027);
             } else if (youth_stein_strat) {
+                campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
                 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
                 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg"; 
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1028);
             } else if (bernie_stein_strat) {
+                campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
                 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
                 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg"; 
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1029);
@@ -48333,36 +48392,42 @@ cyoAdventure = function(a) {
     }
 
     if (ans == 5104 || ans == 5105 || ans == 5107 || ans == 5108 || ans == 5109 || ans == 5110 || ans == 5111 || ans == 5112 || ans == 5113 || ans == 5114 || ans == 5115 || ans == 5117 || ans == 5118 || ans == 5119 || ans == 5124 || ans == 5125 || ans == 5127 || ans == 5128 || ans == 5132 || ans == 5134 || ans == 5135 || ans == 5792) {
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1049);
     }
     if (ans == 5130 || ans == 5788 || ans == 5794) {
         balance_count += 2;
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1049);
     }
     if (ans == 5120 || ans == 5121 || ans == 5123 || ans == 5133) {
         balance_count += 1;
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1049);
     }
     if (ans == 5116) {
         stein_count += 2;
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1049);
     }
     if (ans == 5122 || ans == 5129 || ans == 5789 || ans == 5793) {
         stein_count += 1;
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1049);
     }
     if (ans == 5106 || ans == 5126) {
         gary_count += 1;
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1049);
@@ -48952,6 +49017,7 @@ cyoAdventure = function(a) {
         } else if (gary_count >= stein_count) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1062);
         } else if (gary_count < stein_count) {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1063);
@@ -48968,19 +49034,23 @@ cyoAdventure = function(a) {
     if (ans == 5244 || ans == 5245 || ans == 5246 || ans == 5247 || ans == 5248 || ans == 5249 || ans == 5250 || ans == 5251 || ans == 5252) {
         balance_count += 1;
         if (exposure_gary_60 || republicans_gary_60 || third_party_gary_60) {
+            campaignTrail_temp.running_mate_last_name = "Stein";
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1066);
         } else if (no_corporate_money_stein_60 || bernie_stein_60 || new_idea_stein_60) {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1067);
         } else if (uniting_base_gary_60 || uniting_base_stein_60) {
             if (gary_count >= stein_count) {
+                campaignTrail_temp.running_mate_last_name = "Stein";
                 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
                 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1068);
             } else if (gary_count < stein_count) {
+                campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
                 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
                 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1069);
@@ -48990,19 +49060,23 @@ cyoAdventure = function(a) {
     if (ans == 5253) {
         stein_count += 1;
         if (exposure_gary_60 || republicans_gary_60 || third_party_gary_60) {
+            campaignTrail_temp.running_mate_last_name = "Stein";
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1066);
         } else if (no_corporate_money_stein_60 || bernie_stein_60 || new_idea_stein_60) {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1067);
         } else if (uniting_base_gary_60 || uniting_base_stein_60) {
             if (gary_count >= stein_count) {
+                campaignTrail_temp.running_mate_last_name = "Stein";
                 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
                 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1068);
             } else if (gary_count < stein_count) {
+                campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
                 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
                 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1069);
@@ -49011,19 +49085,23 @@ cyoAdventure = function(a) {
     }
     if (ans == 5254) {
         if (exposure_gary_60 || republicans_gary_60 || third_party_gary_60) {
+            campaignTrail_temp.running_mate_last_name = "Stein";
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1066);
         } else if (no_corporate_money_stein_60 || bernie_stein_60 || new_idea_stein_60) {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1067);
         } else if (uniting_base_gary_60 || uniting_base_stein_60) {
             if (gary_count >= stein_count) {
+                campaignTrail_temp.running_mate_last_name = "Stein";
                 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
                 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1068);
             } else if (gary_count < stein_count) {
+                campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
                 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
                 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1069);
@@ -49033,19 +49111,23 @@ cyoAdventure = function(a) {
     if (ans == 5255) {
         gary_count += 1;
         if (exposure_gary_60 || republicans_gary_60 || third_party_gary_60) {
+            campaignTrail_temp.running_mate_last_name = "Stein";
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1066);
         } else if (no_corporate_money_stein_60 || bernie_stein_60 || new_idea_stein_60) {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1067);
         } else if (uniting_base_gary_60 || uniting_base_stein_60) {
             if (gary_count >= stein_count) {
+                campaignTrail_temp.running_mate_last_name = "Stein";
                 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
                 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1068);
             } else if (gary_count < stein_count) {
+                campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
                 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
                 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1069);
@@ -49067,17 +49149,20 @@ cyoAdventure = function(a) {
     }
     if (ans == 5264 || ans == 5265 || ans == 5266 || ans == 5267 || ans == 5268 || ans == 5269 || ans == 5270 || ans == 5271 || ans == 5272 || ans == 5273 || ans == 5274 || ans == 5275 || ans == 5276 || ans == 5277 || ans == 5278 || ans == 5279) {
         if (balance_count >= gary_count && balance_count >= stein_count) {
+            campaignTrail_temp.running_mate_last_name = "Stein";
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1072);
         } else if (gary_count >= stein_count) {
+            campaignTrail_temp.running_mate_last_name = "Stein";
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1073);
         } else if (gary_count < stein_count) {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
-            campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1070);
+            campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1074);
         }
     }
     if (ans == 5280 || ans == 5281 || ans == 5282 || ans == 5283) {
@@ -49087,24 +49172,28 @@ cyoAdventure = function(a) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1076);
     }
     if (ans == 5288 || ans == 5289 || ans == 5290 || ans == 5291 || ans == 5292 || ans == 5293 || ans == 5294 || ans == 5295 || ans == 5297) {
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1077);
     }
     if (ans == 5296) {
         gary_count += 2;
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1077);
     }
     if (ans == 5298) {
         stein_count += 1;
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1077);
     }
     if (ans == 5299) {
         stein_count += 2;
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1077);
@@ -49119,6 +49208,7 @@ cyoAdventure = function(a) {
         if (lemon_lime) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1080);
         } else if (green_gold) {
+            campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
             campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
             campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1081);
@@ -49131,6 +49221,7 @@ cyoAdventure = function(a) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1083);
     }
     if (ans == 5320 || ans == 5325) {
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1084);
@@ -49141,12 +49232,14 @@ cyoAdventure = function(a) {
     }
     if (ans == 5322 || ans == 5323 || ans == 5327) {
         balance_count += 1;
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1084);
     }
     if (ans == 5324 || ans == 5326) {
         stein_count += 1;
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1084);
@@ -49211,6 +49304,7 @@ cyoAdventure = function(a) {
         }
     }
     if (ans == 5348 || ans == 5356 || ans == 5357 || ans == 5358) {
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1108);
@@ -49223,12 +49317,14 @@ cyoAdventure = function(a) {
     }
     if (ans == 5424 || ans == 5425 || ans == 5426) {
         balance_count += 1;
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.question_number=24;
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1107);
     }
     if (ans == 5427) {
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.question_number=24;
@@ -49236,12 +49332,14 @@ cyoAdventure = function(a) {
     }
     if (ans == 5432 || ans == 5435) {
         balance_count += 1;
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.question_number=24;
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1109);
     }
     if (ans == 5433 || ans == 5434) {
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.question_number=24;
@@ -49249,58 +49347,69 @@ cyoAdventure = function(a) {
     }
     if (ans == 5440 || ans == 5441) {
         balance_count += 1
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.question_number=24;
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1111);
     }
     if (ans == 5442 || ans == 5443) {
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.question_number=24;
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1111);
     }
     if (ans == 5360 || ans == 5361 || ans == 5362 || ans == 5363) {
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1112);
     }
     if (ans == 5364 || ans == 5365 || ans == 5366 || ans == 5367) {
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1115);
     }
     if (ans == 5368 || ans == 5369 || ans == 5370 || ans == 5371) {
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1116);
     }
     if (ans == 5372 || ans == 5373 || ans == 5374 || ans == 5375) {
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1117);
     }
     if (ans == 5376 || ans == 5377 || ans == 5378 || ans == 5379) {
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1113);
     }
     if (ans == 5380 || ans == 5381 || ans == 5382 || ans == 5383) {
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1118);
     }
     if (ans == 5384 || ans == 5385 || ans == 5386 || ans == 5387) {
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1119);
     }
     if (ans == 5388 || ans == 5389 || ans == 5390 || ans == 5391) {
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1120);
     }
     if (ans == 5392 || ans == 5393 || ans == 5394 || ans == 5395) {
+        campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1114);
@@ -49354,24 +49463,28 @@ cyoAdventure = function(a) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1132);
     }
     if (ans == 5429 || ans == 5430 || ans == 5436 || ans == 5447 || ans == 5449 || ans == 5450 || ans == 5454 || ans == 5455 || ans == 5456 || ans == 5457 || ans == 5459 || ans == 5464 || ans == 5465 || ans == 5466 || ans == 5469 || ans == 5476 || ans == 5479 || ans == 5480) {
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1133);
     }
     if (ans == 5428 || ans == 5437 || ans == 5448 || ans == 5453 || ans == 5483) {
         gary_count += 1
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1133);
     }
     if (ans == 5431 || ans == 5438 || ans == 5439 || ans == 5444 || ans == 5445 || ans == 5446 || ans == 5451 || ans == 5467 || ans == 5478 || ans == 5482) {
         balance_count += 1
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1133);
     }
     if (ans == 5452 || ans == 5458 || ans == 5460 || ans == 5461 || ans == 5462 || ans == 5463 || ans == 5468 || ans == 5470 || ans == 5471 || ans == 5472 || ans == 5473 || ans == 5474 || ans == 5475 || ans == 5477 || ans == 5481) {
         stein_count += 1
+        campaignTrail_temp.running_mate_last_name = "Stein";
         campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1133);
@@ -49455,6 +49568,7 @@ cyoAdventure = function(a) {
                     campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1172);
                 }
             } else if (gary_count < stein_count) {
+                campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
                 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
                 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
                 if (message_stein_goal) {
@@ -49487,6 +49601,7 @@ cyoAdventure = function(a) {
                     campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1173);
                 }
             } else if (gary_count < stein_count) {
+                campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
                 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
                 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
                 if (message_stein_goal) {
@@ -49519,6 +49634,7 @@ cyoAdventure = function(a) {
                     campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1174);
                 }
             } else if (gary_count < stein_count) {
+                campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:limegreen;">Stein</span>';
                 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/wemOCsD.jpeg";
                 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/MNA3W52.jpg";
                 if (message_stein_goal) {
