@@ -26256,6 +26256,14 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ]
 
+document.head.innerHTML +=`
+<style>
+#campaign_sign {
+  background-color: #0a0c45;
+  border-color: #ffd445;
+}
+</style>`;
+
 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/uip8oZz.jpeg";
 campaignTrail_temp.candidate_last_name = "Johnson";
@@ -26556,7 +26564,7 @@ endingPicker = (out, totv, aa, quickstats) => {
                 }
             }, 100);
         }
-        return "<h3>November 5, 2024</h3><p>It's been eight years since President Johnson's historic landslide victory in 2016 and four since his narrow reelection against Republican Marco Rubio and Democrat Bernie Sanders in the shadow of the worldwide COVID-19 pandemic where many Libertarians criticized Johnson for his \"overreaching\" response to it due to people like Chief Medical Advisor Dr. Anthony Fauci leading the national charge to overcome the pandemic. Now four years later, our nation has recovered, but many issues still remain, with both Democrats and Republicans seeing this year as a golden opportunity to reclaim the White House against unpopular Vice President Jim Gray. Tonight, we'll be bringing you coverage of the 2024 presidential election between Democrat Roy Cooper, Republican Rand Paul, and Libertarian Vice President Jim Gray.</p>"
+        return "<h3>November 5, 2024</h3><p>It's been eight years since President Johnson's historic landslide victory in 2016 and four since his narrow reelection against Republican Marco Rubio and Democrat Bernie Sanders in the shadow of the worldwide COVID-19 pandemic where many Libertarians criticized Johnson for his \"overreaching\" response to it due to people like Chief Medical Advisor Dr. Anthony Fauci leading the national charge to overcome the pandemic. Now four years later, our nation has recovered, but many issues still remain, with both Democrats and Republicans seeing this year as a golden opportunity to reclaim the White House against unpopular Vice President James Gray. Tonight, we'll be bringing you coverage of the 2024 presidential election between Democrat Roy Cooper, Republican Rand Paul, and Libertarian Vice President James Gray.</p>"
     } else if (quickstats[0] == 538) {
         if (used != true) {
             setInterval(function () {
@@ -26567,7 +26575,7 @@ endingPicker = (out, totv, aa, quickstats) => {
                 }
             }, 100);
         }
-        return "<h3>November 5, 2024</h3><p>It's been eight years since President Johnson's historic landslide victory in 2016 and four since his narrow reelection against Republican Marco Rubio and Democrat Bernie Sanders in the shadow of the worldwide COVID-19 pandemic where many Democrats and Republicans criticized Johnson for his \"underwhelming\" leadership that led to Chief Medical Advisor Dr. Anthony Fauci leading the national charge to overcome the pandemic. Now four years later, our nation has recovered, but many issues still remain, with both Democrats and Republicans seeing this year as a golden opportunity to reclaim the White House against Vice President Jim Gray. Tonight, we'll be bringing you coverage of the 2024 presidential election between Democrat Roy Cooper, Republican Ben Sasse, and Libertarian Vice President Jim Gray.</p>"
+        return "<h3>November 5, 2024</h3><p>It's been eight years since President Johnson's historic landslide victory in 2016 and four since his narrow reelection against Republican Marco Rubio and Democrat Bernie Sanders in the shadow of the worldwide COVID-19 pandemic where many Democrats and Republicans criticized Johnson for his \"underwhelming\" leadership that led to Chief Medical Advisor Dr. Anthony Fauci leading the national charge to overcome the pandemic. Now four years later, our nation has recovered, but many issues still remain, with both Democrats and Republicans seeing this year as a golden opportunity to reclaim the White House against Vice President James Gray. Tonight, we'll be bringing you coverage of the 2024 presidential election between Democrat Roy Cooper, Republican Ben Sasse, and Libertarian Vice President James Gray.</p>"
     } else {
         if (used != true) {
             setInterval(function () {

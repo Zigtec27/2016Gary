@@ -44036,6 +44036,14 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ]
 
+document.head.innerHTML +=`
+<style>
+#campaign_sign {
+  background-color: #0a0c45;
+  border-color: #ffd445;
+}
+</style>`;
+
 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/MNA3W52.jpg";
 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/QrMUi4v.jpg";
 campaignTrail_temp.candidate_last_name = "Johnson";
