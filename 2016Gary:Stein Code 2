@@ -47826,7 +47826,6 @@ cyoAdventure = function(a) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1001);
     }
     if (ans == 5002 || ans == 5003) {
-        campaignSign.style.borderColor = "#ff5733";
         campaignTrail_temp.running_mate_last_name = '<span id="Stein" style="color:green;">Stein</span>';
         balance_count += 1;
         var id = e.candidate_json.map(p=>p.pk).indexOf(203)
