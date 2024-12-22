@@ -44588,11 +44588,25 @@ mcmullin_ap = false
 libertarian_ap = false
 three_party_ap = false
 made_debates_ap = false
+let multipliers = campaignTrail_temp.candidate_state_multiplier_json.map(entry => entry.fields.state_multiplier);
 
 function tunnel(new_q){
     e = campaignTrail_temp;
     return e.questions_json[e.questions_json.map(f=>f.pk).indexOf(new_q)];
 }
+
+function updateMultipliers(multipliers, number) {
+    for (let i = 0; i < 56 && i < multipliers.length; i++) {
+        multipliers[i] -= number;
+    }
+}
+
+function updateStates() {
+    for (let i = 0; i < 56 && i < multipliers.length; i++) {
+        campaignTrail_temp.candidate_state_multiplier_json[i].fields.state_multiplier = multipliers[i];
+    }
+}
+
 cyoAdventure = function(a) {
     ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1];
     let pop_vote = e.current_results[0];
@@ -44996,8 +45010,10 @@ cyoAdventure = function(a) {
         if (playerPolling >= .15) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1082);
         } else if (playerPolling > .05 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1083);
         } else if (playerPolling <= .05) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1084);
         }
     }
@@ -45005,8 +45021,10 @@ cyoAdventure = function(a) {
         if (playerPolling >= .15) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1085);
         } else if (playerPolling > .05 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1086);
         } else if (playerPolling <= .05) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1087);
         }
     }
@@ -45014,8 +45032,10 @@ cyoAdventure = function(a) {
         if (playerPolling >= .15) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1088);
         } else if (playerPolling > .07 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1089);
         } else if (playerPolling <= .07) {
+            updateMultipliers(multipliers, 0.03);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1090);
         }
     }
@@ -45023,13 +45043,16 @@ cyoAdventure = function(a) {
         if (playerPolling >= .15) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1091);
         } else if (playerPolling > .07 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1092);
         } else if (playerPolling <= .07) {
+            updateMultipliers(multipliers, 0.03);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1093);
         }
     }
     if (ans == 5352 || ans == 5353 || ans == 5354 || ans == 5355 || ans == 5356 || ans == 5357 || ans == 5358 || ans == 5359 || ans == 5360 || ans == 5361 || ans == 5362 || ans == 5363) {
         if (playerPolling >= .15) {
+            updateStates();
             if (five_gj_percent) {
                 if (grassroots_gj) {
                     campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1097);
@@ -45072,6 +45095,8 @@ cyoAdventure = function(a) {
                 }
             }
         } else if (playerPolling > .1 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
+            updateStates();
             if (five_gj_percent) {
                 if (grassroots_gj) {
                     campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1098);
@@ -45114,6 +45139,8 @@ cyoAdventure = function(a) {
                 }
             }
         } else if (playerPolling <= .1) {
+            updateMultipliers(multipliers, 0.03);
+            updateStates();
             if (five_gj_percent) {
                 if (grassroots_gj) {
                     campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1099);
@@ -45159,6 +45186,7 @@ cyoAdventure = function(a) {
     }
     if (ans == 5364 || ans == 5365 || ans == 5366 || ans == 5367 || ans == 5368 || ans == 5369 || ans == 5370 || ans == 5371 || ans == 5372 || ans == 5373 || ans == 5374 || ans == 5375) {
         if (playerPolling >= .15) {
+            updateStates();
             if (win_ap) {
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1126);
             } else if (five_ap_percent) {
@@ -45172,6 +45200,8 @@ cyoAdventure = function(a) {
             }
 
         } else if (playerPolling > .1 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
+            updateStates();
             if (win_ap) {
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1127);
             } else if (five_ap_percent) {
@@ -45185,6 +45215,8 @@ cyoAdventure = function(a) {
             }
 
         } else if (playerPolling <= .1) {
+            updateMultipliers(multipliers, 0.03);
+            updateStates();
             if (win_ap) {
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1128);
             } else if (five_ap_percent) {

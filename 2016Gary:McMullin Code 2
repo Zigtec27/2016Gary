@@ -102754,11 +102754,25 @@ var_sd = false
 vac_sd = false
 non_sd = false
 you_sd = false
+let multipliers = campaignTrail_temp.candidate_state_multiplier_json.map(entry => entry.fields.state_multiplier);
 
 function tunnel(new_q){
     e = campaignTrail_temp;
     return e.questions_json[e.questions_json.map(f=>f.pk).indexOf(new_q)];
 }
+
+function updateMultipliers(multipliers, number) {
+    for (let i = 0; i < 56 && i < multipliers.length; i++) {
+        multipliers[i] -= number;
+    }
+}
+
+function updateStates() {
+    for (let i = 0; i < 56 && i < multipliers.length; i++) {
+        campaignTrail_temp.candidate_state_multiplier_json[i].fields.state_multiplier = multipliers[i];
+    }
+}
+
 cyoAdventure = function(a) {
     ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1];
     let pop_vote = e.current_results[0];
@@ -104605,26 +104619,34 @@ cyoAdventure = function(a) {
         if (playerPolling >= .15) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1254);
         } else if (playerPolling > .5 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1255);
         } else if (playerPolling <= .5) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1256);
         }
     }
     if (ans == 5960 || ans == 5961 || ans == 5962 || ans == 5963) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1257);
         } else if (playerPolling > .5 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1258);
         } else if (playerPolling <= .5) {
+            updateMultipliers(multipliers, 0.03);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1259);
         }
     }
     if (ans == 5964 || ans == 5965 || ans == 5966 || ans == 5967) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1260);
         } else if (playerPolling > .5 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1261);
         } else if (playerPolling <= .5) {
+            updateMultipliers(multipliers, 0.03);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1262);
         }
     }
@@ -104632,80 +104654,106 @@ cyoAdventure = function(a) {
         if (playerPolling >= .15) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1263);
         } else if (playerPolling > .5 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1264);
         } else if (playerPolling <= .5) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1265);
         }
     }
     if (ans == 5972 || ans == 5973 || ans == 5974 || ans == 5975) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1266);
         } else if (playerPolling > .5 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1267);
         } else if (playerPolling <= .5) {
+            updateMultipliers(multipliers, 0.03);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1268);
         }
     }
     if (ans == 5976 || ans == 5977 || ans == 5978 || ans == 5979) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1269);
         } else if (playerPolling > .5 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1270);
         } else if (playerPolling <= .5) {
+            updateMultipliers(multipliers, 0.03);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1271);
         }
     }
     if (ans == 5980 || ans == 5981 || ans == 5982 || ans == 5983) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1272);
         } else if (playerPolling > .5 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1273);
         } else if (playerPolling <= .5) {
+            updateMultipliers(multipliers, 0.03);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1274);
         }
     }
     if (ans == 5984 || ans == 5985 || ans == 5986 || ans == 5987) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1275);
         } else if (playerPolling > .5 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1276);
         } else if (playerPolling <= .5) {
+            updateMultipliers(multipliers, 0.03);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1277);
         }
     }
     if (ans == 5988 || ans == 5989 || ans == 5990 || ans == 5991) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1278);
         } else if (playerPolling > .5 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1279);
         } else if (playerPolling <= .5) {
+            updateMultipliers(multipliers, 0.03);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1280);
         }
     }
     if (ans == 5992 || ans == 5993 || ans == 5994 || ans == 5995) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1281);
         } else if (playerPolling > .5 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1282);
         } else if (playerPolling <= .5) {
+            updateMultipliers(multipliers, 0.03);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1283);
         }
     }
     if (ans == 5996 || ans == 5997 || ans == 5998 || ans == 5999) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1284);
         } else if (playerPolling > .5 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1285);
         } else if (playerPolling <= .5) {
+            updateMultipliers(multipliers, 0.03);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1286);
         }
     }
     if (ans == 6000 || ans == 6001 || ans == 6002 || ans == 6003) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1287);
         } else if (playerPolling > .5 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1288);
         } else if (playerPolling <= .5) {
+            updateMultipliers(multipliers, 0.03);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1289);
         }
     }
@@ -104719,6 +104767,7 @@ cyoAdventure = function(a) {
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1290);
             }
         } else if (playerPolling > .7 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.01);
             if (secret_deal) {
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1294);
             } else if (radicals) {
@@ -104727,6 +104776,7 @@ cyoAdventure = function(a) {
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1291);
             }
         } else if (playerPolling <= .7) {
+            updateMultipliers(multipliers, 0.02);
             if (secret_deal) {
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1295);
             } else if (radicals) {
@@ -104740,26 +104790,34 @@ cyoAdventure = function(a) {
         if (playerPolling >= .15) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1299);
         } else if (playerPolling > .7 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1300);
         } else if (playerPolling <= .7) {
+            updateMultipliers(multipliers, 0.03);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1301);
         }
     }
     if (ans == 6028 || ans == 6029 || ans == 6030 || ans == 6031 || ans == 6032 || ans == 6033 || ans == 6034 || ans == 6035 || ans == 6036 || ans == 6037 || ans == 6038 || ans == 6039) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1302);
         } else if (playerPolling > .7 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1303);
         } else if (playerPolling <= .7) {
+            updateMultipliers(multipliers, 0.04);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1304);
         }
     }
     if (ans == 6040 || ans == 6041 || ans == 6042 || ans == 6043 || ans == 6044 || ans == 6045 || ans == 6046 || ans == 6047 || ans == 6048 || ans == 6049 || ans == 6050 || ans == 6051) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1305);
         } else if (playerPolling > .7 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1306);
         } else if (playerPolling <= .7) {
+            updateMultipliers(multipliers, 0.04);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1307);
         }
     }
@@ -104767,85 +104825,112 @@ cyoAdventure = function(a) {
         if (playerPolling >= .15) {
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1308);
         } else if (playerPolling > .7 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1309);
         } else if (playerPolling <= .7) {
+            updateMultipliers(multipliers, 0.03);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1310);
         }
     }
     if (ans == 6064 || ans == 6065 || ans == 6066 || ans == 6067 || ans == 6068 || ans == 6069 || ans == 6070 || ans == 6071 || ans == 6072 || ans == 6073 || ans == 6074 || ans == 6075) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1311);
         } else if (playerPolling > .7 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1312);
         } else if (playerPolling <= .7) {
+            updateMultipliers(multipliers, 0.04);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1313);
         }
     }
     if (ans == 6076 || ans == 6077 || ans == 6078 || ans == 6079 || ans == 6080 || ans == 6081 || ans == 6082 || ans == 6083 || ans == 6084 || ans == 6085 || ans == 6086 || ans == 6087) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1314);
         } else if (playerPolling > .7 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1315);
         } else if (playerPolling <= .7) {
+            updateMultipliers(multipliers, 0.04);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1316);
         }
     }
     if (ans == 6088 || ans == 6089 || ans == 6090 || ans == 6091 || ans == 6092 || ans == 6093 || ans == 6094 || ans == 6095 || ans == 6096 || ans == 6097 || ans == 6098 || ans == 6099) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1317);
         } else if (playerPolling > .7 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1318);
         } else if (playerPolling <= .7) {
+            updateMultipliers(multipliers, 0.04);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1319);
         }
     }
     if (ans == 6100 || ans == 6101 || ans == 6102 || ans == 6103 || ans == 6104 || ans == 6105 || ans == 6106 || ans == 6107 || ans == 6108 || ans == 6109 || ans == 6110 || ans == 6111) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1320);
         } else if (playerPolling > .7 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1321);
         } else if (playerPolling <= .7) {
+            updateMultipliers(multipliers, 0.04);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1322);
         }
     }
     if (ans == 6112 || ans == 6113 || ans == 6114 || ans == 6115 || ans == 6116 || ans == 6117 || ans == 6118 || ans == 6119 || ans == 6120 || ans == 6121 || ans == 6122 || ans == 6123) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1323);
         } else if (playerPolling > .7 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1324);
         } else if (playerPolling <= .7) {
+            updateMultipliers(multipliers, 0.04);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1325);
         }
     }
     if (ans == 6124 || ans == 6125 || ans == 6126 || ans == 6127 || ans == 6128 || ans == 6129 || ans == 6130 || ans == 6131 || ans == 6132 || ans == 6133 || ans == 6134 || ans == 6135) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1326);
         } else if (playerPolling > .7 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1327);
         } else if (playerPolling <= .7) {
+            updateMultipliers(multipliers, 0.04);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1328);
         }
     }
     if (ans == 6136 || ans == 6137 || ans == 6138 || ans == 6139 || ans == 6140 || ans == 6141 || ans == 6142 || ans == 6143 || ans == 6144 || ans == 6145 || ans == 6146 || ans == 6147) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1329);
         } else if (playerPolling > .7 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1330);
         } else if (playerPolling <= .7) {
+            updateMultipliers(multipliers, 0.04);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1331);
         }
     }
     if (ans == 6148 || ans == 6149 || ans == 6150 || ans == 6151 || ans == 6152 || ans == 6153 || ans == 6154 || ans == 6155 || ans == 6156 || ans == 6157 || ans == 6158 || ans == 6159) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1332);
         } else if (playerPolling > .7 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1333);
         } else if (playerPolling <= .7) {
+            updateMultipliers(multipliers, 0.04);
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1334);
         }
     }
     if (ans == 6160 || ans == 6161 || ans == 6162 || ans == 6163 || ans == 6164 || ans == 6165 || ans == 6166 || ans == 6167 || ans == 6168 || ans == 6169 || ans == 6170 || ans == 6171 || ans == 6172 || ans == 6173 || ans == 6174 || ans == 6176 || ans == 6177 || ans == 6178 || ans == 6181 || ans == 6182  || ans == 6184 || ans == 6185 || ans == 6188 || ans == 6192) {
         if (playerPolling >= .15) {
+            updateStates();
             if (anti_trump_score >= 30) {
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1335);
             } else if (anti_trump_score < 30) {
@@ -104865,6 +104950,8 @@ cyoAdventure = function(a) {
                 }
             }
         } else if (playerPolling > .1 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.01);
+            updateStates();
             if (anti_trump_score >= 30) {
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1336);
             } else if (anti_trump_score < 30) {
@@ -104884,6 +104971,8 @@ cyoAdventure = function(a) {
                 }
             }
         } else if (playerPolling <= .1) {
+            updateMultipliers(multipliers, 0.02);
+            updateStates();
             if (anti_trump_score >= 30) {
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1337);
             } else if (anti_trump_score < 30) {
@@ -104907,15 +104996,22 @@ cyoAdventure = function(a) {
     if (ans == 6175 || ans == 6179 || ans == 6180 || ans == 6183 || ans == 6186 || ans == 6187 || ans == 6189 || ans == 6190 || ans == 6191 || ans == 6193 || ans == 6194 || ans == 6195) {
         mcmullin_leaves = true;
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1353);
         } else if (playerPolling > .1 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1354);
         } else if (playerPolling <= .1) {
+            updateMultipliers(multipliers, 0.05);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1355);
         }
     }
     if (ans == 6196 || ans == 6197 || ans == 6198 || ans == 6199 || ans == 6200 || ans == 6201 || ans == 6202 || ans == 6203 || ans == 6204 || ans == 6205 || ans == 6206 || ans == 6207) {
         if (playerPolling >= .15) {
+            updateStates();
             if (win_a_state_goal_ap) {
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1356);
             } else if (win_goal_ap) {
@@ -104930,6 +105026,8 @@ cyoAdventure = function(a) {
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1368);
             }
         } else if (playerPolling > .1 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
+            updateStates();
             if (win_a_state_goal_ap) {
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1357);
             } else if (win_goal_ap) {
@@ -104944,6 +105042,8 @@ cyoAdventure = function(a) {
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1369);
             }
         } else if (playerPolling <= .1) {
+            updateMultipliers(multipliers, 0.03);
+            updateStates();
             if (win_a_state_goal_ap) {
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1358);
             } else if (win_goal_ap) {
@@ -104961,100 +105061,165 @@ cyoAdventure = function(a) {
     }
     if (ans == 6208 || ans == 6209 || ans == 6210 || ans == 6211 || ans == 6212 || ans == 6213 || ans == 6214 || ans == 6215 || ans == 6216 || ans == 6217 || ans == 6218 || ans == 6219) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1371);
         } else if (playerPolling > .1 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1372);
         } else if (playerPolling <= .1) {
+            updateMultipliers(multipliers, 0.05);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1373);
         }
     }
     if (ans == 6220 || ans == 6221 || ans == 6222 || ans == 6223 || ans == 6224 || ans == 6225 || ans == 6226 || ans == 6227 || ans == 6228 || ans == 6229 || ans == 6230 || ans == 6231) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1374);
         } else if (playerPolling > .1 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1375);
         } else if (playerPolling <= .1) {
+            updateMultipliers(multipliers, 0.05);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1376);
         }
     }
     if (ans == 6232 || ans == 6233 || ans == 6234 || ans == 6235 || ans == 6236 || ans == 6237 || ans == 6238 || ans == 6239 || ans == 6240 || ans == 6241 || ans == 6242 || ans == 6243) {
         if (playerPolling >= .15) {
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1377);
         } else if (playerPolling > .1 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1378);
         } else if (playerPolling <= .1) {
+            updateMultipliers(multipliers, 0.03);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1379);
         }
     }
     if (ans == 6244 || ans == 6245 || ans == 6246 || ans == 6247 || ans == 6248 || ans == 6249 || ans == 6250 || ans == 6251 || ans == 6252 || ans == 6253 || ans == 6254 || ans == 6255) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1380);
         } else if (playerPolling > .1 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1381);
         } else if (playerPolling <= .1) {
+            updateMultipliers(multipliers, 0.05);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1382);
         }
     }
     if (ans == 6256 || ans == 6257 || ans == 6258 || ans == 6259 || ans == 6260 || ans == 6261 || ans == 6262 || ans == 6263 || ans == 6264 || ans == 6265 || ans == 6266 || ans == 6267) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1383);
         } else if (playerPolling > .1 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1384);
         } else if (playerPolling <= .1) {
+            updateMultipliers(multipliers, 0.05);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1385);
         }
     }
     if (ans == 6268 || ans == 6269 || ans == 6270 || ans == 6271 || ans == 6272 || ans == 6273 || ans == 6274 || ans == 6275 || ans == 6276 || ans == 6277 || ans == 6278 || ans == 6279) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1386);
         } else if (playerPolling > .1 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1387);
         } else if (playerPolling <= .1) {
+            updateMultipliers(multipliers, 0.05);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1388);
         }
     }
     if (ans == 6280 || ans == 6281 || ans == 6282 || ans == 6283 || ans == 6284 || ans == 6285 || ans == 6286 || ans == 6287 || ans == 6288 || ans == 6289 || ans == 6290 || ans == 6291) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1389);
         } else if (playerPolling > .1 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1390);
         } else if (playerPolling <= .1) {
+            updateMultipliers(multipliers, 0.05);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1391);
         }
     }
     if (ans == 6292 || ans == 6293 || ans == 6294 || ans == 6295 || ans == 6296 || ans == 6297 || ans == 6298 || ans == 6299 || ans == 6300 || ans == 6301 || ans == 6302 || ans == 6303) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1392);
         } else if (playerPolling > .1 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1393);
         } else if (playerPolling <= .1) {
+            updateMultipliers(multipliers, 0.05);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1394);
         }
     }
     if (ans == 6304 || ans == 6305 || ans == 6306 || ans == 6307 || ans == 6308 || ans == 6309 || ans == 6310 || ans == 6311 || ans == 6312 || ans == 6313 || ans == 6314 || ans == 6315) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1395);
         } else if (playerPolling > .1 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1396);
         } else if (playerPolling <= .1) {
+            updateMultipliers(multipliers, 0.05);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1397);
         }
     }
     if (ans == 6316 || ans == 6317 || ans == 6318 || ans == 6319 || ans == 6320 || ans == 6321 || ans == 6322 || ans == 6323 || ans == 6324 || ans == 6325 || ans == 6326 || ans == 6327) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1398);
         } else if (playerPolling > .1 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1399);
         } else if (playerPolling <= .1) {
+            updateMultipliers(multipliers, 0.05);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1400);
         }
     }
     if (ans == 6328 || ans == 6329 || ans == 6330 || ans == 6331 || ans == 6332 || ans == 6333 || ans == 6334 || ans == 6335 || ans == 6336 || ans == 6337 || ans == 6338 || ans == 6339) {
         if (playerPolling >= .15) {
+            updateMultipliers(multipliers, 0.01);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1401);
         } else if (playerPolling > .1 && playerPolling < .15) {
+            updateMultipliers(multipliers, 0.02);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1402);
         } else if (playerPolling <= .1) {
+            updateMultipliers(multipliers, 0.05);
+            updateStates();
             campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1403);
         }
     }
