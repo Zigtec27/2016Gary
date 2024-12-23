@@ -34021,6 +34021,7 @@ cyoAdventure = function(a) {
     }
     if (ans == 5003) {
         the_joke = true;
+        e.election_json[0].fields.advisor_url = 'https://i.imgur.com/wG92B6s.jpeg'
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1002);
     }
     if (ans == 5004 || ans == 5005 || ans == 5006 || ans == 5007) {
