@@ -28823,6 +28823,7 @@ endingPicker = (out, totv, aa, quickstats) => {
 let polling = e.current_results;
 campaignTrail_temp.cyoa = true;
 
+used = false;
 turmoil = false;
 dlc = false;
 adjust_strat = false;
